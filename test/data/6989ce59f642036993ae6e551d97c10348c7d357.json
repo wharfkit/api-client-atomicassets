@@ -1,0 +1,17 @@
+{
+    "request": {
+        "path": "https://wax.api.atomicassets.io/atomicassets/v1/assets/1099851897196/stats",
+        "params": {
+            "method": "GET"
+        }
+    },
+    "status": 200,
+    "json": {
+        "success": true,
+        "data": {
+            "template_mint": "6"
+        },
+        "query_time": 1697980924442
+    },
+    "text": "{\"success\":true,\"data\":{\"template_mint\":\"6\"},\"query_time\":1697980924442}"
+}

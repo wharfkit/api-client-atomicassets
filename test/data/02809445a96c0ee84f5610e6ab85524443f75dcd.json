@@ -1,0 +1,15 @@
+{
+    "request": {
+        "path": "https://wax.api.atomicassets.io/atomicmarket/v1/assets/1099851897196/sales",
+        "params": {
+            "method": "GET"
+        }
+    },
+    "status": 200,
+    "json": {
+        "success": true,
+        "data": [],
+        "query_time": 1697980952932
+    },
+    "text": "{\"success\":true,\"data\":[],\"query_time\":1697980952932}"
+}

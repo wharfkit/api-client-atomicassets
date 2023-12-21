@@ -1,0 +1,2032 @@
+{
+    "request": {
+        "path": "https://wax.api.atomicassets.io/atomicassets/v1/collections/taco/stats",
+        "params": {
+            "method": "GET"
+        }
+    },
+    "status": 200,
+    "json": {
+        "success": true,
+        "data": {
+            "assets": "504595",
+            "burned": "357320",
+            "burned_by_template": [
+                {
+                    "burned": 53,
+                    "template_id": 747221
+                },
+                {
+                    "burned": 35,
+                    "template_id": 671203
+                },
+                {
+                    "burned": 20,
+                    "template_id": 671311
+                },
+                {
+                    "burned": 52,
+                    "template_id": 471118
+                },
+                {
+                    "burned": 6,
+                    "template_id": 164518
+                },
+                {
+                    "burned": 33,
+                    "template_id": 671179
+                },
+                {
+                    "burned": 26,
+                    "template_id": 671194
+                },
+                {
+                    "burned": 2429,
+                    "template_id": 458002
+                },
+                {
+                    "burned": 12,
+                    "template_id": 671295
+                },
+                {
+                    "burned": 7,
+                    "template_id": 714703
+                },
+                {
+                    "burned": 439,
+                    "template_id": 537449
+                },
+                {
+                    "burned": 23,
+                    "template_id": 671335
+                },
+                {
+                    "burned": 23,
+                    "template_id": 671209
+                },
+                {
+                    "burned": 29,
+                    "template_id": 671181
+                },
+                {
+                    "burned": 142,
+                    "template_id": 747213
+                },
+                {
+                    "burned": 3,
+                    "template_id": 671346
+                },
+                {
+                    "burned": 31,
+                    "template_id": 479768
+                },
+                {
+                    "burned": 33,
+                    "template_id": 671279
+                },
+                {
+                    "burned": 2005,
+                    "template_id": 382246
+                },
+                {
+                    "burned": 57,
+                    "template_id": 458057
+                },
+                {
+                    "burned": 17,
+                    "template_id": 537394
+                },
+                {
+                    "burned": 1,
+                    "template_id": 714716
+                },
+                {
+                    "burned": 100,
+                    "template_id": 654234
+                },
+                {
+                    "burned": 7565,
+                    "template_id": 453447
+                },
+                {
+                    "burned": 26,
+                    "template_id": 662537
+                },
+                {
+                    "burned": 188,
+                    "template_id": 458112
+                },
+                {
+                    "burned": 3909,
+                    "template_id": 457139
+                },
+                {
+                    "burned": 25,
+                    "template_id": 671259
+                },
+                {
+                    "burned": 8250,
+                    "template_id": 208170
+                },
+                {
+                    "burned": 28,
+                    "template_id": 671307
+                },
+                {
+                    "burned": 10245,
+                    "template_id": 208155
+                },
+                {
+                    "burned": 34,
+                    "template_id": 671174
+                },
+                {
+                    "burned": 25,
+                    "template_id": 671333
+                },
+                {
+                    "burned": 279,
+                    "template_id": 747199
+                },
+                {
+                    "burned": 30,
+                    "template_id": 671236
+                },
+                {
+                    "burned": 6,
+                    "template_id": 647027
+                },
+                {
+                    "burned": 16,
+                    "template_id": 671336
+                },
+                {
+                    "burned": 39,
+                    "template_id": 530193
+                },
+                {
+                    "burned": 192,
+                    "template_id": 747206
+                },
+                {
+                    "burned": 29,
+                    "template_id": 671196
+                },
+                {
+                    "burned": 380,
+                    "template_id": 412787
+                },
+                {
+                    "burned": 2,
+                    "template_id": 714698
+                },
+                {
+                    "burned": 360,
+                    "template_id": 659925
+                },
+                {
+                    "burned": 526,
+                    "template_id": 747197
+                },
+                {
+                    "burned": 39,
+                    "template_id": 671281
+                },
+                {
+                    "burned": 12,
+                    "template_id": 655710
+                },
+                {
+                    "burned": 29,
+                    "template_id": 671276
+                },
+                {
+                    "burned": 1,
+                    "template_id": 671288
+                },
+                {
+                    "burned": 34,
+                    "template_id": 747472
+                },
+                {
+                    "burned": 30,
+                    "template_id": 512816
+                },
+                {
+                    "burned": 1025,
+                    "template_id": 411262
+                },
+                {
+                    "burned": 266,
+                    "template_id": 747208
+                },
+                {
+                    "burned": 16,
+                    "template_id": 671297
+                },
+                {
+                    "burned": 343,
+                    "template_id": 747193
+                },
+                {
+                    "burned": 26,
+                    "template_id": 671305
+                },
+                {
+                    "burned": 4,
+                    "template_id": 714706
+                },
+                {
+                    "burned": 34,
+                    "template_id": 671252
+                },
+                {
+                    "burned": 37,
+                    "template_id": 671204
+                },
+                {
+                    "burned": 32,
+                    "template_id": 671334
+                },
+                {
+                    "burned": 91,
+                    "template_id": 747210
+                },
+                {
+                    "burned": 25,
+                    "template_id": 671253
+                },
+                {
+                    "burned": 24,
+                    "template_id": 671218
+                },
+                {
+                    "burned": 163,
+                    "template_id": 747203
+                },
+                {
+                    "burned": 30,
+                    "template_id": 671173
+                },
+                {
+                    "burned": 1,
+                    "template_id": 612854
+                },
+                {
+                    "burned": 2,
+                    "template_id": 514417
+                },
+                {
+                    "burned": 33,
+                    "template_id": 671222
+                },
+                {
+                    "burned": 4,
+                    "template_id": 714699
+                },
+                {
+                    "burned": 25,
+                    "template_id": 671177
+                },
+                {
+                    "burned": 3774,
+                    "template_id": 527467
+                },
+                {
+                    "burned": 849,
+                    "template_id": 458025
+                },
+                {
+                    "burned": 13,
+                    "template_id": 286365
+                },
+                {
+                    "burned": 26,
+                    "template_id": 671250
+                },
+                {
+                    "burned": 1273,
+                    "template_id": 429541
+                },
+                {
+                    "burned": 1,
+                    "template_id": 647033
+                },
+                {
+                    "burned": 30,
+                    "template_id": 671251
+                },
+                {
+                    "burned": 28,
+                    "template_id": 671239
+                },
+                {
+                    "burned": 30,
+                    "template_id": 671193
+                },
+                {
+                    "burned": 637,
+                    "template_id": 429543
+                },
+                {
+                    "burned": 2460,
+                    "template_id": 458007
+                },
+                {
+                    "burned": 32,
+                    "template_id": 671230
+                },
+                {
+                    "burned": 279,
+                    "template_id": 362008
+                },
+                {
+                    "burned": 29,
+                    "template_id": 671284
+                },
+                {
+                    "burned": 31,
+                    "template_id": 671270
+                },
+                {
+                    "burned": 29,
+                    "template_id": 671296
+                },
+                {
+                    "burned": 14,
+                    "template_id": 408336
+                },
+                {
+                    "burned": 44,
+                    "template_id": 471116
+                },
+                {
+                    "burned": 20,
+                    "template_id": 671300
+                },
+                {
+                    "burned": 2603,
+                    "template_id": 457994
+                },
+                {
+                    "burned": 940,
+                    "template_id": 458030
+                },
+                {
+                    "burned": 17,
+                    "template_id": 647031
+                },
+                {
+                    "burned": 2001,
+                    "template_id": 750150
+                },
+                {
+                    "burned": 5,
+                    "template_id": 383980
+                },
+                {
+                    "burned": 2,
+                    "template_id": 317125
+                },
+                {
+                    "burned": 3,
+                    "template_id": 714693
+                },
+                {
+                    "burned": 6570,
+                    "template_id": 208159
+                },
+                {
+                    "burned": 57,
+                    "template_id": 747214
+                },
+                {
+                    "burned": 11196,
+                    "template_id": 208158
+                },
+                {
+                    "burned": 4,
+                    "template_id": 647030
+                },
+                {
+                    "burned": 20,
+                    "template_id": 671294
+                },
+                {
+                    "burned": 30,
+                    "template_id": 671228
+                },
+                {
+                    "burned": 28,
+                    "template_id": 671207
+                },
+                {
+                    "burned": 33,
+                    "template_id": 671176
+                },
+                {
+                    "burned": 6766,
+                    "template_id": 208162
+                },
+                {
+                    "burned": 3,
+                    "template_id": 438338
+                },
+                {
+                    "burned": 27,
+                    "template_id": 671192
+                },
+                {
+                    "burned": 6,
+                    "template_id": 714691
+                },
+                {
+                    "burned": 212,
+                    "template_id": 707294
+                },
+                {
+                    "burned": 2,
+                    "template_id": 671289
+                },
+                {
+                    "burned": 1,
+                    "template_id": 648030
+                },
+                {
+                    "burned": 6062,
+                    "template_id": 272862
+                },
+                {
+                    "burned": 5,
+                    "template_id": 233843
+                },
+                {
+                    "burned": 1,
+                    "template_id": 514426
+                },
+                {
+                    "burned": 30,
+                    "template_id": 671309
+                },
+                {
+                    "burned": 3,
+                    "template_id": 677197
+                },
+                {
+                    "burned": 127,
+                    "template_id": 537454
+                },
+                {
+                    "burned": 1,
+                    "template_id": 647202
+                },
+                {
+                    "burned": 4,
+                    "template_id": 383981
+                },
+                {
+                    "burned": 4,
+                    "template_id": 671339
+                },
+                {
+                    "burned": 4,
+                    "template_id": 677194
+                },
+                {
+                    "burned": 7,
+                    "template_id": 710793
+                },
+                {
+                    "burned": 152,
+                    "template_id": 654241
+                },
+                {
+                    "burned": 19,
+                    "template_id": 671257
+                },
+                {
+                    "burned": 35,
+                    "template_id": 747223
+                },
+                {
+                    "burned": 80,
+                    "template_id": 747211
+                },
+                {
+                    "burned": 30,
+                    "template_id": 671232
+                },
+                {
+                    "burned": 31,
+                    "template_id": 671223
+                },
+                {
+                    "burned": 33,
+                    "template_id": 671229
+                },
+                {
+                    "burned": 29,
+                    "template_id": 671238
+                },
+                {
+                    "burned": 19,
+                    "template_id": 671302
+                },
+                {
+                    "burned": 8265,
+                    "template_id": 208172
+                },
+                {
+                    "burned": 262,
+                    "template_id": 711067
+                },
+                {
+                    "burned": 384,
+                    "template_id": 747195
+                },
+                {
+                    "burned": 1,
+                    "template_id": 671317
+                },
+                {
+                    "burned": 152,
+                    "template_id": 747470
+                },
+                {
+                    "burned": 9,
+                    "template_id": 671345
+                },
+                {
+                    "burned": 168,
+                    "template_id": 654244
+                },
+                {
+                    "burned": 14,
+                    "template_id": 430523
+                },
+                {
+                    "burned": 18,
+                    "template_id": 671275
+                },
+                {
+                    "burned": 1,
+                    "template_id": 514418
+                },
+                {
+                    "burned": 2,
+                    "template_id": 471171
+                },
+                {
+                    "burned": 1,
+                    "template_id": 714690
+                },
+                {
+                    "burned": 33,
+                    "template_id": 490379
+                },
+                {
+                    "burned": 26,
+                    "template_id": 671260
+                },
+                {
+                    "burned": 6,
+                    "template_id": 647041
+                },
+                {
+                    "burned": 26,
+                    "template_id": 230115
+                },
+                {
+                    "burned": 1,
+                    "template_id": 514474
+                },
+                {
+                    "burned": 395,
+                    "template_id": 730681
+                },
+                {
+                    "burned": 236,
+                    "template_id": 744977
+                },
+                {
+                    "burned": 675,
+                    "template_id": 537448
+                },
+                {
+                    "burned": 4,
+                    "template_id": 671318
+                },
+                {
+                    "burned": 15,
+                    "template_id": 647018
+                },
+                {
+                    "burned": 3713,
+                    "template_id": 408305
+                },
+                {
+                    "burned": 23,
+                    "template_id": 518402
+                },
+                {
+                    "burned": 14,
+                    "template_id": 677192
+                },
+                {
+                    "burned": 32,
+                    "template_id": 671191
+                },
+                {
+                    "burned": 25,
+                    "template_id": 671330
+                },
+                {
+                    "burned": 4,
+                    "template_id": 714696
+                },
+                {
+                    "burned": 164,
+                    "template_id": 430516
+                },
+                {
+                    "burned": 60,
+                    "template_id": 747219
+                },
+                {
+                    "burned": 314,
+                    "template_id": 747200
+                },
+                {
+                    "burned": 31,
+                    "template_id": 671217
+                },
+                {
+                    "burned": 2372,
+                    "template_id": 458001
+                },
+                {
+                    "burned": 35,
+                    "template_id": 671208
+                },
+                {
+                    "burned": 29,
+                    "template_id": 671200
+                },
+                {
+                    "burned": 3,
+                    "template_id": 710847
+                },
+                {
+                    "burned": 2,
+                    "template_id": 239963
+                },
+                {
+                    "burned": 59,
+                    "template_id": 747216
+                },
+                {
+                    "burned": 22,
+                    "template_id": 671328
+                },
+                {
+                    "burned": 46,
+                    "template_id": 458066
+                },
+                {
+                    "burned": 26,
+                    "template_id": 671292
+                },
+                {
+                    "burned": 12,
+                    "template_id": 647045
+                },
+                {
+                    "burned": 2,
+                    "template_id": 647036
+                },
+                {
+                    "burned": 25,
+                    "template_id": 671324
+                },
+                {
+                    "burned": 2,
+                    "template_id": 714711
+                },
+                {
+                    "burned": 25,
+                    "template_id": 671175
+                },
+                {
+                    "burned": 12,
+                    "template_id": 647054
+                },
+                {
+                    "burned": 4,
+                    "template_id": 408333
+                },
+                {
+                    "burned": 5,
+                    "template_id": 408335
+                },
+                {
+                    "burned": 57,
+                    "template_id": 654259
+                },
+                {
+                    "burned": 34,
+                    "template_id": 671235
+                },
+                {
+                    "burned": 14,
+                    "template_id": 650992
+                },
+                {
+                    "burned": 10,
+                    "template_id": 514413
+                },
+                {
+                    "burned": 11,
+                    "template_id": 233143
+                },
+                {
+                    "burned": 28,
+                    "template_id": 671269
+                },
+                {
+                    "burned": 26,
+                    "template_id": 671327
+                },
+                {
+                    "burned": 238,
+                    "template_id": 747198
+                },
+                {
+                    "burned": 50,
+                    "template_id": 247143
+                },
+                {
+                    "burned": 31,
+                    "template_id": 671187
+                },
+                {
+                    "burned": 29,
+                    "template_id": 671265
+                },
+                {
+                    "burned": 18,
+                    "template_id": 671310
+                },
+                {
+                    "burned": 46,
+                    "template_id": 747477
+                },
+                {
+                    "burned": 27,
+                    "template_id": 671331
+                },
+                {
+                    "burned": 106,
+                    "template_id": 747218
+                },
+                {
+                    "burned": 2005,
+                    "template_id": 458017
+                },
+                {
+                    "burned": 105,
+                    "template_id": 747212
+                },
+                {
+                    "burned": 86,
+                    "template_id": 747475
+                },
+                {
+                    "burned": 1,
+                    "template_id": 383979
+                },
+                {
+                    "burned": 3,
+                    "template_id": 714697
+                },
+                {
+                    "burned": 1,
+                    "template_id": 240413
+                },
+                {
+                    "burned": 25,
+                    "template_id": 671243
+                },
+                {
+                    "burned": 31,
+                    "template_id": 747222
+                },
+                {
+                    "burned": 1858,
+                    "template_id": 458012
+                },
+                {
+                    "burned": 3961,
+                    "template_id": 527468
+                },
+                {
+                    "burned": 35,
+                    "template_id": 671271
+                },
+                {
+                    "burned": 9,
+                    "template_id": 677184
+                },
+                {
+                    "burned": 53,
+                    "template_id": 458064
+                },
+                {
+                    "burned": 28,
+                    "template_id": 671248
+                },
+                {
+                    "burned": 1,
+                    "template_id": 514416
+                },
+                {
+                    "burned": 228,
+                    "template_id": 458050
+                },
+                {
+                    "burned": 24,
+                    "template_id": 671299
+                },
+                {
+                    "burned": 900,
+                    "template_id": 458113
+                },
+                {
+                    "burned": 35,
+                    "template_id": 671171
+                },
+                {
+                    "burned": 31,
+                    "template_id": 671255
+                },
+                {
+                    "burned": 4,
+                    "template_id": 647050
+                },
+                {
+                    "burned": 16,
+                    "template_id": 747471
+                },
+                {
+                    "burned": 32,
+                    "template_id": 671266
+                },
+                {
+                    "burned": 202,
+                    "template_id": 458047
+                },
+                {
+                    "burned": 17,
+                    "template_id": 671313
+                },
+                {
+                    "burned": 11,
+                    "template_id": 430522
+                },
+                {
+                    "burned": 202,
+                    "template_id": 747476
+                },
+                {
+                    "burned": 944,
+                    "template_id": 670861
+                },
+                {
+                    "burned": 203,
+                    "template_id": 458093
+                },
+                {
+                    "burned": 1003,
+                    "template_id": 382169
+                },
+                {
+                    "burned": 33,
+                    "template_id": 671263
+                },
+                {
+                    "burned": 4,
+                    "template_id": 714710
+                },
+                {
+                    "burned": 4193,
+                    "template_id": 527469
+                },
+                {
+                    "burned": 24,
+                    "template_id": 671258
+                },
+                {
+                    "burned": 1359,
+                    "template_id": 647992
+                },
+                {
+                    "burned": 32,
+                    "template_id": 671231
+                },
+                {
+                    "burned": 4,
+                    "template_id": 714694
+                },
+                {
+                    "burned": 8,
+                    "template_id": 710792
+                },
+                {
+                    "burned": 450,
+                    "template_id": 382250
+                },
+                {
+                    "burned": 12,
+                    "template_id": 674017
+                },
+                {
+                    "burned": 513,
+                    "template_id": 747201
+                },
+                {
+                    "burned": 23,
+                    "template_id": 671206
+                },
+                {
+                    "burned": 415,
+                    "template_id": 654238
+                },
+                {
+                    "burned": 28,
+                    "template_id": 671337
+                },
+                {
+                    "burned": 26,
+                    "template_id": 671183
+                },
+                {
+                    "burned": 22,
+                    "template_id": 671220
+                },
+                {
+                    "burned": 14,
+                    "template_id": 710782
+                },
+                {
+                    "burned": 2,
+                    "template_id": 537397
+                },
+                {
+                    "burned": 33,
+                    "template_id": 671178
+                },
+                {
+                    "burned": 803,
+                    "template_id": 458021
+                },
+                {
+                    "burned": 9483,
+                    "template_id": 208173
+                },
+                {
+                    "burned": 1,
+                    "template_id": 610246
+                },
+                {
+                    "burned": 15500,
+                    "template_id": 457137
+                },
+                {
+                    "burned": 29,
+                    "template_id": 671245
+                },
+                {
+                    "burned": 313,
+                    "template_id": 208065
+                },
+                {
+                    "burned": 33,
+                    "template_id": 499292
+                },
+                {
+                    "burned": 13,
+                    "template_id": 647039
+                },
+                {
+                    "burned": 2,
+                    "template_id": 714702
+                },
+                {
+                    "burned": 3,
+                    "template_id": 230232
+                },
+                {
+                    "burned": 28,
+                    "template_id": 671268
+                },
+                {
+                    "burned": 1,
+                    "template_id": 714734
+                },
+                {
+                    "burned": 781,
+                    "template_id": 382181
+                },
+                {
+                    "burned": 2,
+                    "template_id": 714717
+                },
+                {
+                    "burned": 10792,
+                    "template_id": 208156
+                },
+                {
+                    "burned": 1635,
+                    "template_id": 654235
+                },
+                {
+                    "burned": 7880,
+                    "template_id": 457138
+                },
+                {
+                    "burned": 2,
+                    "template_id": 514435
+                },
+                {
+                    "burned": 67,
+                    "template_id": 654261
+                },
+                {
+                    "burned": 27,
+                    "template_id": 671221
+                },
+                {
+                    "burned": 1,
+                    "template_id": 514473
+                },
+                {
+                    "burned": 3,
+                    "template_id": 714692
+                },
+                {
+                    "burned": 138,
+                    "template_id": 680667
+                },
+                {
+                    "burned": 27,
+                    "template_id": 747474
+                },
+                {
+                    "burned": 30,
+                    "template_id": 671188
+                },
+                {
+                    "burned": 1,
+                    "template_id": 647047
+                },
+                {
+                    "burned": 23,
+                    "template_id": 671332
+                },
+                {
+                    "burned": 26,
+                    "template_id": 671237
+                },
+                {
+                    "burned": 2807,
+                    "template_id": 458006
+                },
+                {
+                    "burned": 1500,
+                    "template_id": 382247
+                },
+                {
+                    "burned": 884,
+                    "template_id": 458032
+                },
+                {
+                    "burned": 28,
+                    "template_id": 671325
+                },
+                {
+                    "burned": 803,
+                    "template_id": 382248
+                },
+                {
+                    "burned": 155,
+                    "template_id": 430518
+                },
+                {
+                    "burned": 1,
+                    "template_id": 164528
+                },
+                {
+                    "burned": 158,
+                    "template_id": 747202
+                },
+                {
+                    "burned": 6,
+                    "template_id": 408334
+                },
+                {
+                    "burned": 1,
+                    "template_id": 471169
+                },
+                {
+                    "burned": 2,
+                    "template_id": 710786
+                },
+                {
+                    "burned": 1,
+                    "template_id": 707032
+                },
+                {
+                    "burned": 2,
+                    "template_id": 231788
+                },
+                {
+                    "burned": 168,
+                    "template_id": 458055
+                },
+                {
+                    "burned": 2,
+                    "template_id": 714718
+                },
+                {
+                    "burned": 37,
+                    "template_id": 671219
+                },
+                {
+                    "burned": 1,
+                    "template_id": 714705
+                },
+                {
+                    "burned": 173,
+                    "template_id": 744981
+                },
+                {
+                    "burned": 2,
+                    "template_id": 714701
+                },
+                {
+                    "burned": 13,
+                    "template_id": 677187
+                },
+                {
+                    "burned": 2558,
+                    "template_id": 458009
+                },
+                {
+                    "burned": 27,
+                    "template_id": 495562
+                },
+                {
+                    "burned": 25,
+                    "template_id": 671205
+                },
+                {
+                    "burned": 247,
+                    "template_id": 713485
+                },
+                {
+                    "burned": 34,
+                    "template_id": 671274
+                },
+                {
+                    "burned": 19,
+                    "template_id": 671315
+                },
+                {
+                    "burned": 263,
+                    "template_id": 208069
+                },
+                {
+                    "burned": 304,
+                    "template_id": 537452
+                },
+                {
+                    "burned": 1,
+                    "template_id": 438337
+                },
+                {
+                    "burned": 57,
+                    "template_id": 747478
+                },
+                {
+                    "burned": 27,
+                    "template_id": 647026
+                },
+                {
+                    "burned": 54,
+                    "template_id": 747215
+                },
+                {
+                    "burned": 261,
+                    "template_id": 747191
+                },
+                {
+                    "burned": 2495,
+                    "template_id": 457999
+                },
+                {
+                    "burned": 1228,
+                    "template_id": 478795
+                },
+                {
+                    "burned": 29,
+                    "template_id": 671185
+                },
+                {
+                    "burned": 541,
+                    "template_id": 429544
+                },
+                {
+                    "burned": 252,
+                    "template_id": 713487
+                },
+                {
+                    "burned": 20,
+                    "template_id": 671304
+                },
+                {
+                    "burned": 320,
+                    "template_id": 747192
+                },
+                {
+                    "burned": 1,
+                    "template_id": 261887
+                },
+                {
+                    "burned": 497,
+                    "template_id": 531613
+                },
+                {
+                    "burned": 84,
+                    "template_id": 430519
+                },
+                {
+                    "burned": 23,
+                    "template_id": 671211
+                },
+                {
+                    "burned": 1,
+                    "template_id": 644818
+                },
+                {
+                    "burned": 8,
+                    "template_id": 654264
+                },
+                {
+                    "burned": 178,
+                    "template_id": 430517
+                },
+                {
+                    "burned": 25,
+                    "template_id": 671277
+                },
+                {
+                    "burned": 30,
+                    "template_id": 671233
+                },
+                {
+                    "burned": 13,
+                    "template_id": 671316
+                },
+                {
+                    "burned": 23932,
+                    "template_id": 208180
+                },
+                {
+                    "burned": 25,
+                    "template_id": 671308
+                },
+                {
+                    "burned": 1,
+                    "template_id": 316461
+                },
+                {
+                    "burned": 23,
+                    "template_id": 647007
+                },
+                {
+                    "burned": 25,
+                    "template_id": 671329
+                },
+                {
+                    "burned": 8,
+                    "template_id": 677193
+                },
+                {
+                    "burned": 24,
+                    "template_id": 671303
+                },
+                {
+                    "burned": 996,
+                    "template_id": 453445
+                },
+                {
+                    "burned": 28,
+                    "template_id": 671234
+                },
+                {
+                    "burned": 576,
+                    "template_id": 676944
+                },
+                {
+                    "burned": 21,
+                    "template_id": 671241
+                },
+                {
+                    "burned": 1,
+                    "template_id": 534345
+                },
+                {
+                    "burned": 14,
+                    "template_id": 677183
+                },
+                {
+                    "burned": 21,
+                    "template_id": 671272
+                },
+                {
+                    "burned": 15,
+                    "template_id": 438339
+                },
+                {
+                    "burned": 21,
+                    "template_id": 671242
+                },
+                {
+                    "burned": 2249,
+                    "template_id": 458003
+                },
+                {
+                    "burned": 28,
+                    "template_id": 671322
+                },
+                {
+                    "burned": 192,
+                    "template_id": 440741
+                },
+                {
+                    "burned": 20,
+                    "template_id": 671314
+                },
+                {
+                    "burned": 1,
+                    "template_id": 514419
+                },
+                {
+                    "burned": 83,
+                    "template_id": 654249
+                },
+                {
+                    "burned": 374,
+                    "template_id": 747194
+                },
+                {
+                    "burned": 19,
+                    "template_id": 644817
+                },
+                {
+                    "burned": 32,
+                    "template_id": 671261
+                },
+                {
+                    "burned": 1581,
+                    "template_id": 654236
+                },
+                {
+                    "burned": 34,
+                    "template_id": 673419
+                },
+                {
+                    "burned": 26,
+                    "template_id": 671213
+                },
+                {
+                    "burned": 11,
+                    "template_id": 383978
+                },
+                {
+                    "burned": 31,
+                    "template_id": 671256
+                },
+                {
+                    "burned": 29,
+                    "template_id": 671216
+                },
+                {
+                    "burned": 12,
+                    "template_id": 654263
+                },
+                {
+                    "burned": 1,
+                    "template_id": 514092
+                },
+                {
+                    "burned": 397,
+                    "template_id": 654240
+                },
+                {
+                    "burned": 191,
+                    "template_id": 537453
+                },
+                {
+                    "burned": 19,
+                    "template_id": 671298
+                },
+                {
+                    "burned": 34,
+                    "template_id": 531615
+                },
+                {
+                    "burned": 30,
+                    "template_id": 671246
+                },
+                {
+                    "burned": 367,
+                    "template_id": 654239
+                },
+                {
+                    "burned": 39,
+                    "template_id": 671227
+                },
+                {
+                    "burned": 1,
+                    "template_id": 173244
+                },
+                {
+                    "burned": 7,
+                    "template_id": 677188
+                },
+                {
+                    "burned": 18,
+                    "template_id": 671312
+                },
+                {
+                    "burned": 31,
+                    "template_id": 671244
+                },
+                {
+                    "burned": 31,
+                    "template_id": 671226
+                },
+                {
+                    "burned": 1,
+                    "template_id": 714712
+                },
+                {
+                    "burned": 38,
+                    "template_id": 671186
+                },
+                {
+                    "burned": 12,
+                    "template_id": 671287
+                },
+                {
+                    "burned": 23,
+                    "template_id": 671326
+                },
+                {
+                    "burned": 187,
+                    "template_id": 458052
+                },
+                {
+                    "burned": 36,
+                    "template_id": 671190
+                },
+                {
+                    "burned": 29,
+                    "template_id": 671197
+                },
+                {
+                    "burned": 4,
+                    "template_id": 714704
+                },
+                {
+                    "burned": 28120,
+                    "template_id": 208176
+                },
+                {
+                    "burned": 9,
+                    "template_id": 430526
+                },
+                {
+                    "burned": 28,
+                    "template_id": 671195
+                },
+                {
+                    "burned": 29,
+                    "template_id": 671210
+                },
+                {
+                    "burned": 1,
+                    "template_id": 610242
+                },
+                {
+                    "burned": 3,
+                    "template_id": 234091
+                },
+                {
+                    "burned": 5,
+                    "template_id": 236135
+                },
+                {
+                    "burned": 32,
+                    "template_id": 671262
+                },
+                {
+                    "burned": 33,
+                    "template_id": 671182
+                },
+                {
+                    "burned": 817,
+                    "template_id": 659923
+                },
+                {
+                    "burned": 413,
+                    "template_id": 713489
+                },
+                {
+                    "burned": 9,
+                    "template_id": 714695
+                },
+                {
+                    "burned": 178,
+                    "template_id": 747473
+                },
+                {
+                    "burned": 20,
+                    "template_id": 647037
+                },
+                {
+                    "burned": 30,
+                    "template_id": 671202
+                },
+                {
+                    "burned": 13,
+                    "template_id": 714719
+                },
+                {
+                    "burned": 19,
+                    "template_id": 671306
+                },
+                {
+                    "burned": 404,
+                    "template_id": 453446
+                },
+                {
+                    "burned": 651,
+                    "template_id": 659924
+                },
+                {
+                    "burned": 2293,
+                    "template_id": 458018
+                },
+                {
+                    "burned": 28,
+                    "template_id": 671249
+                },
+                {
+                    "burned": 29900,
+                    "template_id": 492337
+                },
+                {
+                    "burned": 23,
+                    "template_id": 671321
+                },
+                {
+                    "burned": 1,
+                    "template_id": 647028
+                },
+                {
+                    "burned": 29,
+                    "template_id": 671286
+                },
+                {
+                    "burned": 38,
+                    "template_id": 747220
+                },
+                {
+                    "burned": 24,
+                    "template_id": 671264
+                },
+                {
+                    "burned": 22,
+                    "template_id": 671301
+                },
+                {
+                    "burned": 1,
+                    "template_id": 480237
+                },
+                {
+                    "burned": 173,
+                    "template_id": 747205
+                },
+                {
+                    "burned": 29,
+                    "template_id": 671267
+                },
+                {
+                    "burned": 30,
+                    "template_id": 671180
+                },
+                {
+                    "burned": 38,
+                    "template_id": 458094
+                },
+                {
+                    "burned": 102,
+                    "template_id": 747209
+                },
+                {
+                    "burned": 1,
+                    "template_id": 458045
+                },
+                {
+                    "burned": 66,
+                    "template_id": 430521
+                },
+                {
+                    "burned": 1754,
+                    "template_id": 654237
+                },
+                {
+                    "burned": 3203,
+                    "template_id": 527470
+                },
+                {
+                    "burned": 4,
+                    "template_id": 514414
+                },
+                {
+                    "burned": 22,
+                    "template_id": 671240
+                },
+                {
+                    "burned": 1,
+                    "template_id": 196590
+                },
+                {
+                    "burned": 15,
+                    "template_id": 537393
+                },
+                {
+                    "burned": 17,
+                    "template_id": 671293
+                },
+                {
+                    "burned": 2,
+                    "template_id": 710788
+                },
+                {
+                    "burned": 13,
+                    "template_id": 647032
+                },
+                {
+                    "burned": 94,
+                    "template_id": 654250
+                },
+                {
+                    "burned": 1,
+                    "template_id": 514472
+                },
+                {
+                    "burned": 2,
+                    "template_id": 648024
+                },
+                {
+                    "burned": 21,
+                    "template_id": 334676
+                },
+                {
+                    "burned": 35,
+                    "template_id": 671225
+                },
+                {
+                    "burned": 150,
+                    "template_id": 747207
+                },
+                {
+                    "burned": 30,
+                    "template_id": 671199
+                },
+                {
+                    "burned": 840,
+                    "template_id": 458023
+                },
+                {
+                    "burned": 478,
+                    "template_id": 208059
+                },
+                {
+                    "burned": 2102,
+                    "template_id": 453443
+                },
+                {
+                    "burned": 28,
+                    "template_id": 671201
+                },
+                {
+                    "burned": 29,
+                    "template_id": 671198
+                },
+                {
+                    "burned": 118,
+                    "template_id": 744989
+                },
+                {
+                    "burned": 113,
+                    "template_id": 654242
+                },
+                {
+                    "burned": 222,
+                    "template_id": 458040
+                },
+                {
+                    "burned": 27,
+                    "template_id": 671212
+                },
+                {
+                    "burned": 29,
+                    "template_id": 671184
+                },
+                {
+                    "burned": 24,
+                    "template_id": 671273
+                },
+                {
+                    "burned": 23,
+                    "template_id": 537392
+                },
+                {
+                    "burned": 24,
+                    "template_id": 671224
+                },
+                {
+                    "burned": 83,
+                    "template_id": 654253
+                },
+                {
+                    "burned": 25,
+                    "template_id": 671291
+                },
+                {
+                    "burned": 62,
+                    "template_id": 430520
+                },
+                {
+                    "burned": 17,
+                    "template_id": 294830
+                },
+                {
+                    "burned": 1,
+                    "template_id": 662540
+                },
+                {
+                    "burned": 1092,
+                    "template_id": 382163
+                },
+                {
+                    "burned": 27,
+                    "template_id": 671254
+                },
+                {
+                    "burned": 2034,
+                    "template_id": 458005
+                },
+                {
+                    "burned": 3086,
+                    "template_id": 527471
+                },
+                {
+                    "burned": 26,
+                    "template_id": 671247
+                },
+                {
+                    "burned": 16,
+                    "template_id": 621232
+                },
+                {
+                    "burned": 53,
+                    "template_id": 747224
+                },
+                {
+                    "burned": 10,
+                    "template_id": 229926
+                },
+                {
+                    "burned": 31,
+                    "template_id": 671283
+                },
+                {
+                    "burned": 14053,
+                    "template_id": 654285
+                },
+                {
+                    "burned": 29,
+                    "template_id": 671215
+                },
+                {
+                    "burned": 50,
+                    "template_id": 747217
+                },
+                {
+                    "burned": 3361,
+                    "template_id": 457140
+                },
+                {
+                    "burned": 24790,
+                    "template_id": 208178
+                },
+                {
+                    "burned": 536,
+                    "template_id": 747196
+                },
+                {
+                    "burned": 4556,
+                    "template_id": 527473
+                },
+                {
+                    "burned": 24,
+                    "template_id": 671285
+                },
+                {
+                    "burned": 12,
+                    "template_id": 612853
+                },
+                {
+                    "burned": 51,
+                    "template_id": 458069
+                },
+                {
+                    "burned": 1,
+                    "template_id": 300074
+                },
+                {
+                    "burned": 7603,
+                    "template_id": 208160
+                },
+                {
+                    "burned": 196,
+                    "template_id": 458089
+                },
+                {
+                    "burned": 20,
+                    "template_id": 671320
+                },
+                {
+                    "burned": 27,
+                    "template_id": 671278
+                },
+                {
+                    "burned": 793,
+                    "template_id": 382176
+                },
+                {
+                    "burned": 37,
+                    "template_id": 648018
+                },
+                {
+                    "burned": 32,
+                    "template_id": 671282
+                },
+                {
+                    "burned": 30,
+                    "template_id": 671280
+                },
+                {
+                    "burned": 9,
+                    "template_id": 707033
+                },
+                {
+                    "burned": 1,
+                    "template_id": 537395
+                },
+                {
+                    "burned": 19,
+                    "template_id": 534346
+                },
+                {
+                    "burned": 26,
+                    "template_id": 671189
+                },
+                {
+                    "burned": 212,
+                    "template_id": 531614
+                },
+                {
+                    "burned": 33,
+                    "template_id": 671214
+                },
+                {
+                    "burned": 22,
+                    "template_id": 671319
+                },
+                {
+                    "burned": 292,
+                    "template_id": 677147
+                },
+                {
+                    "burned": 276,
+                    "template_id": 747204
+                },
+                {
+                    "burned": 3,
+                    "template_id": 714714
+                },
+                {
+                    "burned": 5,
+                    "template_id": 707034
+                },
+                {
+                    "burned": 35,
+                    "template_id": 458059
+                },
+                {
+                    "burned": 14,
+                    "template_id": 671338
+                },
+                {
+                    "burned": 31,
+                    "template_id": 671323
+                }
+            ],
+            "burned_by_schema": [
+                {
+                    "burned": 3732,
+                    "schema_name": "extractor"
+                },
+                {
+                    "burned": 798,
+                    "schema_name": "cmbz.res"
+                },
+                {
+                    "burned": 178785,
+                    "schema_name": "ingredient"
+                },
+                {
+                    "burned": 9,
+                    "schema_name": "promo"
+                },
+                {
+                    "burned": 4518,
+                    "schema_name": "acr.skin"
+                },
+                {
+                    "burned": 175,
+                    "schema_name": "tool"
+                },
+                {
+                    "burned": 285,
+                    "schema_name": "acr.gear"
+                },
+                {
+                    "burned": 1736,
+                    "schema_name": "collector"
+                },
+                {
+                    "burned": 42679,
+                    "schema_name": "item"
+                },
+                {
+                    "burned": 5,
+                    "schema_name": "bonus"
+                },
+                {
+                    "burned": 743,
+                    "schema_name": "venue"
+                },
+                {
+                    "burned": 43583,
+                    "schema_name": "pack"
+                },
+                {
+                    "burned": 6582,
+                    "schema_name": "cmbz.comb"
+                },
+                {
+                    "burned": 75,
+                    "schema_name": "achievement"
+                },
+                {
+                    "burned": 6721,
+                    "schema_name": "ticket"
+                },
+                {
+                    "burned": 66894,
+                    "schema_name": "brgd.equip"
+                }
+            ],
+            "templates": "751",
+            "schemas": "20"
+        },
+        "query_time": 1697980912421
+    },
+    "text": "{\"success\":true,\"data\":{\"assets\":\"504595\",\"burned\":\"357320\",\"burned_by_template\":[{\"burned\":53,\"template_id\":747221},{\"burned\":35,\"template_id\":671203},{\"burned\":20,\"template_id\":671311},{\"burned\":52,\"template_id\":471118},{\"burned\":6,\"template_id\":164518},{\"burned\":33,\"template_id\":671179},{\"burned\":26,\"template_id\":671194},{\"burned\":2429,\"template_id\":458002},{\"burned\":12,\"template_id\":671295},{\"burned\":7,\"template_id\":714703},{\"burned\":439,\"template_id\":537449},{\"burned\":23,\"template_id\":671335},{\"burned\":23,\"template_id\":671209},{\"burned\":29,\"template_id\":671181},{\"burned\":142,\"template_id\":747213},{\"burned\":3,\"template_id\":671346},{\"burned\":31,\"template_id\":479768},{\"burned\":33,\"template_id\":671279},{\"burned\":2005,\"template_id\":382246},{\"burned\":57,\"template_id\":458057},{\"burned\":17,\"template_id\":537394},{\"burned\":1,\"template_id\":714716},{\"burned\":100,\"template_id\":654234},{\"burned\":7565,\"template_id\":453447},{\"burned\":26,\"template_id\":662537},{\"burned\":188,\"template_id\":458112},{\"burned\":3909,\"template_id\":457139},{\"burned\":25,\"template_id\":671259},{\"burned\":8250,\"template_id\":208170},{\"burned\":28,\"template_id\":671307},{\"burned\":10245,\"template_id\":208155},{\"burned\":34,\"template_id\":671174},{\"burned\":25,\"template_id\":671333},{\"burned\":279,\"template_id\":747199},{\"burned\":30,\"template_id\":671236},{\"burned\":6,\"template_id\":647027},{\"burned\":16,\"template_id\":671336},{\"burned\":39,\"template_id\":530193},{\"burned\":192,\"template_id\":747206},{\"burned\":29,\"template_id\":671196},{\"burned\":380,\"template_id\":412787},{\"burned\":2,\"template_id\":714698},{\"burned\":360,\"template_id\":659925},{\"burned\":526,\"template_id\":747197},{\"burned\":39,\"template_id\":671281},{\"burned\":12,\"template_id\":655710},{\"burned\":29,\"template_id\":671276},{\"burned\":1,\"template_id\":671288},{\"burned\":34,\"template_id\":747472},{\"burned\":30,\"template_id\":512816},{\"burned\":1025,\"template_id\":411262},{\"burned\":266,\"template_id\":747208},{\"burned\":16,\"template_id\":671297},{\"burned\":343,\"template_id\":747193},{\"burned\":26,\"template_id\":671305},{\"burned\":4,\"template_id\":714706},{\"burned\":34,\"template_id\":671252},{\"burned\":37,\"template_id\":671204},{\"burned\":32,\"template_id\":671334},{\"burned\":91,\"template_id\":747210},{\"burned\":25,\"template_id\":671253},{\"burned\":24,\"template_id\":671218},{\"burned\":163,\"template_id\":747203},{\"burned\":30,\"template_id\":671173},{\"burned\":1,\"template_id\":612854},{\"burned\":2,\"template_id\":514417},{\"burned\":33,\"template_id\":671222},{\"burned\":4,\"template_id\":714699},{\"burned\":25,\"template_id\":671177},{\"burned\":3774,\"template_id\":527467},{\"burned\":849,\"template_id\":458025},{\"burned\":13,\"template_id\":286365},{\"burned\":26,\"template_id\":671250},{\"burned\":1273,\"template_id\":429541},{\"burned\":1,\"template_id\":647033},{\"burned\":30,\"template_id\":671251},{\"burned\":28,\"template_id\":671239},{\"burned\":30,\"template_id\":671193},{\"burned\":637,\"template_id\":429543},{\"burned\":2460,\"template_id\":458007},{\"burned\":32,\"template_id\":671230},{\"burned\":279,\"template_id\":362008},{\"burned\":29,\"template_id\":671284},{\"burned\":31,\"template_id\":671270},{\"burned\":29,\"template_id\":671296},{\"burned\":14,\"template_id\":408336},{\"burned\":44,\"template_id\":471116},{\"burned\":20,\"template_id\":671300},{\"burned\":2603,\"template_id\":457994},{\"burned\":940,\"template_id\":458030},{\"burned\":17,\"template_id\":647031},{\"burned\":2001,\"template_id\":750150},{\"burned\":5,\"template_id\":383980},{\"burned\":2,\"template_id\":317125},{\"burned\":3,\"template_id\":714693},{\"burned\":6570,\"template_id\":208159},{\"burned\":57,\"template_id\":747214},{\"burned\":11196,\"template_id\":208158},{\"burned\":4,\"template_id\":647030},{\"burned\":20,\"template_id\":671294},{\"burned\":30,\"template_id\":671228},{\"burned\":28,\"template_id\":671207},{\"burned\":33,\"template_id\":671176},{\"burned\":6766,\"template_id\":208162},{\"burned\":3,\"template_id\":438338},{\"burned\":27,\"template_id\":671192},{\"burned\":6,\"template_id\":714691},{\"burned\":212,\"template_id\":707294},{\"burned\":2,\"template_id\":671289},{\"burned\":1,\"template_id\":648030},{\"burned\":6062,\"template_id\":272862},{\"burned\":5,\"template_id\":233843},{\"burned\":1,\"template_id\":514426},{\"burned\":30,\"template_id\":671309},{\"burned\":3,\"template_id\":677197},{\"burned\":127,\"template_id\":537454},{\"burned\":1,\"template_id\":647202},{\"burned\":4,\"template_id\":383981},{\"burned\":4,\"template_id\":671339},{\"burned\":4,\"template_id\":677194},{\"burned\":7,\"template_id\":710793},{\"burned\":152,\"template_id\":654241},{\"burned\":19,\"template_id\":671257},{\"burned\":35,\"template_id\":747223},{\"burned\":80,\"template_id\":747211},{\"burned\":30,\"template_id\":671232},{\"burned\":31,\"template_id\":671223},{\"burned\":33,\"template_id\":671229},{\"burned\":29,\"template_id\":671238},{\"burned\":19,\"template_id\":671302},{\"burned\":8265,\"template_id\":208172},{\"burned\":262,\"template_id\":711067},{\"burned\":384,\"template_id\":747195},{\"burned\":1,\"template_id\":671317},{\"burned\":152,\"template_id\":747470},{\"burned\":9,\"template_id\":671345},{\"burned\":168,\"template_id\":654244},{\"burned\":14,\"template_id\":430523},{\"burned\":18,\"template_id\":671275},{\"burned\":1,\"template_id\":514418},{\"burned\":2,\"template_id\":471171},{\"burned\":1,\"template_id\":714690},{\"burned\":33,\"template_id\":490379},{\"burned\":26,\"template_id\":671260},{\"burned\":6,\"template_id\":647041},{\"burned\":26,\"template_id\":230115},{\"burned\":1,\"template_id\":514474},{\"burned\":395,\"template_id\":730681},{\"burned\":236,\"template_id\":744977},{\"burned\":675,\"template_id\":537448},{\"burned\":4,\"template_id\":671318},{\"burned\":15,\"template_id\":647018},{\"burned\":3713,\"template_id\":408305},{\"burned\":23,\"template_id\":518402},{\"burned\":14,\"template_id\":677192},{\"burned\":32,\"template_id\":671191},{\"burned\":25,\"template_id\":671330},{\"burned\":4,\"template_id\":714696},{\"burned\":164,\"template_id\":430516},{\"burned\":60,\"template_id\":747219},{\"burned\":314,\"template_id\":747200},{\"burned\":31,\"template_id\":671217},{\"burned\":2372,\"template_id\":458001},{\"burned\":35,\"template_id\":671208},{\"burned\":29,\"template_id\":671200},{\"burned\":3,\"template_id\":710847},{\"burned\":2,\"template_id\":239963},{\"burned\":59,\"template_id\":747216},{\"burned\":22,\"template_id\":671328},{\"burned\":46,\"template_id\":458066},{\"burned\":26,\"template_id\":671292},{\"burned\":12,\"template_id\":647045},{\"burned\":2,\"template_id\":647036},{\"burned\":25,\"template_id\":671324},{\"burned\":2,\"template_id\":714711},{\"burned\":25,\"template_id\":671175},{\"burned\":12,\"template_id\":647054},{\"burned\":4,\"template_id\":408333},{\"burned\":5,\"template_id\":408335},{\"burned\":57,\"template_id\":654259},{\"burned\":34,\"template_id\":671235},{\"burned\":14,\"template_id\":650992},{\"burned\":10,\"template_id\":514413},{\"burned\":11,\"template_id\":233143},{\"burned\":28,\"template_id\":671269},{\"burned\":26,\"template_id\":671327},{\"burned\":238,\"template_id\":747198},{\"burned\":50,\"template_id\":247143},{\"burned\":31,\"template_id\":671187},{\"burned\":29,\"template_id\":671265},{\"burned\":18,\"template_id\":671310},{\"burned\":46,\"template_id\":747477},{\"burned\":27,\"template_id\":671331},{\"burned\":106,\"template_id\":747218},{\"burned\":2005,\"template_id\":458017},{\"burned\":105,\"template_id\":747212},{\"burned\":86,\"template_id\":747475},{\"burned\":1,\"template_id\":383979},{\"burned\":3,\"template_id\":714697},{\"burned\":1,\"template_id\":240413},{\"burned\":25,\"template_id\":671243},{\"burned\":31,\"template_id\":747222},{\"burned\":1858,\"template_id\":458012},{\"burned\":3961,\"template_id\":527468},{\"burned\":35,\"template_id\":671271},{\"burned\":9,\"template_id\":677184},{\"burned\":53,\"template_id\":458064},{\"burned\":28,\"template_id\":671248},{\"burned\":1,\"template_id\":514416},{\"burned\":228,\"template_id\":458050},{\"burned\":24,\"template_id\":671299},{\"burned\":900,\"template_id\":458113},{\"burned\":35,\"template_id\":671171},{\"burned\":31,\"template_id\":671255},{\"burned\":4,\"template_id\":647050},{\"burned\":16,\"template_id\":747471},{\"burned\":32,\"template_id\":671266},{\"burned\":202,\"template_id\":458047},{\"burned\":17,\"template_id\":671313},{\"burned\":11,\"template_id\":430522},{\"burned\":202,\"template_id\":747476},{\"burned\":944,\"template_id\":670861},{\"burned\":203,\"template_id\":458093},{\"burned\":1003,\"template_id\":382169},{\"burned\":33,\"template_id\":671263},{\"burned\":4,\"template_id\":714710},{\"burned\":4193,\"template_id\":527469},{\"burned\":24,\"template_id\":671258},{\"burned\":1359,\"template_id\":647992},{\"burned\":32,\"template_id\":671231},{\"burned\":4,\"template_id\":714694},{\"burned\":8,\"template_id\":710792},{\"burned\":450,\"template_id\":382250},{\"burned\":12,\"template_id\":674017},{\"burned\":513,\"template_id\":747201},{\"burned\":23,\"template_id\":671206},{\"burned\":415,\"template_id\":654238},{\"burned\":28,\"template_id\":671337},{\"burned\":26,\"template_id\":671183},{\"burned\":22,\"template_id\":671220},{\"burned\":14,\"template_id\":710782},{\"burned\":2,\"template_id\":537397},{\"burned\":33,\"template_id\":671178},{\"burned\":803,\"template_id\":458021},{\"burned\":9483,\"template_id\":208173},{\"burned\":1,\"template_id\":610246},{\"burned\":15500,\"template_id\":457137},{\"burned\":29,\"template_id\":671245},{\"burned\":313,\"template_id\":208065},{\"burned\":33,\"template_id\":499292},{\"burned\":13,\"template_id\":647039},{\"burned\":2,\"template_id\":714702},{\"burned\":3,\"template_id\":230232},{\"burned\":28,\"template_id\":671268},{\"burned\":1,\"template_id\":714734},{\"burned\":781,\"template_id\":382181},{\"burned\":2,\"template_id\":714717},{\"burned\":10792,\"template_id\":208156},{\"burned\":1635,\"template_id\":654235},{\"burned\":7880,\"template_id\":457138},{\"burned\":2,\"template_id\":514435},{\"burned\":67,\"template_id\":654261},{\"burned\":27,\"template_id\":671221},{\"burned\":1,\"template_id\":514473},{\"burned\":3,\"template_id\":714692},{\"burned\":138,\"template_id\":680667},{\"burned\":27,\"template_id\":747474},{\"burned\":30,\"template_id\":671188},{\"burned\":1,\"template_id\":647047},{\"burned\":23,\"template_id\":671332},{\"burned\":26,\"template_id\":671237},{\"burned\":2807,\"template_id\":458006},{\"burned\":1500,\"template_id\":382247},{\"burned\":884,\"template_id\":458032},{\"burned\":28,\"template_id\":671325},{\"burned\":803,\"template_id\":382248},{\"burned\":155,\"template_id\":430518},{\"burned\":1,\"template_id\":164528},{\"burned\":158,\"template_id\":747202},{\"burned\":6,\"template_id\":408334},{\"burned\":1,\"template_id\":471169},{\"burned\":2,\"template_id\":710786},{\"burned\":1,\"template_id\":707032},{\"burned\":2,\"template_id\":231788},{\"burned\":168,\"template_id\":458055},{\"burned\":2,\"template_id\":714718},{\"burned\":37,\"template_id\":671219},{\"burned\":1,\"template_id\":714705},{\"burned\":173,\"template_id\":744981},{\"burned\":2,\"template_id\":714701},{\"burned\":13,\"template_id\":677187},{\"burned\":2558,\"template_id\":458009},{\"burned\":27,\"template_id\":495562},{\"burned\":25,\"template_id\":671205},{\"burned\":247,\"template_id\":713485},{\"burned\":34,\"template_id\":671274},{\"burned\":19,\"template_id\":671315},{\"burned\":263,\"template_id\":208069},{\"burned\":304,\"template_id\":537452},{\"burned\":1,\"template_id\":438337},{\"burned\":57,\"template_id\":747478},{\"burned\":27,\"template_id\":647026},{\"burned\":54,\"template_id\":747215},{\"burned\":261,\"template_id\":747191},{\"burned\":2495,\"template_id\":457999},{\"burned\":1228,\"template_id\":478795},{\"burned\":29,\"template_id\":671185},{\"burned\":541,\"template_id\":429544},{\"burned\":252,\"template_id\":713487},{\"burned\":20,\"template_id\":671304},{\"burned\":320,\"template_id\":747192},{\"burned\":1,\"template_id\":261887},{\"burned\":497,\"template_id\":531613},{\"burned\":84,\"template_id\":430519},{\"burned\":23,\"template_id\":671211},{\"burned\":1,\"template_id\":644818},{\"burned\":8,\"template_id\":654264},{\"burned\":178,\"template_id\":430517},{\"burned\":25,\"template_id\":671277},{\"burned\":30,\"template_id\":671233},{\"burned\":13,\"template_id\":671316},{\"burned\":23932,\"template_id\":208180},{\"burned\":25,\"template_id\":671308},{\"burned\":1,\"template_id\":316461},{\"burned\":23,\"template_id\":647007},{\"burned\":25,\"template_id\":671329},{\"burned\":8,\"template_id\":677193},{\"burned\":24,\"template_id\":671303},{\"burned\":996,\"template_id\":453445},{\"burned\":28,\"template_id\":671234},{\"burned\":576,\"template_id\":676944},{\"burned\":21,\"template_id\":671241},{\"burned\":1,\"template_id\":534345},{\"burned\":14,\"template_id\":677183},{\"burned\":21,\"template_id\":671272},{\"burned\":15,\"template_id\":438339},{\"burned\":21,\"template_id\":671242},{\"burned\":2249,\"template_id\":458003},{\"burned\":28,\"template_id\":671322},{\"burned\":192,\"template_id\":440741},{\"burned\":20,\"template_id\":671314},{\"burned\":1,\"template_id\":514419},{\"burned\":83,\"template_id\":654249},{\"burned\":374,\"template_id\":747194},{\"burned\":19,\"template_id\":644817},{\"burned\":32,\"template_id\":671261},{\"burned\":1581,\"template_id\":654236},{\"burned\":34,\"template_id\":673419},{\"burned\":26,\"template_id\":671213},{\"burned\":11,\"template_id\":383978},{\"burned\":31,\"template_id\":671256},{\"burned\":29,\"template_id\":671216},{\"burned\":12,\"template_id\":654263},{\"burned\":1,\"template_id\":514092},{\"burned\":397,\"template_id\":654240},{\"burned\":191,\"template_id\":537453},{\"burned\":19,\"template_id\":671298},{\"burned\":34,\"template_id\":531615},{\"burned\":30,\"template_id\":671246},{\"burned\":367,\"template_id\":654239},{\"burned\":39,\"template_id\":671227},{\"burned\":1,\"template_id\":173244},{\"burned\":7,\"template_id\":677188},{\"burned\":18,\"template_id\":671312},{\"burned\":31,\"template_id\":671244},{\"burned\":31,\"template_id\":671226},{\"burned\":1,\"template_id\":714712},{\"burned\":38,\"template_id\":671186},{\"burned\":12,\"template_id\":671287},{\"burned\":23,\"template_id\":671326},{\"burned\":187,\"template_id\":458052},{\"burned\":36,\"template_id\":671190},{\"burned\":29,\"template_id\":671197},{\"burned\":4,\"template_id\":714704},{\"burned\":28120,\"template_id\":208176},{\"burned\":9,\"template_id\":430526},{\"burned\":28,\"template_id\":671195},{\"burned\":29,\"template_id\":671210},{\"burned\":1,\"template_id\":610242},{\"burned\":3,\"template_id\":234091},{\"burned\":5,\"template_id\":236135},{\"burned\":32,\"template_id\":671262},{\"burned\":33,\"template_id\":671182},{\"burned\":817,\"template_id\":659923},{\"burned\":413,\"template_id\":713489},{\"burned\":9,\"template_id\":714695},{\"burned\":178,\"template_id\":747473},{\"burned\":20,\"template_id\":647037},{\"burned\":30,\"template_id\":671202},{\"burned\":13,\"template_id\":714719},{\"burned\":19,\"template_id\":671306},{\"burned\":404,\"template_id\":453446},{\"burned\":651,\"template_id\":659924},{\"burned\":2293,\"template_id\":458018},{\"burned\":28,\"template_id\":671249},{\"burned\":29900,\"template_id\":492337},{\"burned\":23,\"template_id\":671321},{\"burned\":1,\"template_id\":647028},{\"burned\":29,\"template_id\":671286},{\"burned\":38,\"template_id\":747220},{\"burned\":24,\"template_id\":671264},{\"burned\":22,\"template_id\":671301},{\"burned\":1,\"template_id\":480237},{\"burned\":173,\"template_id\":747205},{\"burned\":29,\"template_id\":671267},{\"burned\":30,\"template_id\":671180},{\"burned\":38,\"template_id\":458094},{\"burned\":102,\"template_id\":747209},{\"burned\":1,\"template_id\":458045},{\"burned\":66,\"template_id\":430521},{\"burned\":1754,\"template_id\":654237},{\"burned\":3203,\"template_id\":527470},{\"burned\":4,\"template_id\":514414},{\"burned\":22,\"template_id\":671240},{\"burned\":1,\"template_id\":196590},{\"burned\":15,\"template_id\":537393},{\"burned\":17,\"template_id\":671293},{\"burned\":2,\"template_id\":710788},{\"burned\":13,\"template_id\":647032},{\"burned\":94,\"template_id\":654250},{\"burned\":1,\"template_id\":514472},{\"burned\":2,\"template_id\":648024},{\"burned\":21,\"template_id\":334676},{\"burned\":35,\"template_id\":671225},{\"burned\":150,\"template_id\":747207},{\"burned\":30,\"template_id\":671199},{\"burned\":840,\"template_id\":458023},{\"burned\":478,\"template_id\":208059},{\"burned\":2102,\"template_id\":453443},{\"burned\":28,\"template_id\":671201},{\"burned\":29,\"template_id\":671198},{\"burned\":118,\"template_id\":744989},{\"burned\":113,\"template_id\":654242},{\"burned\":222,\"template_id\":458040},{\"burned\":27,\"template_id\":671212},{\"burned\":29,\"template_id\":671184},{\"burned\":24,\"template_id\":671273},{\"burned\":23,\"template_id\":537392},{\"burned\":24,\"template_id\":671224},{\"burned\":83,\"template_id\":654253},{\"burned\":25,\"template_id\":671291},{\"burned\":62,\"template_id\":430520},{\"burned\":17,\"template_id\":294830},{\"burned\":1,\"template_id\":662540},{\"burned\":1092,\"template_id\":382163},{\"burned\":27,\"template_id\":671254},{\"burned\":2034,\"template_id\":458005},{\"burned\":3086,\"template_id\":527471},{\"burned\":26,\"template_id\":671247},{\"burned\":16,\"template_id\":621232},{\"burned\":53,\"template_id\":747224},{\"burned\":10,\"template_id\":229926},{\"burned\":31,\"template_id\":671283},{\"burned\":14053,\"template_id\":654285},{\"burned\":29,\"template_id\":671215},{\"burned\":50,\"template_id\":747217},{\"burned\":3361,\"template_id\":457140},{\"burned\":24790,\"template_id\":208178},{\"burned\":536,\"template_id\":747196},{\"burned\":4556,\"template_id\":527473},{\"burned\":24,\"template_id\":671285},{\"burned\":12,\"template_id\":612853},{\"burned\":51,\"template_id\":458069},{\"burned\":1,\"template_id\":300074},{\"burned\":7603,\"template_id\":208160},{\"burned\":196,\"template_id\":458089},{\"burned\":20,\"template_id\":671320},{\"burned\":27,\"template_id\":671278},{\"burned\":793,\"template_id\":382176},{\"burned\":37,\"template_id\":648018},{\"burned\":32,\"template_id\":671282},{\"burned\":30,\"template_id\":671280},{\"burned\":9,\"template_id\":707033},{\"burned\":1,\"template_id\":537395},{\"burned\":19,\"template_id\":534346},{\"burned\":26,\"template_id\":671189},{\"burned\":212,\"template_id\":531614},{\"burned\":33,\"template_id\":671214},{\"burned\":22,\"template_id\":671319},{\"burned\":292,\"template_id\":677147},{\"burned\":276,\"template_id\":747204},{\"burned\":3,\"template_id\":714714},{\"burned\":5,\"template_id\":707034},{\"burned\":35,\"template_id\":458059},{\"burned\":14,\"template_id\":671338},{\"burned\":31,\"template_id\":671323}],\"burned_by_schema\":[{\"burned\":3732,\"schema_name\":\"extractor\"},{\"burned\":798,\"schema_name\":\"cmbz.res\"},{\"burned\":178785,\"schema_name\":\"ingredient\"},{\"burned\":9,\"schema_name\":\"promo\"},{\"burned\":4518,\"schema_name\":\"acr.skin\"},{\"burned\":175,\"schema_name\":\"tool\"},{\"burned\":285,\"schema_name\":\"acr.gear\"},{\"burned\":1736,\"schema_name\":\"collector\"},{\"burned\":42679,\"schema_name\":\"item\"},{\"burned\":5,\"schema_name\":\"bonus\"},{\"burned\":743,\"schema_name\":\"venue\"},{\"burned\":43583,\"schema_name\":\"pack\"},{\"burned\":6582,\"schema_name\":\"cmbz.comb\"},{\"burned\":75,\"schema_name\":\"achievement\"},{\"burned\":6721,\"schema_name\":\"ticket\"},{\"burned\":66894,\"schema_name\":\"brgd.equip\"}],\"templates\":\"751\",\"schemas\":\"20\"},\"query_time\":1697980912421}"
+}

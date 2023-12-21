@@ -1,0 +1,20 @@
+{
+    "request": {
+        "path": "https://wax.api.atomicassets.io/atomicmarket/v1/marketplaces/market.place",
+        "params": {
+            "method": "GET"
+        }
+    },
+    "status": 200,
+    "json": {
+        "success": true,
+        "data": {
+            "marketplace_name": "market.place",
+            "creator": "fees.place",
+            "created_at_block": "70885367",
+            "created_at_time": "1596872896000"
+        },
+        "query_time": 1697980974762
+    },
+    "text": "{\"success\":true,\"data\":{\"marketplace_name\":\"market.place\",\"creator\":\"fees.place\",\"created_at_block\":\"70885367\",\"created_at_time\":\"1596872896000\"},\"query_time\":1697980974762}"
+}

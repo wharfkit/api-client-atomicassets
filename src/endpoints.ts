@@ -1,24 +1,16 @@
-import {API, APIClient} from '@wharfkit/antelope'
+import type {APIClient} from '@wharfkit/antelope'
+import {AssetsAPIClient} from './endpoints/assets'
+import {MarketAPIClient} from './endpoints/market'
+import {ToolsAPIClient} from './endpoints/tools'
 
-export class ExampleAPI {
-    constructor(private client: APIClient) {}
+export class AtomicAssetsAPIClient {
+    public atomicassets: AssetsAPIClient
+    public atomicmarket: MarketAPIClient
+    public atomictools: ToolsAPIClient
 
-    /**
-     * Define the calls for the API
-     */
-    // async get_raw_abi(accountName: NameType) {
-    //     return this.call({
-    //         path: '/v1/chain/get_raw_abi',
-    //         params: {account_name: Name.from(accountName)},
-    //         responseType: GetRawAbiResponse,
-    //     })
-    // }
-
-    // Example for testing
-    async get_info() {
-        return this.client.call({
-            path: '/v1/chain/get_info',
-            responseType: API.v1.GetInfoResponse,
-        })
+    constructor(private client: APIClient) {
+        this.atomicassets = new AssetsAPIClient(client)
+        this.atomicmarket = new MarketAPIClient(client)
+        this.atomictools = new ToolsAPIClient(client)
     }
 }

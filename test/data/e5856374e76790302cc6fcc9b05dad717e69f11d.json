@@ -1,0 +1,175 @@
+{
+    "request": {
+        "path": "https://wax.api.atomicassets.io/atomicmarket/v1/stats/schemas/taco?symbol=WAX&limit=10",
+        "params": {
+            "method": "GET"
+        }
+    },
+    "status": 200,
+    "json": {
+        "success": true,
+        "data": {
+            "symbol": {
+                "token_symbol": "WAX",
+                "token_contract": "eosio.token",
+                "token_precision": 8
+            },
+            "results": [
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "extractor",
+                    "volume": "611368607763662",
+                    "sales": "34529",
+                    "listings": "351"
+                },
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "pack",
+                    "volume": "283993214609632",
+                    "sales": "14490",
+                    "listings": "555"
+                },
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "venue",
+                    "volume": "232424248760989",
+                    "sales": "3084",
+                    "listings": "160"
+                },
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "ingredient",
+                    "volume": "115099670924535",
+                    "sales": "22075",
+                    "listings": "366"
+                },
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "brgd.equip",
+                    "volume": "76007197920200",
+                    "sales": "34667",
+                    "listings": "623"
+                },
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "membership",
+                    "volume": "67815048493082",
+                    "sales": "110",
+                    "listings": "9"
+                },
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "collector",
+                    "volume": "46327033377004",
+                    "sales": "1580",
+                    "listings": "39"
+                },
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "ticket",
+                    "volume": "36700898663911",
+                    "sales": "2081",
+                    "listings": "38"
+                },
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "item",
+                    "volume": "33892108596506",
+                    "sales": "19648",
+                    "listings": "1065"
+                },
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "cmbz.comb",
+                    "volume": "32575127878603",
+                    "sales": "987",
+                    "listings": "239"
+                },
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "promo",
+                    "volume": "32252001295353",
+                    "sales": "3370",
+                    "listings": "53"
+                },
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "bonus",
+                    "volume": "31496170663268",
+                    "sales": "3638",
+                    "listings": "46"
+                },
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "tool",
+                    "volume": "25850664222776",
+                    "sales": "4411",
+                    "listings": "288"
+                },
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "brgd.auto",
+                    "volume": "25550161430696",
+                    "sales": "1887",
+                    "listings": "144"
+                },
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "cmbz.field",
+                    "volume": "14723799571260",
+                    "sales": "165",
+                    "listings": "37"
+                },
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "acr.gear",
+                    "volume": "11193557225730",
+                    "sales": "1003",
+                    "listings": "205"
+                },
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "acr.skin",
+                    "volume": "8855149064536",
+                    "sales": "4231",
+                    "listings": "924"
+                },
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "cmbz.res",
+                    "volume": "7031742910010",
+                    "sales": "261",
+                    "listings": "103"
+                },
+                {
+                    "contract": "atomicassets",
+                    "collection_name": "taco",
+                    "schema_name": "exclusive",
+                    "volume": "2200000000000",
+                    "sales": "2",
+                    "listings": "0"
+                }
+            ]
+        },
+        "query_time": 1697980988554
+    },
+    "text": "{\"success\":true,\"data\":{\"symbol\":{\"token_symbol\":\"WAX\",\"token_contract\":\"eosio.token\",\"token_precision\":8},\"results\":[{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"extractor\",\"volume\":\"611368607763662\",\"sales\":\"34529\",\"listings\":\"351\"},{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"pack\",\"volume\":\"283993214609632\",\"sales\":\"14490\",\"listings\":\"555\"},{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"venue\",\"volume\":\"232424248760989\",\"sales\":\"3084\",\"listings\":\"160\"},{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"ingredient\",\"volume\":\"115099670924535\",\"sales\":\"22075\",\"listings\":\"366\"},{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"brgd.equip\",\"volume\":\"76007197920200\",\"sales\":\"34667\",\"listings\":\"623\"},{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"membership\",\"volume\":\"67815048493082\",\"sales\":\"110\",\"listings\":\"9\"},{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"collector\",\"volume\":\"46327033377004\",\"sales\":\"1580\",\"listings\":\"39\"},{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"ticket\",\"volume\":\"36700898663911\",\"sales\":\"2081\",\"listings\":\"38\"},{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"item\",\"volume\":\"33892108596506\",\"sales\":\"19648\",\"listings\":\"1065\"},{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"cmbz.comb\",\"volume\":\"32575127878603\",\"sales\":\"987\",\"listings\":\"239\"},{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"promo\",\"volume\":\"32252001295353\",\"sales\":\"3370\",\"listings\":\"53\"},{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"bonus\",\"volume\":\"31496170663268\",\"sales\":\"3638\",\"listings\":\"46\"},{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"tool\",\"volume\":\"25850664222776\",\"sales\":\"4411\",\"listings\":\"288\"},{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"brgd.auto\",\"volume\":\"25550161430696\",\"sales\":\"1887\",\"listings\":\"144\"},{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"cmbz.field\",\"volume\":\"14723799571260\",\"sales\":\"165\",\"listings\":\"37\"},{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"acr.gear\",\"volume\":\"11193557225730\",\"sales\":\"1003\",\"listings\":\"205\"},{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"acr.skin\",\"volume\":\"8855149064536\",\"sales\":\"4231\",\"listings\":\"924\"},{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"cmbz.res\",\"volume\":\"7031742910010\",\"sales\":\"261\",\"listings\":\"103\"},{\"contract\":\"atomicassets\",\"collection_name\":\"taco\",\"schema_name\":\"exclusive\",\"volume\":\"2200000000000\",\"sales\":\"2\",\"listings\":\"0\"}]},\"query_time\":1697980988554}"
+}

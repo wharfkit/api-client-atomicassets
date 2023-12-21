@@ -1,0 +1,18 @@
+{
+    "request": {
+        "path": "https://wax.api.atomicassets.io/atomicassets/v1/templates/taco/750150/stats",
+        "params": {
+            "method": "GET"
+        }
+    },
+    "status": 200,
+    "json": {
+        "success": true,
+        "data": {
+            "assets": "2256",
+            "burned": "2001"
+        },
+        "query_time": 1697980921195
+    },
+    "text": "{\"success\":true,\"data\":{\"assets\":\"2256\",\"burned\":\"2001\"},\"query_time\":1697980921195}"
+}

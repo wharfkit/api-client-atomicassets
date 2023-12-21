@@ -1,0 +1,73 @@
+{
+    "request": {
+        "path": "https://wax.api.atomicassets.io/atomicmarket/v1/stats/accounts?symbol=WAX&collection_name=taco&limit=10",
+        "params": {
+            "method": "GET"
+        }
+    },
+    "status": 200,
+    "json": {
+        "success": true,
+        "data": {
+            "symbol": {
+                "token_symbol": "WAX",
+                "token_contract": "eosio.token",
+                "token_precision": 8
+            },
+            "results": [
+                {
+                    "account": "zoieo.wam",
+                    "buy_volume": "16143911646826",
+                    "sell_volume": "19046060210000"
+                },
+                {
+                    "account": "wofxg.wam",
+                    "buy_volume": "835996985548",
+                    "sell_volume": "17261279010137"
+                },
+                {
+                    "account": "zfgb.wam",
+                    "buy_volume": "5832046244906",
+                    "sell_volume": "16627189942727"
+                },
+                {
+                    "account": "o4eei.wam",
+                    "buy_volume": "7025293790113",
+                    "sell_volume": "15246408000000"
+                },
+                {
+                    "account": "ubkb.wam",
+                    "buy_volume": "17368634929264",
+                    "sell_volume": "14608008000000"
+                },
+                {
+                    "account": "e.4e4.wam",
+                    "buy_volume": "338342394800",
+                    "sell_volume": "14327097362927"
+                },
+                {
+                    "account": "dmfvw.wam",
+                    "buy_volume": "1682402727067",
+                    "sell_volume": "12866595588626"
+                },
+                {
+                    "account": "bwrau.wam",
+                    "buy_volume": "1432168073773",
+                    "sell_volume": "11916783324435"
+                },
+                {
+                    "account": "pxhxi.wam",
+                    "buy_volume": "1136307843913",
+                    "sell_volume": "11836958813342"
+                },
+                {
+                    "account": "hdmbk.wam",
+                    "buy_volume": "2568636271958",
+                    "sell_volume": "11698493999998"
+                }
+            ]
+        },
+        "query_time": 1697980983918
+    },
+    "text": "{\"success\":true,\"data\":{\"symbol\":{\"token_symbol\":\"WAX\",\"token_contract\":\"eosio.token\",\"token_precision\":8},\"results\":[{\"account\":\"zoieo.wam\",\"buy_volume\":\"16143911646826\",\"sell_volume\":\"19046060210000\"},{\"account\":\"wofxg.wam\",\"buy_volume\":\"835996985548\",\"sell_volume\":\"17261279010137\"},{\"account\":\"zfgb.wam\",\"buy_volume\":\"5832046244906\",\"sell_volume\":\"16627189942727\"},{\"account\":\"o4eei.wam\",\"buy_volume\":\"7025293790113\",\"sell_volume\":\"15246408000000\"},{\"account\":\"ubkb.wam\",\"buy_volume\":\"17368634929264\",\"sell_volume\":\"14608008000000\"},{\"account\":\"e.4e4.wam\",\"buy_volume\":\"338342394800\",\"sell_volume\":\"14327097362927\"},{\"account\":\"dmfvw.wam\",\"buy_volume\":\"1682402727067\",\"sell_volume\":\"12866595588626\"},{\"account\":\"bwrau.wam\",\"buy_volume\":\"1432168073773\",\"sell_volume\":\"11916783324435\"},{\"account\":\"pxhxi.wam\",\"buy_volume\":\"1136307843913\",\"sell_volume\":\"11836958813342\"},{\"account\":\"hdmbk.wam\",\"buy_volume\":\"2568636271958\",\"sell_volume\":\"11698493999998\"}]},\"query_time\":1697980983918}"
+}

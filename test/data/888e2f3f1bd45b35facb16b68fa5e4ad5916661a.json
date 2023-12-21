@@ -1,0 +1,2074 @@
+{
+    "request": {
+        "path": "https://wax.api.atomicassets.io/atomicmarket/v1/auctions?collection_name=taco%2Calien.worlds&limit=10",
+        "params": {
+            "method": "GET"
+        }
+    },
+    "status": 200,
+    "json": {
+        "success": true,
+        "data": [
+            {
+                "market_contract": "atomicmarket",
+                "assets_contract": "atomicassets",
+                "auction_id": "1308121",
+                "seller": "xk5qu.wam",
+                "buyer": null,
+                "price": {
+                    "token_contract": "eosio.token",
+                    "token_symbol": "WAX",
+                    "token_precision": 8,
+                    "amount": "299999000"
+                },
+                "assets": [
+                    {
+                        "contract": "atomicassets",
+                        "asset_id": "1099527889835",
+                        "owner": "atomicmarket",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "collection": {
+                            "collection_name": "alien.worlds",
+                            "name": "Alien Worlds",
+                            "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                            "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                            "author": "federation",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "federation",
+                                "open.worlds",
+                                "terra.worlds",
+                                "m.federation",
+                                "s.federation",
+                                "uspts.worlds",
+                                "awlndratings",
+                                "nftmt.worlds"
+                            ],
+                            "notify_accounts": [
+                                "federation",
+                                "m.federation"
+                            ],
+                            "market_fee": 0.01,
+                            "created_at_block": "70292143",
+                            "created_at_time": "1596576277500"
+                        },
+                        "schema": {
+                            "schema_name": "crew.worlds",
+                            "format": [
+                                {
+                                    "name": "cardid",
+                                    "type": "uint16"
+                                },
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "backimg",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "rarity",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "shine",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "material_grade",
+                                    "type": "uint64"
+                                },
+                                {
+                                    "name": "race",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "element",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "attack",
+                                    "type": "uint8"
+                                },
+                                {
+                                    "name": "defense",
+                                    "type": "uint8"
+                                },
+                                {
+                                    "name": "movecost",
+                                    "type": "uint8"
+                                },
+                                {
+                                    "name": "td_fights",
+                                    "type": "uint16"
+                                },
+                                {
+                                    "name": "td_wins",
+                                    "type": "uint16"
+                                },
+                                {
+                                    "name": "td_winstreak",
+                                    "type": "uint16"
+                                }
+                            ],
+                            "created_at_block": "81611157",
+                            "created_at_time": "1602238298000"
+                        },
+                        "template": {
+                            "template_id": "19644",
+                            "max_supply": "0",
+                            "is_transferable": true,
+                            "is_burnable": true,
+                            "issued_supply": "358015",
+                            "immutable_data": {
+                                "img": "Qme5HWgJritQsBFeGsbYW1XCpe9YBmJY5z6SLq8aGbWQtP",
+                                "name": "Grey Peacemaker",
+                                "race": "Grey",
+                                "shine": "Stone",
+                                "attack": 16,
+                                "cardid": 21,
+                                "rarity": "Abundant",
+                                "backimg": "QmaUNXHeeFvMGD4vPCC3vpGTr77tJvBHjh1ndUm4J7o4tP",
+                                "defense": 17,
+                                "element": "Gem",
+                                "movecost": 40,
+                                "description": "Beware of Greys bearing gifts"
+                            },
+                            "created_at_time": "1602238316000",
+                            "created_at_block": "81611193"
+                        },
+                        "mutable_data": {},
+                        "immutable_data": {},
+                        "template_mint": "195336",
+                        "backed_tokens": [],
+                        "burned_by_account": null,
+                        "burned_at_block": null,
+                        "burned_at_time": null,
+                        "updated_at_block": "273016345",
+                        "updated_at_time": "1697979503000",
+                        "transferred_at_block": "273016345",
+                        "transferred_at_time": "1697979503000",
+                        "minted_at_block": "115421739",
+                        "minted_at_time": "1619151752000",
+                        "sales": [],
+                        "auctions": [],
+                        "prices": [
+                            {
+                                "market_contract": "atomicmarket",
+                                "token": {
+                                    "token_symbol": "WAX",
+                                    "token_precision": 8,
+                                    "token_contract": "eosio.token"
+                                },
+                                "median": "39900000",
+                                "average": "101601934",
+                                "suggested_median": "29990000",
+                                "suggested_average": "29865296",
+                                "min": "1",
+                                "max": "2790000000000",
+                                "sales": "97329"
+                            }
+                        ],
+                        "data": {
+                            "img": "Qme5HWgJritQsBFeGsbYW1XCpe9YBmJY5z6SLq8aGbWQtP",
+                            "name": "Grey Peacemaker",
+                            "race": "Grey",
+                            "shine": "Stone",
+                            "attack": 16,
+                            "cardid": 21,
+                            "rarity": "Abundant",
+                            "backimg": "QmaUNXHeeFvMGD4vPCC3vpGTr77tJvBHjh1ndUm4J7o4tP",
+                            "defense": 17,
+                            "element": "Gem",
+                            "movecost": 40,
+                            "description": "Beware of Greys bearing gifts"
+                        },
+                        "name": "Grey Peacemaker"
+                    }
+                ],
+                "bids": [],
+                "maker_marketplace": "",
+                "taker_marketplace": null,
+                "claimed_by_buyer": false,
+                "claimed_by_seller": false,
+                "collection": {
+                    "collection_name": "alien.worlds",
+                    "name": "Alien Worlds",
+                    "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                    "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                    "author": "federation",
+                    "allow_notify": true,
+                    "authorized_accounts": [
+                        "federation",
+                        "open.worlds",
+                        "terra.worlds",
+                        "m.federation",
+                        "s.federation",
+                        "uspts.worlds",
+                        "awlndratings",
+                        "nftmt.worlds"
+                    ],
+                    "notify_accounts": [
+                        "federation",
+                        "m.federation"
+                    ],
+                    "market_fee": 0.01,
+                    "created_at_block": "70292143",
+                    "created_at_time": "1596576277500"
+                },
+                "end_time": "1698026303000",
+                "is_seller_contract": false,
+                "updated_at_block": "273016345",
+                "updated_at_time": "1697979503000",
+                "created_at_block": "273016345",
+                "created_at_time": "1697979503000",
+                "state": 1
+            },
+            {
+                "market_contract": "atomicmarket",
+                "assets_contract": "atomicassets",
+                "auction_id": "1308120",
+                "seller": "xk5qu.wam",
+                "buyer": null,
+                "price": {
+                    "token_contract": "eosio.token",
+                    "token_symbol": "WAX",
+                    "token_precision": 8,
+                    "amount": "499990000"
+                },
+                "assets": [
+                    {
+                        "contract": "atomicassets",
+                        "asset_id": "1099519835508",
+                        "owner": "atomicmarket",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "collection": {
+                            "collection_name": "alien.worlds",
+                            "name": "Alien Worlds",
+                            "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                            "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                            "author": "federation",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "federation",
+                                "open.worlds",
+                                "terra.worlds",
+                                "m.federation",
+                                "s.federation",
+                                "uspts.worlds",
+                                "awlndratings",
+                                "nftmt.worlds"
+                            ],
+                            "notify_accounts": [
+                                "federation",
+                                "m.federation"
+                            ],
+                            "market_fee": 0.01,
+                            "created_at_block": "70292143",
+                            "created_at_time": "1596576277500"
+                        },
+                        "schema": {
+                            "schema_name": "arms.worlds",
+                            "format": [
+                                {
+                                    "name": "cardid",
+                                    "type": "uint16"
+                                },
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "backimg",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "rarity",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "shine",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "material_grade",
+                                    "type": "uint64"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "class",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "attack",
+                                    "type": "uint8"
+                                },
+                                {
+                                    "name": "defense",
+                                    "type": "uint8"
+                                }
+                            ],
+                            "created_at_block": "81610824",
+                            "created_at_time": "1602238131500"
+                        },
+                        "template": {
+                            "template_id": "19583",
+                            "max_supply": "0",
+                            "is_transferable": true,
+                            "is_burnable": true,
+                            "issued_supply": "374400",
+                            "immutable_data": {
+                                "img": "QmYfMb6jv4fAkYKCYn36kHeXE1PpPhqwCuh5jP9KbJs8jC",
+                                "name": "Standard Sword",
+                                "class": "Neutral",
+                                "shine": "Stone",
+                                "attack": 11,
+                                "cardid": 2,
+                                "rarity": "Abundant",
+                                "backimg": "QmTorcZbdarHPssCWeXJgyUso3sWzGKQabvnEujE8i9yMw",
+                                "defense": 5,
+                                "description": "The Standard Sword Company was the first non-mining company on Eyeke"
+                            },
+                            "created_at_time": "1602238133000",
+                            "created_at_block": "81610827"
+                        },
+                        "mutable_data": {},
+                        "immutable_data": {},
+                        "template_mint": "97852",
+                        "backed_tokens": [],
+                        "burned_by_account": null,
+                        "burned_at_block": null,
+                        "burned_at_time": null,
+                        "updated_at_block": "273016325",
+                        "updated_at_time": "1697979493000",
+                        "transferred_at_block": "273016325",
+                        "transferred_at_time": "1697979493000",
+                        "minted_at_block": "109282114",
+                        "minted_at_time": "1616079699500",
+                        "sales": [],
+                        "auctions": [],
+                        "prices": [
+                            {
+                                "market_contract": "atomicmarket",
+                                "token": {
+                                    "token_symbol": "WAX",
+                                    "token_precision": 8,
+                                    "token_contract": "eosio.token"
+                                },
+                                "median": "36000000",
+                                "average": "64561702",
+                                "suggested_median": "14008500",
+                                "suggested_average": "13993833",
+                                "min": "1",
+                                "max": "25000000000",
+                                "sales": "104414"
+                            }
+                        ],
+                        "data": {
+                            "img": "QmYfMb6jv4fAkYKCYn36kHeXE1PpPhqwCuh5jP9KbJs8jC",
+                            "name": "Standard Sword",
+                            "class": "Neutral",
+                            "shine": "Stone",
+                            "attack": 11,
+                            "cardid": 2,
+                            "rarity": "Abundant",
+                            "backimg": "QmTorcZbdarHPssCWeXJgyUso3sWzGKQabvnEujE8i9yMw",
+                            "defense": 5,
+                            "description": "The Standard Sword Company was the first non-mining company on Eyeke"
+                        },
+                        "name": "Standard Sword"
+                    }
+                ],
+                "bids": [],
+                "maker_marketplace": "",
+                "taker_marketplace": null,
+                "claimed_by_buyer": false,
+                "claimed_by_seller": false,
+                "collection": {
+                    "collection_name": "alien.worlds",
+                    "name": "Alien Worlds",
+                    "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                    "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                    "author": "federation",
+                    "allow_notify": true,
+                    "authorized_accounts": [
+                        "federation",
+                        "open.worlds",
+                        "terra.worlds",
+                        "m.federation",
+                        "s.federation",
+                        "uspts.worlds",
+                        "awlndratings",
+                        "nftmt.worlds"
+                    ],
+                    "notify_accounts": [
+                        "federation",
+                        "m.federation"
+                    ],
+                    "market_fee": 0.01,
+                    "created_at_block": "70292143",
+                    "created_at_time": "1596576277500"
+                },
+                "end_time": "1698026293000",
+                "is_seller_contract": false,
+                "updated_at_block": "273016325",
+                "updated_at_time": "1697979493000",
+                "created_at_block": "273016325",
+                "created_at_time": "1697979493000",
+                "state": 1
+            },
+            {
+                "market_contract": "atomicmarket",
+                "assets_contract": "atomicassets",
+                "auction_id": "1308119",
+                "seller": "xk5qu.wam",
+                "buyer": null,
+                "price": {
+                    "token_contract": "eosio.token",
+                    "token_symbol": "WAX",
+                    "token_precision": 8,
+                    "amount": "299999000"
+                },
+                "assets": [
+                    {
+                        "contract": "atomicassets",
+                        "asset_id": "1099519612214",
+                        "owner": "atomicmarket",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "collection": {
+                            "collection_name": "alien.worlds",
+                            "name": "Alien Worlds",
+                            "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                            "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                            "author": "federation",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "federation",
+                                "open.worlds",
+                                "terra.worlds",
+                                "m.federation",
+                                "s.federation",
+                                "uspts.worlds",
+                                "awlndratings",
+                                "nftmt.worlds"
+                            ],
+                            "notify_accounts": [
+                                "federation",
+                                "m.federation"
+                            ],
+                            "market_fee": 0.01,
+                            "created_at_block": "70292143",
+                            "created_at_time": "1596576277500"
+                        },
+                        "schema": {
+                            "schema_name": "arms.worlds",
+                            "format": [
+                                {
+                                    "name": "cardid",
+                                    "type": "uint16"
+                                },
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "backimg",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "rarity",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "shine",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "material_grade",
+                                    "type": "uint64"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "class",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "attack",
+                                    "type": "uint8"
+                                },
+                                {
+                                    "name": "defense",
+                                    "type": "uint8"
+                                }
+                            ],
+                            "created_at_block": "81610824",
+                            "created_at_time": "1602238131500"
+                        },
+                        "template": {
+                            "template_id": "19610",
+                            "max_supply": "0",
+                            "is_transferable": true,
+                            "is_burnable": true,
+                            "issued_supply": "358988",
+                            "immutable_data": {
+                                "img": "QmPSjMKxC6aZYJiKxSVtb6yVRB7CYC327zUt7dpEbMXot2",
+                                "name": "Standard Issue Axe",
+                                "class": "Neutral",
+                                "shine": "Stone",
+                                "attack": 10,
+                                "cardid": 29,
+                                "rarity": "Abundant",
+                                "backimg": "QmTorcZbdarHPssCWeXJgyUso3sWzGKQabvnEujE8i9yMw",
+                                "defense": 6,
+                                "description": "You get an Axe .. Everyone gets an Axe!"
+                            },
+                            "created_at_time": "1602238155000",
+                            "created_at_block": "81610871"
+                        },
+                        "mutable_data": {},
+                        "immutable_data": {},
+                        "template_mint": "88478",
+                        "backed_tokens": [],
+                        "burned_by_account": null,
+                        "burned_at_block": null,
+                        "burned_at_time": null,
+                        "updated_at_block": "273016303",
+                        "updated_at_time": "1697979482000",
+                        "transferred_at_block": "273016303",
+                        "transferred_at_time": "1697979482000",
+                        "minted_at_block": "108796686",
+                        "minted_at_time": "1615836923500",
+                        "sales": [],
+                        "auctions": [],
+                        "prices": [
+                            {
+                                "market_contract": "atomicmarket",
+                                "token": {
+                                    "token_symbol": "WAX",
+                                    "token_precision": 8,
+                                    "token_contract": "eosio.token"
+                                },
+                                "median": "37000000",
+                                "average": "63146414",
+                                "suggested_median": "13721400",
+                                "suggested_average": "13721400",
+                                "min": "1",
+                                "max": "39900000000",
+                                "sales": "99990"
+                            }
+                        ],
+                        "data": {
+                            "img": "QmPSjMKxC6aZYJiKxSVtb6yVRB7CYC327zUt7dpEbMXot2",
+                            "name": "Standard Issue Axe",
+                            "class": "Neutral",
+                            "shine": "Stone",
+                            "attack": 10,
+                            "cardid": 29,
+                            "rarity": "Abundant",
+                            "backimg": "QmTorcZbdarHPssCWeXJgyUso3sWzGKQabvnEujE8i9yMw",
+                            "defense": 6,
+                            "description": "You get an Axe .. Everyone gets an Axe!"
+                        },
+                        "name": "Standard Issue Axe"
+                    }
+                ],
+                "bids": [],
+                "maker_marketplace": "",
+                "taker_marketplace": null,
+                "claimed_by_buyer": false,
+                "claimed_by_seller": false,
+                "collection": {
+                    "collection_name": "alien.worlds",
+                    "name": "Alien Worlds",
+                    "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                    "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                    "author": "federation",
+                    "allow_notify": true,
+                    "authorized_accounts": [
+                        "federation",
+                        "open.worlds",
+                        "terra.worlds",
+                        "m.federation",
+                        "s.federation",
+                        "uspts.worlds",
+                        "awlndratings",
+                        "nftmt.worlds"
+                    ],
+                    "notify_accounts": [
+                        "federation",
+                        "m.federation"
+                    ],
+                    "market_fee": 0.01,
+                    "created_at_block": "70292143",
+                    "created_at_time": "1596576277500"
+                },
+                "end_time": "1698026282000",
+                "is_seller_contract": false,
+                "updated_at_block": "273016303",
+                "updated_at_time": "1697979482000",
+                "created_at_block": "273016303",
+                "created_at_time": "1697979482000",
+                "state": 1
+            },
+            {
+                "market_contract": "atomicmarket",
+                "assets_contract": "atomicassets",
+                "auction_id": "1308118",
+                "seller": "r4t4o.c.wam",
+                "buyer": null,
+                "price": {
+                    "token_contract": "eosio.token",
+                    "token_symbol": "WAX",
+                    "token_precision": 8,
+                    "amount": "199999900"
+                },
+                "assets": [
+                    {
+                        "contract": "atomicassets",
+                        "asset_id": "1099521959565",
+                        "owner": "atomicmarket",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "collection": {
+                            "collection_name": "alien.worlds",
+                            "name": "Alien Worlds",
+                            "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                            "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                            "author": "federation",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "federation",
+                                "open.worlds",
+                                "terra.worlds",
+                                "m.federation",
+                                "s.federation",
+                                "uspts.worlds",
+                                "awlndratings",
+                                "nftmt.worlds"
+                            ],
+                            "notify_accounts": [
+                                "federation",
+                                "m.federation"
+                            ],
+                            "market_fee": 0.01,
+                            "created_at_block": "70292143",
+                            "created_at_time": "1596576277500"
+                        },
+                        "schema": {
+                            "schema_name": "crew.worlds",
+                            "format": [
+                                {
+                                    "name": "cardid",
+                                    "type": "uint16"
+                                },
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "backimg",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "rarity",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "shine",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "material_grade",
+                                    "type": "uint64"
+                                },
+                                {
+                                    "name": "race",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "element",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "attack",
+                                    "type": "uint8"
+                                },
+                                {
+                                    "name": "defense",
+                                    "type": "uint8"
+                                },
+                                {
+                                    "name": "movecost",
+                                    "type": "uint8"
+                                },
+                                {
+                                    "name": "td_fights",
+                                    "type": "uint16"
+                                },
+                                {
+                                    "name": "td_wins",
+                                    "type": "uint16"
+                                },
+                                {
+                                    "name": "td_winstreak",
+                                    "type": "uint16"
+                                }
+                            ],
+                            "created_at_block": "81611157",
+                            "created_at_time": "1602238298000"
+                        },
+                        "template": {
+                            "template_id": "19632",
+                            "max_supply": "0",
+                            "is_transferable": true,
+                            "is_burnable": true,
+                            "issued_supply": "376907",
+                            "immutable_data": {
+                                "img": "QmeNWTL3EPT1nM9P8bM2PrAy38bTc9ZTg91P7XntwLmr8Q",
+                                "name": "Grey Peacemaker",
+                                "race": "Grey",
+                                "shine": "Stone",
+                                "attack": 17,
+                                "cardid": 9,
+                                "rarity": "Abundant",
+                                "backimg": "QmaUNXHeeFvMGD4vPCC3vpGTr77tJvBHjh1ndUm4J7o4tP",
+                                "defense": 16,
+                                "element": "Nature",
+                                "movecost": 40,
+                                "description": "Grey's are particularly skilled at using the idea of peace to their advantage"
+                            },
+                            "created_at_time": "1602238305000",
+                            "created_at_block": "81611171"
+                        },
+                        "mutable_data": {},
+                        "immutable_data": {},
+                        "template_mint": "125658",
+                        "backed_tokens": [],
+                        "burned_by_account": null,
+                        "burned_at_block": null,
+                        "burned_at_time": null,
+                        "updated_at_block": "273016298",
+                        "updated_at_time": "1697979479500",
+                        "transferred_at_block": "273016298",
+                        "transferred_at_time": "1697979479500",
+                        "minted_at_block": "112465548",
+                        "minted_at_time": "1617671909000",
+                        "sales": [],
+                        "auctions": [],
+                        "prices": [
+                            {
+                                "market_contract": "atomicmarket",
+                                "token": {
+                                    "token_symbol": "WAX",
+                                    "token_precision": 8,
+                                    "token_contract": "eosio.token"
+                                },
+                                "median": "39000000",
+                                "average": "78853163",
+                                "suggested_median": "30889170",
+                                "suggested_average": "31036408",
+                                "min": "1",
+                                "max": "150000000000",
+                                "sales": "103790"
+                            }
+                        ],
+                        "data": {
+                            "img": "QmeNWTL3EPT1nM9P8bM2PrAy38bTc9ZTg91P7XntwLmr8Q",
+                            "name": "Grey Peacemaker",
+                            "race": "Grey",
+                            "shine": "Stone",
+                            "attack": 17,
+                            "cardid": 9,
+                            "rarity": "Abundant",
+                            "backimg": "QmaUNXHeeFvMGD4vPCC3vpGTr77tJvBHjh1ndUm4J7o4tP",
+                            "defense": 16,
+                            "element": "Nature",
+                            "movecost": 40,
+                            "description": "Grey's are particularly skilled at using the idea of peace to their advantage"
+                        },
+                        "name": "Grey Peacemaker"
+                    }
+                ],
+                "bids": [],
+                "maker_marketplace": "",
+                "taker_marketplace": null,
+                "claimed_by_buyer": false,
+                "claimed_by_seller": false,
+                "collection": {
+                    "collection_name": "alien.worlds",
+                    "name": "Alien Worlds",
+                    "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                    "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                    "author": "federation",
+                    "allow_notify": true,
+                    "authorized_accounts": [
+                        "federation",
+                        "open.worlds",
+                        "terra.worlds",
+                        "m.federation",
+                        "s.federation",
+                        "uspts.worlds",
+                        "awlndratings",
+                        "nftmt.worlds"
+                    ],
+                    "notify_accounts": [
+                        "federation",
+                        "m.federation"
+                    ],
+                    "market_fee": 0.01,
+                    "created_at_block": "70292143",
+                    "created_at_time": "1596576277500"
+                },
+                "end_time": "1698029879000",
+                "is_seller_contract": false,
+                "updated_at_block": "273016298",
+                "updated_at_time": "1697979479500",
+                "created_at_block": "273016298",
+                "created_at_time": "1697979479500",
+                "state": 1
+            },
+            {
+                "market_contract": "atomicmarket",
+                "assets_contract": "atomicassets",
+                "auction_id": "1308117",
+                "seller": "xk5qu.wam",
+                "buyer": null,
+                "price": {
+                    "token_contract": "eosio.token",
+                    "token_symbol": "WAX",
+                    "token_precision": 8,
+                    "amount": "99990000"
+                },
+                "assets": [
+                    {
+                        "contract": "atomicassets",
+                        "asset_id": "1099519657798",
+                        "owner": "atomicmarket",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "collection": {
+                            "collection_name": "alien.worlds",
+                            "name": "Alien Worlds",
+                            "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                            "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                            "author": "federation",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "federation",
+                                "open.worlds",
+                                "terra.worlds",
+                                "m.federation",
+                                "s.federation",
+                                "uspts.worlds",
+                                "awlndratings",
+                                "nftmt.worlds"
+                            ],
+                            "notify_accounts": [
+                                "federation",
+                                "m.federation"
+                            ],
+                            "market_fee": 0.01,
+                            "created_at_block": "70292143",
+                            "created_at_time": "1596576277500"
+                        },
+                        "schema": {
+                            "schema_name": "faces.worlds",
+                            "format": [
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "backimg",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "rarity",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "race",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "cardid",
+                                    "type": "uint16"
+                                },
+                                {
+                                    "name": "shine",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "material_grade",
+                                    "type": "uint64"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "type",
+                                    "type": "string"
+                                }
+                            ],
+                            "created_at_block": "74084198",
+                            "created_at_time": "1598472952000"
+                        },
+                        "template": {
+                            "template_id": "19649",
+                            "max_supply": "0",
+                            "is_transferable": true,
+                            "is_burnable": true,
+                            "issued_supply": "6169924",
+                            "immutable_data": {
+                                "img": "QmXa4fjB7AVd8rLvUcBk5uPKVugg2Bfj26PEwVth71T3yn",
+                                "name": "Male Human",
+                                "race": "Human",
+                                "type": "Human Male",
+                                "shine": "Stone",
+                                "cardid": 5,
+                                "rarity": "Abundant",
+                                "backimg": "QmZaTDq94RKyK1E1Mao4W9JCZx6LFnDFfWhGMN28Ecino5",
+                                "description": "Mining on Alien Worlds ain't like mining on Earth, farm boy"
+                            },
+                            "created_at_time": "1602238964000",
+                            "created_at_block": "81612489"
+                        },
+                        "mutable_data": {},
+                        "immutable_data": {},
+                        "template_mint": "134898",
+                        "backed_tokens": [],
+                        "burned_by_account": null,
+                        "burned_at_block": null,
+                        "burned_at_time": null,
+                        "updated_at_block": "273016282",
+                        "updated_at_time": "1697979471500",
+                        "transferred_at_block": "273016282",
+                        "transferred_at_time": "1697979471500",
+                        "minted_at_block": "108900685",
+                        "minted_at_time": "1615888929000",
+                        "sales": [],
+                        "auctions": [],
+                        "prices": [
+                            {
+                                "market_contract": "atomicmarket",
+                                "token": {
+                                    "token_symbol": "WAX",
+                                    "token_precision": 8,
+                                    "token_contract": "eosio.token"
+                                },
+                                "median": "25000000",
+                                "average": "60980535",
+                                "suggested_median": "1747312",
+                                "suggested_average": "1954915",
+                                "min": "1",
+                                "max": "777800000000",
+                                "sales": "999148"
+                            }
+                        ],
+                        "data": {
+                            "img": "QmXa4fjB7AVd8rLvUcBk5uPKVugg2Bfj26PEwVth71T3yn",
+                            "name": "Male Human",
+                            "race": "Human",
+                            "type": "Human Male",
+                            "shine": "Stone",
+                            "cardid": 5,
+                            "rarity": "Abundant",
+                            "backimg": "QmZaTDq94RKyK1E1Mao4W9JCZx6LFnDFfWhGMN28Ecino5",
+                            "description": "Mining on Alien Worlds ain't like mining on Earth, farm boy"
+                        },
+                        "name": "Male Human"
+                    }
+                ],
+                "bids": [],
+                "maker_marketplace": "",
+                "taker_marketplace": null,
+                "claimed_by_buyer": false,
+                "claimed_by_seller": false,
+                "collection": {
+                    "collection_name": "alien.worlds",
+                    "name": "Alien Worlds",
+                    "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                    "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                    "author": "federation",
+                    "allow_notify": true,
+                    "authorized_accounts": [
+                        "federation",
+                        "open.worlds",
+                        "terra.worlds",
+                        "m.federation",
+                        "s.federation",
+                        "uspts.worlds",
+                        "awlndratings",
+                        "nftmt.worlds"
+                    ],
+                    "notify_accounts": [
+                        "federation",
+                        "m.federation"
+                    ],
+                    "market_fee": 0.01,
+                    "created_at_block": "70292143",
+                    "created_at_time": "1596576277500"
+                },
+                "end_time": "1698026271000",
+                "is_seller_contract": false,
+                "updated_at_block": "273016282",
+                "updated_at_time": "1697979471500",
+                "created_at_block": "273016282",
+                "created_at_time": "1697979471500",
+                "state": 1
+            },
+            {
+                "market_contract": "atomicmarket",
+                "assets_contract": "atomicassets",
+                "auction_id": "1308116",
+                "seller": "r4t4o.c.wam",
+                "buyer": null,
+                "price": {
+                    "token_contract": "eosio.token",
+                    "token_symbol": "WAX",
+                    "token_precision": 8,
+                    "amount": "99999900"
+                },
+                "assets": [
+                    {
+                        "contract": "atomicassets",
+                        "asset_id": "1099520641086",
+                        "owner": "atomicmarket",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "collection": {
+                            "collection_name": "alien.worlds",
+                            "name": "Alien Worlds",
+                            "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                            "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                            "author": "federation",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "federation",
+                                "open.worlds",
+                                "terra.worlds",
+                                "m.federation",
+                                "s.federation",
+                                "uspts.worlds",
+                                "awlndratings",
+                                "nftmt.worlds"
+                            ],
+                            "notify_accounts": [
+                                "federation",
+                                "m.federation"
+                            ],
+                            "market_fee": 0.01,
+                            "created_at_block": "70292143",
+                            "created_at_time": "1596576277500"
+                        },
+                        "schema": {
+                            "schema_name": "faces.worlds",
+                            "format": [
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "backimg",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "rarity",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "race",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "cardid",
+                                    "type": "uint16"
+                                },
+                                {
+                                    "name": "shine",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "material_grade",
+                                    "type": "uint64"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "type",
+                                    "type": "string"
+                                }
+                            ],
+                            "created_at_block": "74084198",
+                            "created_at_time": "1598472952000"
+                        },
+                        "template": {
+                            "template_id": "19648",
+                            "max_supply": "0",
+                            "is_transferable": true,
+                            "is_burnable": true,
+                            "issued_supply": "1946667",
+                            "immutable_data": {
+                                "img": "QmQUU3KsrRuPiFgmu9wJWp2f9NJ4WzD3eVjMRJdctf9rtR",
+                                "name": "Female Human",
+                                "race": "Human",
+                                "type": "Human Female",
+                                "shine": "Stone",
+                                "cardid": 4,
+                                "rarity": "Abundant",
+                                "backimg": "QmZaTDq94RKyK1E1Mao4W9JCZx6LFnDFfWhGMN28Ecino5",
+                                "description": "Adventure is worthwhile in itself"
+                            },
+                            "created_at_time": "1602238963000",
+                            "created_at_block": "81612487"
+                        },
+                        "mutable_data": {},
+                        "immutable_data": {},
+                        "template_mint": "119788",
+                        "backed_tokens": [],
+                        "burned_by_account": null,
+                        "burned_at_block": null,
+                        "burned_at_time": null,
+                        "updated_at_block": "273016277",
+                        "updated_at_time": "1697979469000",
+                        "transferred_at_block": "273016277",
+                        "transferred_at_time": "1697979469000",
+                        "minted_at_block": "110740487",
+                        "minted_at_time": "1616809090000",
+                        "sales": [],
+                        "auctions": [],
+                        "prices": [
+                            {
+                                "market_contract": "atomicmarket",
+                                "token": {
+                                    "token_symbol": "WAX",
+                                    "token_precision": 8,
+                                    "token_contract": "eosio.token"
+                                },
+                                "median": "26900000",
+                                "average": "54762877",
+                                "suggested_median": "2283789",
+                                "suggested_average": "2073474",
+                                "min": "1",
+                                "max": "444400000000",
+                                "sales": "292583"
+                            }
+                        ],
+                        "data": {
+                            "img": "QmQUU3KsrRuPiFgmu9wJWp2f9NJ4WzD3eVjMRJdctf9rtR",
+                            "name": "Female Human",
+                            "race": "Human",
+                            "type": "Human Female",
+                            "shine": "Stone",
+                            "cardid": 4,
+                            "rarity": "Abundant",
+                            "backimg": "QmZaTDq94RKyK1E1Mao4W9JCZx6LFnDFfWhGMN28Ecino5",
+                            "description": "Adventure is worthwhile in itself"
+                        },
+                        "name": "Female Human"
+                    }
+                ],
+                "bids": [],
+                "maker_marketplace": "",
+                "taker_marketplace": null,
+                "claimed_by_buyer": false,
+                "claimed_by_seller": false,
+                "collection": {
+                    "collection_name": "alien.worlds",
+                    "name": "Alien Worlds",
+                    "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                    "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                    "author": "federation",
+                    "allow_notify": true,
+                    "authorized_accounts": [
+                        "federation",
+                        "open.worlds",
+                        "terra.worlds",
+                        "m.federation",
+                        "s.federation",
+                        "uspts.worlds",
+                        "awlndratings",
+                        "nftmt.worlds"
+                    ],
+                    "notify_accounts": [
+                        "federation",
+                        "m.federation"
+                    ],
+                    "market_fee": 0.01,
+                    "created_at_block": "70292143",
+                    "created_at_time": "1596576277500"
+                },
+                "end_time": "1698029869000",
+                "is_seller_contract": false,
+                "updated_at_block": "273016277",
+                "updated_at_time": "1697979469000",
+                "created_at_block": "273016277",
+                "created_at_time": "1697979469000",
+                "state": 1
+            },
+            {
+                "market_contract": "atomicmarket",
+                "assets_contract": "atomicassets",
+                "auction_id": "1308115",
+                "seller": "r4t4o.c.wam",
+                "buyer": null,
+                "price": {
+                    "token_contract": "eosio.token",
+                    "token_symbol": "WAX",
+                    "token_precision": 8,
+                    "amount": "99990000"
+                },
+                "assets": [
+                    {
+                        "contract": "atomicassets",
+                        "asset_id": "1099523256123",
+                        "owner": "atomicmarket",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "collection": {
+                            "collection_name": "alien.worlds",
+                            "name": "Alien Worlds",
+                            "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                            "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                            "author": "federation",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "federation",
+                                "open.worlds",
+                                "terra.worlds",
+                                "m.federation",
+                                "s.federation",
+                                "uspts.worlds",
+                                "awlndratings",
+                                "nftmt.worlds"
+                            ],
+                            "notify_accounts": [
+                                "federation",
+                                "m.federation"
+                            ],
+                            "market_fee": 0.01,
+                            "created_at_block": "70292143",
+                            "created_at_time": "1596576277500"
+                        },
+                        "schema": {
+                            "schema_name": "faces.worlds",
+                            "format": [
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "backimg",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "rarity",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "race",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "cardid",
+                                    "type": "uint16"
+                                },
+                                {
+                                    "name": "shine",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "material_grade",
+                                    "type": "uint64"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "type",
+                                    "type": "string"
+                                }
+                            ],
+                            "created_at_block": "74084198",
+                            "created_at_time": "1598472952000"
+                        },
+                        "template": {
+                            "template_id": "19649",
+                            "max_supply": "0",
+                            "is_transferable": true,
+                            "is_burnable": true,
+                            "issued_supply": "6169924",
+                            "immutable_data": {
+                                "img": "QmXa4fjB7AVd8rLvUcBk5uPKVugg2Bfj26PEwVth71T3yn",
+                                "name": "Male Human",
+                                "race": "Human",
+                                "type": "Human Male",
+                                "shine": "Stone",
+                                "cardid": 5,
+                                "rarity": "Abundant",
+                                "backimg": "QmZaTDq94RKyK1E1Mao4W9JCZx6LFnDFfWhGMN28Ecino5",
+                                "description": "Mining on Alien Worlds ain't like mining on Earth, farm boy"
+                            },
+                            "created_at_time": "1602238964000",
+                            "created_at_block": "81612489"
+                        },
+                        "mutable_data": {},
+                        "immutable_data": {},
+                        "template_mint": "272579",
+                        "backed_tokens": [],
+                        "burned_by_account": null,
+                        "burned_at_block": null,
+                        "burned_at_time": null,
+                        "updated_at_block": "273016257",
+                        "updated_at_time": "1697979459000",
+                        "transferred_at_block": "273016257",
+                        "transferred_at_time": "1697979459000",
+                        "minted_at_block": "113374309",
+                        "minted_at_time": "1618126587500",
+                        "sales": [],
+                        "auctions": [],
+                        "prices": [
+                            {
+                                "market_contract": "atomicmarket",
+                                "token": {
+                                    "token_symbol": "WAX",
+                                    "token_precision": 8,
+                                    "token_contract": "eosio.token"
+                                },
+                                "median": "25000000",
+                                "average": "60980535",
+                                "suggested_median": "1747312",
+                                "suggested_average": "1954915",
+                                "min": "1",
+                                "max": "777800000000",
+                                "sales": "999148"
+                            }
+                        ],
+                        "data": {
+                            "img": "QmXa4fjB7AVd8rLvUcBk5uPKVugg2Bfj26PEwVth71T3yn",
+                            "name": "Male Human",
+                            "race": "Human",
+                            "type": "Human Male",
+                            "shine": "Stone",
+                            "cardid": 5,
+                            "rarity": "Abundant",
+                            "backimg": "QmZaTDq94RKyK1E1Mao4W9JCZx6LFnDFfWhGMN28Ecino5",
+                            "description": "Mining on Alien Worlds ain't like mining on Earth, farm boy"
+                        },
+                        "name": "Male Human"
+                    }
+                ],
+                "bids": [],
+                "maker_marketplace": "",
+                "taker_marketplace": null,
+                "claimed_by_buyer": false,
+                "claimed_by_seller": false,
+                "collection": {
+                    "collection_name": "alien.worlds",
+                    "name": "Alien Worlds",
+                    "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                    "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                    "author": "federation",
+                    "allow_notify": true,
+                    "authorized_accounts": [
+                        "federation",
+                        "open.worlds",
+                        "terra.worlds",
+                        "m.federation",
+                        "s.federation",
+                        "uspts.worlds",
+                        "awlndratings",
+                        "nftmt.worlds"
+                    ],
+                    "notify_accounts": [
+                        "federation",
+                        "m.federation"
+                    ],
+                    "market_fee": 0.01,
+                    "created_at_block": "70292143",
+                    "created_at_time": "1596576277500"
+                },
+                "end_time": "1698029859000",
+                "is_seller_contract": false,
+                "updated_at_block": "273016257",
+                "updated_at_time": "1697979459000",
+                "created_at_block": "273016257",
+                "created_at_time": "1697979459000",
+                "state": 1
+            },
+            {
+                "market_contract": "atomicmarket",
+                "assets_contract": "atomicassets",
+                "auction_id": "1308114",
+                "seller": "xk5qu.wam",
+                "buyer": null,
+                "price": {
+                    "token_contract": "eosio.token",
+                    "token_symbol": "WAX",
+                    "token_precision": 8,
+                    "amount": "199999000"
+                },
+                "assets": [
+                    {
+                        "contract": "atomicassets",
+                        "asset_id": "1099523422685",
+                        "owner": "atomicmarket",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "collection": {
+                            "collection_name": "alien.worlds",
+                            "name": "Alien Worlds",
+                            "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                            "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                            "author": "federation",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "federation",
+                                "open.worlds",
+                                "terra.worlds",
+                                "m.federation",
+                                "s.federation",
+                                "uspts.worlds",
+                                "awlndratings",
+                                "nftmt.worlds"
+                            ],
+                            "notify_accounts": [
+                                "federation",
+                                "m.federation"
+                            ],
+                            "market_fee": 0.01,
+                            "created_at_block": "70292143",
+                            "created_at_time": "1596576277500"
+                        },
+                        "schema": {
+                            "schema_name": "faces.worlds",
+                            "format": [
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "backimg",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "rarity",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "race",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "cardid",
+                                    "type": "uint16"
+                                },
+                                {
+                                    "name": "shine",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "material_grade",
+                                    "type": "uint64"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "type",
+                                    "type": "string"
+                                }
+                            ],
+                            "created_at_block": "74084198",
+                            "created_at_time": "1598472952000"
+                        },
+                        "template": {
+                            "template_id": "19648",
+                            "max_supply": "0",
+                            "is_transferable": true,
+                            "is_burnable": true,
+                            "issued_supply": "1946667",
+                            "immutable_data": {
+                                "img": "QmQUU3KsrRuPiFgmu9wJWp2f9NJ4WzD3eVjMRJdctf9rtR",
+                                "name": "Female Human",
+                                "race": "Human",
+                                "type": "Human Female",
+                                "shine": "Stone",
+                                "cardid": 4,
+                                "rarity": "Abundant",
+                                "backimg": "QmZaTDq94RKyK1E1Mao4W9JCZx6LFnDFfWhGMN28Ecino5",
+                                "description": "Adventure is worthwhile in itself"
+                            },
+                            "created_at_time": "1602238963000",
+                            "created_at_block": "81612487"
+                        },
+                        "mutable_data": {},
+                        "immutable_data": {},
+                        "template_mint": "176645",
+                        "backed_tokens": [],
+                        "burned_by_account": null,
+                        "burned_at_block": null,
+                        "burned_at_time": null,
+                        "updated_at_block": "273016252",
+                        "updated_at_time": "1697979456500",
+                        "transferred_at_block": "273016252",
+                        "transferred_at_time": "1697979456500",
+                        "minted_at_block": "113552873",
+                        "minted_at_time": "1618215953500",
+                        "sales": [],
+                        "auctions": [],
+                        "prices": [
+                            {
+                                "market_contract": "atomicmarket",
+                                "token": {
+                                    "token_symbol": "WAX",
+                                    "token_precision": 8,
+                                    "token_contract": "eosio.token"
+                                },
+                                "median": "26900000",
+                                "average": "54762877",
+                                "suggested_median": "2283789",
+                                "suggested_average": "2073474",
+                                "min": "1",
+                                "max": "444400000000",
+                                "sales": "292583"
+                            }
+                        ],
+                        "data": {
+                            "img": "QmQUU3KsrRuPiFgmu9wJWp2f9NJ4WzD3eVjMRJdctf9rtR",
+                            "name": "Female Human",
+                            "race": "Human",
+                            "type": "Human Female",
+                            "shine": "Stone",
+                            "cardid": 4,
+                            "rarity": "Abundant",
+                            "backimg": "QmZaTDq94RKyK1E1Mao4W9JCZx6LFnDFfWhGMN28Ecino5",
+                            "description": "Adventure is worthwhile in itself"
+                        },
+                        "name": "Female Human"
+                    }
+                ],
+                "bids": [],
+                "maker_marketplace": "",
+                "taker_marketplace": null,
+                "claimed_by_buyer": false,
+                "claimed_by_seller": false,
+                "collection": {
+                    "collection_name": "alien.worlds",
+                    "name": "Alien Worlds",
+                    "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                    "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                    "author": "federation",
+                    "allow_notify": true,
+                    "authorized_accounts": [
+                        "federation",
+                        "open.worlds",
+                        "terra.worlds",
+                        "m.federation",
+                        "s.federation",
+                        "uspts.worlds",
+                        "awlndratings",
+                        "nftmt.worlds"
+                    ],
+                    "notify_accounts": [
+                        "federation",
+                        "m.federation"
+                    ],
+                    "market_fee": 0.01,
+                    "created_at_block": "70292143",
+                    "created_at_time": "1596576277500"
+                },
+                "end_time": "1698026256000",
+                "is_seller_contract": false,
+                "updated_at_block": "273016252",
+                "updated_at_time": "1697979456500",
+                "created_at_block": "273016252",
+                "created_at_time": "1697979456500",
+                "state": 1
+            },
+            {
+                "market_contract": "atomicmarket",
+                "assets_contract": "atomicassets",
+                "auction_id": "1308113",
+                "seller": "r4t4o.c.wam",
+                "buyer": null,
+                "price": {
+                    "token_contract": "eosio.token",
+                    "token_symbol": "WAX",
+                    "token_precision": 8,
+                    "amount": "399990000"
+                },
+                "assets": [
+                    {
+                        "contract": "atomicassets",
+                        "asset_id": "1099522603660",
+                        "owner": "atomicmarket",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "collection": {
+                            "collection_name": "alien.worlds",
+                            "name": "Alien Worlds",
+                            "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                            "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                            "author": "federation",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "federation",
+                                "open.worlds",
+                                "terra.worlds",
+                                "m.federation",
+                                "s.federation",
+                                "uspts.worlds",
+                                "awlndratings",
+                                "nftmt.worlds"
+                            ],
+                            "notify_accounts": [
+                                "federation",
+                                "m.federation"
+                            ],
+                            "market_fee": 0.01,
+                            "created_at_block": "70292143",
+                            "created_at_time": "1596576277500"
+                        },
+                        "schema": {
+                            "schema_name": "arms.worlds",
+                            "format": [
+                                {
+                                    "name": "cardid",
+                                    "type": "uint16"
+                                },
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "backimg",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "rarity",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "shine",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "material_grade",
+                                    "type": "uint64"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "class",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "attack",
+                                    "type": "uint8"
+                                },
+                                {
+                                    "name": "defense",
+                                    "type": "uint8"
+                                }
+                            ],
+                            "created_at_block": "81610824",
+                            "created_at_time": "1602238131500"
+                        },
+                        "template": {
+                            "template_id": "19610",
+                            "max_supply": "0",
+                            "is_transferable": true,
+                            "is_burnable": true,
+                            "issued_supply": "358988",
+                            "immutable_data": {
+                                "img": "QmPSjMKxC6aZYJiKxSVtb6yVRB7CYC327zUt7dpEbMXot2",
+                                "name": "Standard Issue Axe",
+                                "class": "Neutral",
+                                "shine": "Stone",
+                                "attack": 10,
+                                "cardid": 29,
+                                "rarity": "Abundant",
+                                "backimg": "QmTorcZbdarHPssCWeXJgyUso3sWzGKQabvnEujE8i9yMw",
+                                "defense": 6,
+                                "description": "You get an Axe .. Everyone gets an Axe!"
+                            },
+                            "created_at_time": "1602238155000",
+                            "created_at_block": "81610871"
+                        },
+                        "mutable_data": {},
+                        "immutable_data": {},
+                        "template_mint": "125257",
+                        "backed_tokens": [],
+                        "burned_by_account": null,
+                        "burned_at_block": null,
+                        "burned_at_time": null,
+                        "updated_at_block": "273016236",
+                        "updated_at_time": "1697979448500",
+                        "transferred_at_block": "273016236",
+                        "transferred_at_time": "1697979448500",
+                        "minted_at_block": "112927184",
+                        "minted_at_time": "1617902833500",
+                        "sales": [],
+                        "auctions": [],
+                        "prices": [
+                            {
+                                "market_contract": "atomicmarket",
+                                "token": {
+                                    "token_symbol": "WAX",
+                                    "token_precision": 8,
+                                    "token_contract": "eosio.token"
+                                },
+                                "median": "37000000",
+                                "average": "63146414",
+                                "suggested_median": "13721400",
+                                "suggested_average": "13721400",
+                                "min": "1",
+                                "max": "39900000000",
+                                "sales": "99990"
+                            }
+                        ],
+                        "data": {
+                            "img": "QmPSjMKxC6aZYJiKxSVtb6yVRB7CYC327zUt7dpEbMXot2",
+                            "name": "Standard Issue Axe",
+                            "class": "Neutral",
+                            "shine": "Stone",
+                            "attack": 10,
+                            "cardid": 29,
+                            "rarity": "Abundant",
+                            "backimg": "QmTorcZbdarHPssCWeXJgyUso3sWzGKQabvnEujE8i9yMw",
+                            "defense": 6,
+                            "description": "You get an Axe .. Everyone gets an Axe!"
+                        },
+                        "name": "Standard Issue Axe"
+                    }
+                ],
+                "bids": [],
+                "maker_marketplace": "",
+                "taker_marketplace": null,
+                "claimed_by_buyer": false,
+                "claimed_by_seller": false,
+                "collection": {
+                    "collection_name": "alien.worlds",
+                    "name": "Alien Worlds",
+                    "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                    "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                    "author": "federation",
+                    "allow_notify": true,
+                    "authorized_accounts": [
+                        "federation",
+                        "open.worlds",
+                        "terra.worlds",
+                        "m.federation",
+                        "s.federation",
+                        "uspts.worlds",
+                        "awlndratings",
+                        "nftmt.worlds"
+                    ],
+                    "notify_accounts": [
+                        "federation",
+                        "m.federation"
+                    ],
+                    "market_fee": 0.01,
+                    "created_at_block": "70292143",
+                    "created_at_time": "1596576277500"
+                },
+                "end_time": "1698029848000",
+                "is_seller_contract": false,
+                "updated_at_block": "273016236",
+                "updated_at_time": "1697979448500",
+                "created_at_block": "273016236",
+                "created_at_time": "1697979448500",
+                "state": 1
+            },
+            {
+                "market_contract": "atomicmarket",
+                "assets_contract": "atomicassets",
+                "auction_id": "1308112",
+                "seller": "xk5qu.wam",
+                "buyer": null,
+                "price": {
+                    "token_contract": "eosio.token",
+                    "token_symbol": "WAX",
+                    "token_precision": 8,
+                    "amount": "199990000"
+                },
+                "assets": [
+                    {
+                        "contract": "atomicassets",
+                        "asset_id": "1099521936689",
+                        "owner": "atomicmarket",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "collection": {
+                            "collection_name": "alien.worlds",
+                            "name": "Alien Worlds",
+                            "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                            "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                            "author": "federation",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "federation",
+                                "open.worlds",
+                                "terra.worlds",
+                                "m.federation",
+                                "s.federation",
+                                "uspts.worlds",
+                                "awlndratings",
+                                "nftmt.worlds"
+                            ],
+                            "notify_accounts": [
+                                "federation",
+                                "m.federation"
+                            ],
+                            "market_fee": 0.01,
+                            "created_at_block": "70292143",
+                            "created_at_time": "1596576277500"
+                        },
+                        "schema": {
+                            "schema_name": "crew.worlds",
+                            "format": [
+                                {
+                                    "name": "cardid",
+                                    "type": "uint16"
+                                },
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "backimg",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "rarity",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "shine",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "material_grade",
+                                    "type": "uint64"
+                                },
+                                {
+                                    "name": "race",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "element",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "attack",
+                                    "type": "uint8"
+                                },
+                                {
+                                    "name": "defense",
+                                    "type": "uint8"
+                                },
+                                {
+                                    "name": "movecost",
+                                    "type": "uint8"
+                                },
+                                {
+                                    "name": "td_fights",
+                                    "type": "uint16"
+                                },
+                                {
+                                    "name": "td_wins",
+                                    "type": "uint16"
+                                },
+                                {
+                                    "name": "td_winstreak",
+                                    "type": "uint16"
+                                }
+                            ],
+                            "created_at_block": "81611157",
+                            "created_at_time": "1602238298000"
+                        },
+                        "template": {
+                            "template_id": "19637",
+                            "max_supply": "0",
+                            "is_transferable": true,
+                            "is_burnable": true,
+                            "issued_supply": "376748",
+                            "immutable_data": {
+                                "img": "QmVXsVEkT5fuASSexrcMQuuXWZFFSuGRSyRkLGghq1yhpW",
+                                "name": "Stealth Mercenary",
+                                "race": "Unknown",
+                                "shine": "Stone",
+                                "attack": 8,
+                                "cardid": 14,
+                                "rarity": "Abundant",
+                                "backimg": "QmaUNXHeeFvMGD4vPCC3vpGTr77tJvBHjh1ndUm4J7o4tP",
+                                "defense": 8,
+                                "element": "Air",
+                                "movecost": 20,
+                                "description": "Swift as an arrow and stealthy as a shadow"
+                            },
+                            "created_at_time": "1602238310000",
+                            "created_at_block": "81611181"
+                        },
+                        "mutable_data": {},
+                        "immutable_data": {},
+                        "template_mint": "125549",
+                        "backed_tokens": [],
+                        "burned_by_account": null,
+                        "burned_at_block": null,
+                        "burned_at_time": null,
+                        "updated_at_block": "273016232",
+                        "updated_at_time": "1697979446500",
+                        "transferred_at_block": "273016232",
+                        "transferred_at_time": "1697979446500",
+                        "minted_at_block": "112427299",
+                        "minted_at_time": "1617652781500",
+                        "sales": [],
+                        "auctions": [],
+                        "prices": [
+                            {
+                                "market_contract": "atomicmarket",
+                                "token": {
+                                    "token_symbol": "WAX",
+                                    "token_precision": 8,
+                                    "token_contract": "eosio.token"
+                                },
+                                "median": "37000000",
+                                "average": "88413935",
+                                "suggested_median": "28138671",
+                                "suggested_average": "26133090",
+                                "min": "1",
+                                "max": "532100000000",
+                                "sales": "102560"
+                            }
+                        ],
+                        "data": {
+                            "img": "QmVXsVEkT5fuASSexrcMQuuXWZFFSuGRSyRkLGghq1yhpW",
+                            "name": "Stealth Mercenary",
+                            "race": "Unknown",
+                            "shine": "Stone",
+                            "attack": 8,
+                            "cardid": 14,
+                            "rarity": "Abundant",
+                            "backimg": "QmaUNXHeeFvMGD4vPCC3vpGTr77tJvBHjh1ndUm4J7o4tP",
+                            "defense": 8,
+                            "element": "Air",
+                            "movecost": 20,
+                            "description": "Swift as an arrow and stealthy as a shadow"
+                        },
+                        "name": "Stealth Mercenary"
+                    }
+                ],
+                "bids": [],
+                "maker_marketplace": "",
+                "taker_marketplace": null,
+                "claimed_by_buyer": false,
+                "claimed_by_seller": false,
+                "collection": {
+                    "collection_name": "alien.worlds",
+                    "name": "Alien Worlds",
+                    "img": "QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg",
+                    "images": "{\"banner_1920x500\":\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\",\"logo_512x512\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\"}",
+                    "author": "federation",
+                    "allow_notify": true,
+                    "authorized_accounts": [
+                        "federation",
+                        "open.worlds",
+                        "terra.worlds",
+                        "m.federation",
+                        "s.federation",
+                        "uspts.worlds",
+                        "awlndratings",
+                        "nftmt.worlds"
+                    ],
+                    "notify_accounts": [
+                        "federation",
+                        "m.federation"
+                    ],
+                    "market_fee": 0.01,
+                    "created_at_block": "70292143",
+                    "created_at_time": "1596576277500"
+                },
+                "end_time": "1698026246000",
+                "is_seller_contract": false,
+                "updated_at_block": "273016232",
+                "updated_at_time": "1697979446500",
+                "created_at_block": "273016232",
+                "created_at_time": "1697979446500",
+                "state": 1
+            }
+        ],
+        "query_time": 1697980962551
+    },
+    "text": "{\"success\":true,\"data\":[{\"market_contract\":\"atomicmarket\",\"assets_contract\":\"atomicassets\",\"auction_id\":\"1308121\",\"seller\":\"xk5qu.wam\",\"buyer\":null,\"price\":{\"token_contract\":\"eosio.token\",\"token_symbol\":\"WAX\",\"token_precision\":8,\"amount\":\"299999000\"},\"assets\":[{\"contract\":\"atomicassets\",\"asset_id\":\"1099527889835\",\"owner\":\"atomicmarket\",\"is_transferable\":true,\"is_burnable\":true,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"schema\":{\"schema_name\":\"crew.worlds\",\"format\":[{\"name\":\"cardid\",\"type\":\"uint16\"},{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"backimg\",\"type\":\"image\"},{\"name\":\"rarity\",\"type\":\"string\"},{\"name\":\"shine\",\"type\":\"string\"},{\"name\":\"material_grade\",\"type\":\"uint64\"},{\"name\":\"race\",\"type\":\"string\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"element\",\"type\":\"string\"},{\"name\":\"attack\",\"type\":\"uint8\"},{\"name\":\"defense\",\"type\":\"uint8\"},{\"name\":\"movecost\",\"type\":\"uint8\"},{\"name\":\"td_fights\",\"type\":\"uint16\"},{\"name\":\"td_wins\",\"type\":\"uint16\"},{\"name\":\"td_winstreak\",\"type\":\"uint16\"}],\"created_at_block\":\"81611157\",\"created_at_time\":\"1602238298000\"},\"template\":{\"template_id\":\"19644\",\"max_supply\":\"0\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"358015\",\"immutable_data\":{\"img\":\"Qme5HWgJritQsBFeGsbYW1XCpe9YBmJY5z6SLq8aGbWQtP\",\"name\":\"Grey Peacemaker\",\"race\":\"Grey\",\"shine\":\"Stone\",\"attack\":16,\"cardid\":21,\"rarity\":\"Abundant\",\"backimg\":\"QmaUNXHeeFvMGD4vPCC3vpGTr77tJvBHjh1ndUm4J7o4tP\",\"defense\":17,\"element\":\"Gem\",\"movecost\":40,\"description\":\"Beware of Greys bearing gifts\"},\"created_at_time\":\"1602238316000\",\"created_at_block\":\"81611193\"},\"mutable_data\":{},\"immutable_data\":{},\"template_mint\":\"195336\",\"backed_tokens\":[],\"burned_by_account\":null,\"burned_at_block\":null,\"burned_at_time\":null,\"updated_at_block\":\"273016345\",\"updated_at_time\":\"1697979503000\",\"transferred_at_block\":\"273016345\",\"transferred_at_time\":\"1697979503000\",\"minted_at_block\":\"115421739\",\"minted_at_time\":\"1619151752000\",\"sales\":[],\"auctions\":[],\"prices\":[{\"market_contract\":\"atomicmarket\",\"token\":{\"token_symbol\":\"WAX\",\"token_precision\":8,\"token_contract\":\"eosio.token\"},\"median\":\"39900000\",\"average\":\"101601934\",\"suggested_median\":\"29990000\",\"suggested_average\":\"29865296\",\"min\":\"1\",\"max\":\"2790000000000\",\"sales\":\"97329\"}],\"data\":{\"img\":\"Qme5HWgJritQsBFeGsbYW1XCpe9YBmJY5z6SLq8aGbWQtP\",\"name\":\"Grey Peacemaker\",\"race\":\"Grey\",\"shine\":\"Stone\",\"attack\":16,\"cardid\":21,\"rarity\":\"Abundant\",\"backimg\":\"QmaUNXHeeFvMGD4vPCC3vpGTr77tJvBHjh1ndUm4J7o4tP\",\"defense\":17,\"element\":\"Gem\",\"movecost\":40,\"description\":\"Beware of Greys bearing gifts\"},\"name\":\"Grey Peacemaker\"}],\"bids\":[],\"maker_marketplace\":\"\",\"taker_marketplace\":null,\"claimed_by_buyer\":false,\"claimed_by_seller\":false,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"end_time\":\"1698026303000\",\"is_seller_contract\":false,\"updated_at_block\":\"273016345\",\"updated_at_time\":\"1697979503000\",\"created_at_block\":\"273016345\",\"created_at_time\":\"1697979503000\",\"state\":1},{\"market_contract\":\"atomicmarket\",\"assets_contract\":\"atomicassets\",\"auction_id\":\"1308120\",\"seller\":\"xk5qu.wam\",\"buyer\":null,\"price\":{\"token_contract\":\"eosio.token\",\"token_symbol\":\"WAX\",\"token_precision\":8,\"amount\":\"499990000\"},\"assets\":[{\"contract\":\"atomicassets\",\"asset_id\":\"1099519835508\",\"owner\":\"atomicmarket\",\"is_transferable\":true,\"is_burnable\":true,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"schema\":{\"schema_name\":\"arms.worlds\",\"format\":[{\"name\":\"cardid\",\"type\":\"uint16\"},{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"backimg\",\"type\":\"image\"},{\"name\":\"rarity\",\"type\":\"string\"},{\"name\":\"shine\",\"type\":\"string\"},{\"name\":\"material_grade\",\"type\":\"uint64\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"class\",\"type\":\"string\"},{\"name\":\"attack\",\"type\":\"uint8\"},{\"name\":\"defense\",\"type\":\"uint8\"}],\"created_at_block\":\"81610824\",\"created_at_time\":\"1602238131500\"},\"template\":{\"template_id\":\"19583\",\"max_supply\":\"0\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"374400\",\"immutable_data\":{\"img\":\"QmYfMb6jv4fAkYKCYn36kHeXE1PpPhqwCuh5jP9KbJs8jC\",\"name\":\"Standard Sword\",\"class\":\"Neutral\",\"shine\":\"Stone\",\"attack\":11,\"cardid\":2,\"rarity\":\"Abundant\",\"backimg\":\"QmTorcZbdarHPssCWeXJgyUso3sWzGKQabvnEujE8i9yMw\",\"defense\":5,\"description\":\"The Standard Sword Company was the first non-mining company on Eyeke\"},\"created_at_time\":\"1602238133000\",\"created_at_block\":\"81610827\"},\"mutable_data\":{},\"immutable_data\":{},\"template_mint\":\"97852\",\"backed_tokens\":[],\"burned_by_account\":null,\"burned_at_block\":null,\"burned_at_time\":null,\"updated_at_block\":\"273016325\",\"updated_at_time\":\"1697979493000\",\"transferred_at_block\":\"273016325\",\"transferred_at_time\":\"1697979493000\",\"minted_at_block\":\"109282114\",\"minted_at_time\":\"1616079699500\",\"sales\":[],\"auctions\":[],\"prices\":[{\"market_contract\":\"atomicmarket\",\"token\":{\"token_symbol\":\"WAX\",\"token_precision\":8,\"token_contract\":\"eosio.token\"},\"median\":\"36000000\",\"average\":\"64561702\",\"suggested_median\":\"14008500\",\"suggested_average\":\"13993833\",\"min\":\"1\",\"max\":\"25000000000\",\"sales\":\"104414\"}],\"data\":{\"img\":\"QmYfMb6jv4fAkYKCYn36kHeXE1PpPhqwCuh5jP9KbJs8jC\",\"name\":\"Standard Sword\",\"class\":\"Neutral\",\"shine\":\"Stone\",\"attack\":11,\"cardid\":2,\"rarity\":\"Abundant\",\"backimg\":\"QmTorcZbdarHPssCWeXJgyUso3sWzGKQabvnEujE8i9yMw\",\"defense\":5,\"description\":\"The Standard Sword Company was the first non-mining company on Eyeke\"},\"name\":\"Standard Sword\"}],\"bids\":[],\"maker_marketplace\":\"\",\"taker_marketplace\":null,\"claimed_by_buyer\":false,\"claimed_by_seller\":false,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"end_time\":\"1698026293000\",\"is_seller_contract\":false,\"updated_at_block\":\"273016325\",\"updated_at_time\":\"1697979493000\",\"created_at_block\":\"273016325\",\"created_at_time\":\"1697979493000\",\"state\":1},{\"market_contract\":\"atomicmarket\",\"assets_contract\":\"atomicassets\",\"auction_id\":\"1308119\",\"seller\":\"xk5qu.wam\",\"buyer\":null,\"price\":{\"token_contract\":\"eosio.token\",\"token_symbol\":\"WAX\",\"token_precision\":8,\"amount\":\"299999000\"},\"assets\":[{\"contract\":\"atomicassets\",\"asset_id\":\"1099519612214\",\"owner\":\"atomicmarket\",\"is_transferable\":true,\"is_burnable\":true,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"schema\":{\"schema_name\":\"arms.worlds\",\"format\":[{\"name\":\"cardid\",\"type\":\"uint16\"},{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"backimg\",\"type\":\"image\"},{\"name\":\"rarity\",\"type\":\"string\"},{\"name\":\"shine\",\"type\":\"string\"},{\"name\":\"material_grade\",\"type\":\"uint64\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"class\",\"type\":\"string\"},{\"name\":\"attack\",\"type\":\"uint8\"},{\"name\":\"defense\",\"type\":\"uint8\"}],\"created_at_block\":\"81610824\",\"created_at_time\":\"1602238131500\"},\"template\":{\"template_id\":\"19610\",\"max_supply\":\"0\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"358988\",\"immutable_data\":{\"img\":\"QmPSjMKxC6aZYJiKxSVtb6yVRB7CYC327zUt7dpEbMXot2\",\"name\":\"Standard Issue Axe\",\"class\":\"Neutral\",\"shine\":\"Stone\",\"attack\":10,\"cardid\":29,\"rarity\":\"Abundant\",\"backimg\":\"QmTorcZbdarHPssCWeXJgyUso3sWzGKQabvnEujE8i9yMw\",\"defense\":6,\"description\":\"You get an Axe .. Everyone gets an Axe!\"},\"created_at_time\":\"1602238155000\",\"created_at_block\":\"81610871\"},\"mutable_data\":{},\"immutable_data\":{},\"template_mint\":\"88478\",\"backed_tokens\":[],\"burned_by_account\":null,\"burned_at_block\":null,\"burned_at_time\":null,\"updated_at_block\":\"273016303\",\"updated_at_time\":\"1697979482000\",\"transferred_at_block\":\"273016303\",\"transferred_at_time\":\"1697979482000\",\"minted_at_block\":\"108796686\",\"minted_at_time\":\"1615836923500\",\"sales\":[],\"auctions\":[],\"prices\":[{\"market_contract\":\"atomicmarket\",\"token\":{\"token_symbol\":\"WAX\",\"token_precision\":8,\"token_contract\":\"eosio.token\"},\"median\":\"37000000\",\"average\":\"63146414\",\"suggested_median\":\"13721400\",\"suggested_average\":\"13721400\",\"min\":\"1\",\"max\":\"39900000000\",\"sales\":\"99990\"}],\"data\":{\"img\":\"QmPSjMKxC6aZYJiKxSVtb6yVRB7CYC327zUt7dpEbMXot2\",\"name\":\"Standard Issue Axe\",\"class\":\"Neutral\",\"shine\":\"Stone\",\"attack\":10,\"cardid\":29,\"rarity\":\"Abundant\",\"backimg\":\"QmTorcZbdarHPssCWeXJgyUso3sWzGKQabvnEujE8i9yMw\",\"defense\":6,\"description\":\"You get an Axe .. Everyone gets an Axe!\"},\"name\":\"Standard Issue Axe\"}],\"bids\":[],\"maker_marketplace\":\"\",\"taker_marketplace\":null,\"claimed_by_buyer\":false,\"claimed_by_seller\":false,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"end_time\":\"1698026282000\",\"is_seller_contract\":false,\"updated_at_block\":\"273016303\",\"updated_at_time\":\"1697979482000\",\"created_at_block\":\"273016303\",\"created_at_time\":\"1697979482000\",\"state\":1},{\"market_contract\":\"atomicmarket\",\"assets_contract\":\"atomicassets\",\"auction_id\":\"1308118\",\"seller\":\"r4t4o.c.wam\",\"buyer\":null,\"price\":{\"token_contract\":\"eosio.token\",\"token_symbol\":\"WAX\",\"token_precision\":8,\"amount\":\"199999900\"},\"assets\":[{\"contract\":\"atomicassets\",\"asset_id\":\"1099521959565\",\"owner\":\"atomicmarket\",\"is_transferable\":true,\"is_burnable\":true,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"schema\":{\"schema_name\":\"crew.worlds\",\"format\":[{\"name\":\"cardid\",\"type\":\"uint16\"},{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"backimg\",\"type\":\"image\"},{\"name\":\"rarity\",\"type\":\"string\"},{\"name\":\"shine\",\"type\":\"string\"},{\"name\":\"material_grade\",\"type\":\"uint64\"},{\"name\":\"race\",\"type\":\"string\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"element\",\"type\":\"string\"},{\"name\":\"attack\",\"type\":\"uint8\"},{\"name\":\"defense\",\"type\":\"uint8\"},{\"name\":\"movecost\",\"type\":\"uint8\"},{\"name\":\"td_fights\",\"type\":\"uint16\"},{\"name\":\"td_wins\",\"type\":\"uint16\"},{\"name\":\"td_winstreak\",\"type\":\"uint16\"}],\"created_at_block\":\"81611157\",\"created_at_time\":\"1602238298000\"},\"template\":{\"template_id\":\"19632\",\"max_supply\":\"0\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"376907\",\"immutable_data\":{\"img\":\"QmeNWTL3EPT1nM9P8bM2PrAy38bTc9ZTg91P7XntwLmr8Q\",\"name\":\"Grey Peacemaker\",\"race\":\"Grey\",\"shine\":\"Stone\",\"attack\":17,\"cardid\":9,\"rarity\":\"Abundant\",\"backimg\":\"QmaUNXHeeFvMGD4vPCC3vpGTr77tJvBHjh1ndUm4J7o4tP\",\"defense\":16,\"element\":\"Nature\",\"movecost\":40,\"description\":\"Grey's are particularly skilled at using the idea of peace to their advantage\"},\"created_at_time\":\"1602238305000\",\"created_at_block\":\"81611171\"},\"mutable_data\":{},\"immutable_data\":{},\"template_mint\":\"125658\",\"backed_tokens\":[],\"burned_by_account\":null,\"burned_at_block\":null,\"burned_at_time\":null,\"updated_at_block\":\"273016298\",\"updated_at_time\":\"1697979479500\",\"transferred_at_block\":\"273016298\",\"transferred_at_time\":\"1697979479500\",\"minted_at_block\":\"112465548\",\"minted_at_time\":\"1617671909000\",\"sales\":[],\"auctions\":[],\"prices\":[{\"market_contract\":\"atomicmarket\",\"token\":{\"token_symbol\":\"WAX\",\"token_precision\":8,\"token_contract\":\"eosio.token\"},\"median\":\"39000000\",\"average\":\"78853163\",\"suggested_median\":\"30889170\",\"suggested_average\":\"31036408\",\"min\":\"1\",\"max\":\"150000000000\",\"sales\":\"103790\"}],\"data\":{\"img\":\"QmeNWTL3EPT1nM9P8bM2PrAy38bTc9ZTg91P7XntwLmr8Q\",\"name\":\"Grey Peacemaker\",\"race\":\"Grey\",\"shine\":\"Stone\",\"attack\":17,\"cardid\":9,\"rarity\":\"Abundant\",\"backimg\":\"QmaUNXHeeFvMGD4vPCC3vpGTr77tJvBHjh1ndUm4J7o4tP\",\"defense\":16,\"element\":\"Nature\",\"movecost\":40,\"description\":\"Grey's are particularly skilled at using the idea of peace to their advantage\"},\"name\":\"Grey Peacemaker\"}],\"bids\":[],\"maker_marketplace\":\"\",\"taker_marketplace\":null,\"claimed_by_buyer\":false,\"claimed_by_seller\":false,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"end_time\":\"1698029879000\",\"is_seller_contract\":false,\"updated_at_block\":\"273016298\",\"updated_at_time\":\"1697979479500\",\"created_at_block\":\"273016298\",\"created_at_time\":\"1697979479500\",\"state\":1},{\"market_contract\":\"atomicmarket\",\"assets_contract\":\"atomicassets\",\"auction_id\":\"1308117\",\"seller\":\"xk5qu.wam\",\"buyer\":null,\"price\":{\"token_contract\":\"eosio.token\",\"token_symbol\":\"WAX\",\"token_precision\":8,\"amount\":\"99990000\"},\"assets\":[{\"contract\":\"atomicassets\",\"asset_id\":\"1099519657798\",\"owner\":\"atomicmarket\",\"is_transferable\":true,\"is_burnable\":true,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"schema\":{\"schema_name\":\"faces.worlds\",\"format\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"backimg\",\"type\":\"image\"},{\"name\":\"rarity\",\"type\":\"string\"},{\"name\":\"race\",\"type\":\"string\"},{\"name\":\"cardid\",\"type\":\"uint16\"},{\"name\":\"shine\",\"type\":\"string\"},{\"name\":\"material_grade\",\"type\":\"uint64\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"type\",\"type\":\"string\"}],\"created_at_block\":\"74084198\",\"created_at_time\":\"1598472952000\"},\"template\":{\"template_id\":\"19649\",\"max_supply\":\"0\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"6169924\",\"immutable_data\":{\"img\":\"QmXa4fjB7AVd8rLvUcBk5uPKVugg2Bfj26PEwVth71T3yn\",\"name\":\"Male Human\",\"race\":\"Human\",\"type\":\"Human Male\",\"shine\":\"Stone\",\"cardid\":5,\"rarity\":\"Abundant\",\"backimg\":\"QmZaTDq94RKyK1E1Mao4W9JCZx6LFnDFfWhGMN28Ecino5\",\"description\":\"Mining on Alien Worlds ain't like mining on Earth, farm boy\"},\"created_at_time\":\"1602238964000\",\"created_at_block\":\"81612489\"},\"mutable_data\":{},\"immutable_data\":{},\"template_mint\":\"134898\",\"backed_tokens\":[],\"burned_by_account\":null,\"burned_at_block\":null,\"burned_at_time\":null,\"updated_at_block\":\"273016282\",\"updated_at_time\":\"1697979471500\",\"transferred_at_block\":\"273016282\",\"transferred_at_time\":\"1697979471500\",\"minted_at_block\":\"108900685\",\"minted_at_time\":\"1615888929000\",\"sales\":[],\"auctions\":[],\"prices\":[{\"market_contract\":\"atomicmarket\",\"token\":{\"token_symbol\":\"WAX\",\"token_precision\":8,\"token_contract\":\"eosio.token\"},\"median\":\"25000000\",\"average\":\"60980535\",\"suggested_median\":\"1747312\",\"suggested_average\":\"1954915\",\"min\":\"1\",\"max\":\"777800000000\",\"sales\":\"999148\"}],\"data\":{\"img\":\"QmXa4fjB7AVd8rLvUcBk5uPKVugg2Bfj26PEwVth71T3yn\",\"name\":\"Male Human\",\"race\":\"Human\",\"type\":\"Human Male\",\"shine\":\"Stone\",\"cardid\":5,\"rarity\":\"Abundant\",\"backimg\":\"QmZaTDq94RKyK1E1Mao4W9JCZx6LFnDFfWhGMN28Ecino5\",\"description\":\"Mining on Alien Worlds ain't like mining on Earth, farm boy\"},\"name\":\"Male Human\"}],\"bids\":[],\"maker_marketplace\":\"\",\"taker_marketplace\":null,\"claimed_by_buyer\":false,\"claimed_by_seller\":false,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"end_time\":\"1698026271000\",\"is_seller_contract\":false,\"updated_at_block\":\"273016282\",\"updated_at_time\":\"1697979471500\",\"created_at_block\":\"273016282\",\"created_at_time\":\"1697979471500\",\"state\":1},{\"market_contract\":\"atomicmarket\",\"assets_contract\":\"atomicassets\",\"auction_id\":\"1308116\",\"seller\":\"r4t4o.c.wam\",\"buyer\":null,\"price\":{\"token_contract\":\"eosio.token\",\"token_symbol\":\"WAX\",\"token_precision\":8,\"amount\":\"99999900\"},\"assets\":[{\"contract\":\"atomicassets\",\"asset_id\":\"1099520641086\",\"owner\":\"atomicmarket\",\"is_transferable\":true,\"is_burnable\":true,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"schema\":{\"schema_name\":\"faces.worlds\",\"format\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"backimg\",\"type\":\"image\"},{\"name\":\"rarity\",\"type\":\"string\"},{\"name\":\"race\",\"type\":\"string\"},{\"name\":\"cardid\",\"type\":\"uint16\"},{\"name\":\"shine\",\"type\":\"string\"},{\"name\":\"material_grade\",\"type\":\"uint64\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"type\",\"type\":\"string\"}],\"created_at_block\":\"74084198\",\"created_at_time\":\"1598472952000\"},\"template\":{\"template_id\":\"19648\",\"max_supply\":\"0\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"1946667\",\"immutable_data\":{\"img\":\"QmQUU3KsrRuPiFgmu9wJWp2f9NJ4WzD3eVjMRJdctf9rtR\",\"name\":\"Female Human\",\"race\":\"Human\",\"type\":\"Human Female\",\"shine\":\"Stone\",\"cardid\":4,\"rarity\":\"Abundant\",\"backimg\":\"QmZaTDq94RKyK1E1Mao4W9JCZx6LFnDFfWhGMN28Ecino5\",\"description\":\"Adventure is worthwhile in itself\"},\"created_at_time\":\"1602238963000\",\"created_at_block\":\"81612487\"},\"mutable_data\":{},\"immutable_data\":{},\"template_mint\":\"119788\",\"backed_tokens\":[],\"burned_by_account\":null,\"burned_at_block\":null,\"burned_at_time\":null,\"updated_at_block\":\"273016277\",\"updated_at_time\":\"1697979469000\",\"transferred_at_block\":\"273016277\",\"transferred_at_time\":\"1697979469000\",\"minted_at_block\":\"110740487\",\"minted_at_time\":\"1616809090000\",\"sales\":[],\"auctions\":[],\"prices\":[{\"market_contract\":\"atomicmarket\",\"token\":{\"token_symbol\":\"WAX\",\"token_precision\":8,\"token_contract\":\"eosio.token\"},\"median\":\"26900000\",\"average\":\"54762877\",\"suggested_median\":\"2283789\",\"suggested_average\":\"2073474\",\"min\":\"1\",\"max\":\"444400000000\",\"sales\":\"292583\"}],\"data\":{\"img\":\"QmQUU3KsrRuPiFgmu9wJWp2f9NJ4WzD3eVjMRJdctf9rtR\",\"name\":\"Female Human\",\"race\":\"Human\",\"type\":\"Human Female\",\"shine\":\"Stone\",\"cardid\":4,\"rarity\":\"Abundant\",\"backimg\":\"QmZaTDq94RKyK1E1Mao4W9JCZx6LFnDFfWhGMN28Ecino5\",\"description\":\"Adventure is worthwhile in itself\"},\"name\":\"Female Human\"}],\"bids\":[],\"maker_marketplace\":\"\",\"taker_marketplace\":null,\"claimed_by_buyer\":false,\"claimed_by_seller\":false,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"end_time\":\"1698029869000\",\"is_seller_contract\":false,\"updated_at_block\":\"273016277\",\"updated_at_time\":\"1697979469000\",\"created_at_block\":\"273016277\",\"created_at_time\":\"1697979469000\",\"state\":1},{\"market_contract\":\"atomicmarket\",\"assets_contract\":\"atomicassets\",\"auction_id\":\"1308115\",\"seller\":\"r4t4o.c.wam\",\"buyer\":null,\"price\":{\"token_contract\":\"eosio.token\",\"token_symbol\":\"WAX\",\"token_precision\":8,\"amount\":\"99990000\"},\"assets\":[{\"contract\":\"atomicassets\",\"asset_id\":\"1099523256123\",\"owner\":\"atomicmarket\",\"is_transferable\":true,\"is_burnable\":true,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"schema\":{\"schema_name\":\"faces.worlds\",\"format\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"backimg\",\"type\":\"image\"},{\"name\":\"rarity\",\"type\":\"string\"},{\"name\":\"race\",\"type\":\"string\"},{\"name\":\"cardid\",\"type\":\"uint16\"},{\"name\":\"shine\",\"type\":\"string\"},{\"name\":\"material_grade\",\"type\":\"uint64\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"type\",\"type\":\"string\"}],\"created_at_block\":\"74084198\",\"created_at_time\":\"1598472952000\"},\"template\":{\"template_id\":\"19649\",\"max_supply\":\"0\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"6169924\",\"immutable_data\":{\"img\":\"QmXa4fjB7AVd8rLvUcBk5uPKVugg2Bfj26PEwVth71T3yn\",\"name\":\"Male Human\",\"race\":\"Human\",\"type\":\"Human Male\",\"shine\":\"Stone\",\"cardid\":5,\"rarity\":\"Abundant\",\"backimg\":\"QmZaTDq94RKyK1E1Mao4W9JCZx6LFnDFfWhGMN28Ecino5\",\"description\":\"Mining on Alien Worlds ain't like mining on Earth, farm boy\"},\"created_at_time\":\"1602238964000\",\"created_at_block\":\"81612489\"},\"mutable_data\":{},\"immutable_data\":{},\"template_mint\":\"272579\",\"backed_tokens\":[],\"burned_by_account\":null,\"burned_at_block\":null,\"burned_at_time\":null,\"updated_at_block\":\"273016257\",\"updated_at_time\":\"1697979459000\",\"transferred_at_block\":\"273016257\",\"transferred_at_time\":\"1697979459000\",\"minted_at_block\":\"113374309\",\"minted_at_time\":\"1618126587500\",\"sales\":[],\"auctions\":[],\"prices\":[{\"market_contract\":\"atomicmarket\",\"token\":{\"token_symbol\":\"WAX\",\"token_precision\":8,\"token_contract\":\"eosio.token\"},\"median\":\"25000000\",\"average\":\"60980535\",\"suggested_median\":\"1747312\",\"suggested_average\":\"1954915\",\"min\":\"1\",\"max\":\"777800000000\",\"sales\":\"999148\"}],\"data\":{\"img\":\"QmXa4fjB7AVd8rLvUcBk5uPKVugg2Bfj26PEwVth71T3yn\",\"name\":\"Male Human\",\"race\":\"Human\",\"type\":\"Human Male\",\"shine\":\"Stone\",\"cardid\":5,\"rarity\":\"Abundant\",\"backimg\":\"QmZaTDq94RKyK1E1Mao4W9JCZx6LFnDFfWhGMN28Ecino5\",\"description\":\"Mining on Alien Worlds ain't like mining on Earth, farm boy\"},\"name\":\"Male Human\"}],\"bids\":[],\"maker_marketplace\":\"\",\"taker_marketplace\":null,\"claimed_by_buyer\":false,\"claimed_by_seller\":false,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"end_time\":\"1698029859000\",\"is_seller_contract\":false,\"updated_at_block\":\"273016257\",\"updated_at_time\":\"1697979459000\",\"created_at_block\":\"273016257\",\"created_at_time\":\"1697979459000\",\"state\":1},{\"market_contract\":\"atomicmarket\",\"assets_contract\":\"atomicassets\",\"auction_id\":\"1308114\",\"seller\":\"xk5qu.wam\",\"buyer\":null,\"price\":{\"token_contract\":\"eosio.token\",\"token_symbol\":\"WAX\",\"token_precision\":8,\"amount\":\"199999000\"},\"assets\":[{\"contract\":\"atomicassets\",\"asset_id\":\"1099523422685\",\"owner\":\"atomicmarket\",\"is_transferable\":true,\"is_burnable\":true,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"schema\":{\"schema_name\":\"faces.worlds\",\"format\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"backimg\",\"type\":\"image\"},{\"name\":\"rarity\",\"type\":\"string\"},{\"name\":\"race\",\"type\":\"string\"},{\"name\":\"cardid\",\"type\":\"uint16\"},{\"name\":\"shine\",\"type\":\"string\"},{\"name\":\"material_grade\",\"type\":\"uint64\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"type\",\"type\":\"string\"}],\"created_at_block\":\"74084198\",\"created_at_time\":\"1598472952000\"},\"template\":{\"template_id\":\"19648\",\"max_supply\":\"0\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"1946667\",\"immutable_data\":{\"img\":\"QmQUU3KsrRuPiFgmu9wJWp2f9NJ4WzD3eVjMRJdctf9rtR\",\"name\":\"Female Human\",\"race\":\"Human\",\"type\":\"Human Female\",\"shine\":\"Stone\",\"cardid\":4,\"rarity\":\"Abundant\",\"backimg\":\"QmZaTDq94RKyK1E1Mao4W9JCZx6LFnDFfWhGMN28Ecino5\",\"description\":\"Adventure is worthwhile in itself\"},\"created_at_time\":\"1602238963000\",\"created_at_block\":\"81612487\"},\"mutable_data\":{},\"immutable_data\":{},\"template_mint\":\"176645\",\"backed_tokens\":[],\"burned_by_account\":null,\"burned_at_block\":null,\"burned_at_time\":null,\"updated_at_block\":\"273016252\",\"updated_at_time\":\"1697979456500\",\"transferred_at_block\":\"273016252\",\"transferred_at_time\":\"1697979456500\",\"minted_at_block\":\"113552873\",\"minted_at_time\":\"1618215953500\",\"sales\":[],\"auctions\":[],\"prices\":[{\"market_contract\":\"atomicmarket\",\"token\":{\"token_symbol\":\"WAX\",\"token_precision\":8,\"token_contract\":\"eosio.token\"},\"median\":\"26900000\",\"average\":\"54762877\",\"suggested_median\":\"2283789\",\"suggested_average\":\"2073474\",\"min\":\"1\",\"max\":\"444400000000\",\"sales\":\"292583\"}],\"data\":{\"img\":\"QmQUU3KsrRuPiFgmu9wJWp2f9NJ4WzD3eVjMRJdctf9rtR\",\"name\":\"Female Human\",\"race\":\"Human\",\"type\":\"Human Female\",\"shine\":\"Stone\",\"cardid\":4,\"rarity\":\"Abundant\",\"backimg\":\"QmZaTDq94RKyK1E1Mao4W9JCZx6LFnDFfWhGMN28Ecino5\",\"description\":\"Adventure is worthwhile in itself\"},\"name\":\"Female Human\"}],\"bids\":[],\"maker_marketplace\":\"\",\"taker_marketplace\":null,\"claimed_by_buyer\":false,\"claimed_by_seller\":false,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"end_time\":\"1698026256000\",\"is_seller_contract\":false,\"updated_at_block\":\"273016252\",\"updated_at_time\":\"1697979456500\",\"created_at_block\":\"273016252\",\"created_at_time\":\"1697979456500\",\"state\":1},{\"market_contract\":\"atomicmarket\",\"assets_contract\":\"atomicassets\",\"auction_id\":\"1308113\",\"seller\":\"r4t4o.c.wam\",\"buyer\":null,\"price\":{\"token_contract\":\"eosio.token\",\"token_symbol\":\"WAX\",\"token_precision\":8,\"amount\":\"399990000\"},\"assets\":[{\"contract\":\"atomicassets\",\"asset_id\":\"1099522603660\",\"owner\":\"atomicmarket\",\"is_transferable\":true,\"is_burnable\":true,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"schema\":{\"schema_name\":\"arms.worlds\",\"format\":[{\"name\":\"cardid\",\"type\":\"uint16\"},{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"backimg\",\"type\":\"image\"},{\"name\":\"rarity\",\"type\":\"string\"},{\"name\":\"shine\",\"type\":\"string\"},{\"name\":\"material_grade\",\"type\":\"uint64\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"class\",\"type\":\"string\"},{\"name\":\"attack\",\"type\":\"uint8\"},{\"name\":\"defense\",\"type\":\"uint8\"}],\"created_at_block\":\"81610824\",\"created_at_time\":\"1602238131500\"},\"template\":{\"template_id\":\"19610\",\"max_supply\":\"0\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"358988\",\"immutable_data\":{\"img\":\"QmPSjMKxC6aZYJiKxSVtb6yVRB7CYC327zUt7dpEbMXot2\",\"name\":\"Standard Issue Axe\",\"class\":\"Neutral\",\"shine\":\"Stone\",\"attack\":10,\"cardid\":29,\"rarity\":\"Abundant\",\"backimg\":\"QmTorcZbdarHPssCWeXJgyUso3sWzGKQabvnEujE8i9yMw\",\"defense\":6,\"description\":\"You get an Axe .. Everyone gets an Axe!\"},\"created_at_time\":\"1602238155000\",\"created_at_block\":\"81610871\"},\"mutable_data\":{},\"immutable_data\":{},\"template_mint\":\"125257\",\"backed_tokens\":[],\"burned_by_account\":null,\"burned_at_block\":null,\"burned_at_time\":null,\"updated_at_block\":\"273016236\",\"updated_at_time\":\"1697979448500\",\"transferred_at_block\":\"273016236\",\"transferred_at_time\":\"1697979448500\",\"minted_at_block\":\"112927184\",\"minted_at_time\":\"1617902833500\",\"sales\":[],\"auctions\":[],\"prices\":[{\"market_contract\":\"atomicmarket\",\"token\":{\"token_symbol\":\"WAX\",\"token_precision\":8,\"token_contract\":\"eosio.token\"},\"median\":\"37000000\",\"average\":\"63146414\",\"suggested_median\":\"13721400\",\"suggested_average\":\"13721400\",\"min\":\"1\",\"max\":\"39900000000\",\"sales\":\"99990\"}],\"data\":{\"img\":\"QmPSjMKxC6aZYJiKxSVtb6yVRB7CYC327zUt7dpEbMXot2\",\"name\":\"Standard Issue Axe\",\"class\":\"Neutral\",\"shine\":\"Stone\",\"attack\":10,\"cardid\":29,\"rarity\":\"Abundant\",\"backimg\":\"QmTorcZbdarHPssCWeXJgyUso3sWzGKQabvnEujE8i9yMw\",\"defense\":6,\"description\":\"You get an Axe .. Everyone gets an Axe!\"},\"name\":\"Standard Issue Axe\"}],\"bids\":[],\"maker_marketplace\":\"\",\"taker_marketplace\":null,\"claimed_by_buyer\":false,\"claimed_by_seller\":false,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"end_time\":\"1698029848000\",\"is_seller_contract\":false,\"updated_at_block\":\"273016236\",\"updated_at_time\":\"1697979448500\",\"created_at_block\":\"273016236\",\"created_at_time\":\"1697979448500\",\"state\":1},{\"market_contract\":\"atomicmarket\",\"assets_contract\":\"atomicassets\",\"auction_id\":\"1308112\",\"seller\":\"xk5qu.wam\",\"buyer\":null,\"price\":{\"token_contract\":\"eosio.token\",\"token_symbol\":\"WAX\",\"token_precision\":8,\"amount\":\"199990000\"},\"assets\":[{\"contract\":\"atomicassets\",\"asset_id\":\"1099521936689\",\"owner\":\"atomicmarket\",\"is_transferable\":true,\"is_burnable\":true,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"schema\":{\"schema_name\":\"crew.worlds\",\"format\":[{\"name\":\"cardid\",\"type\":\"uint16\"},{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"backimg\",\"type\":\"image\"},{\"name\":\"rarity\",\"type\":\"string\"},{\"name\":\"shine\",\"type\":\"string\"},{\"name\":\"material_grade\",\"type\":\"uint64\"},{\"name\":\"race\",\"type\":\"string\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"element\",\"type\":\"string\"},{\"name\":\"attack\",\"type\":\"uint8\"},{\"name\":\"defense\",\"type\":\"uint8\"},{\"name\":\"movecost\",\"type\":\"uint8\"},{\"name\":\"td_fights\",\"type\":\"uint16\"},{\"name\":\"td_wins\",\"type\":\"uint16\"},{\"name\":\"td_winstreak\",\"type\":\"uint16\"}],\"created_at_block\":\"81611157\",\"created_at_time\":\"1602238298000\"},\"template\":{\"template_id\":\"19637\",\"max_supply\":\"0\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"376748\",\"immutable_data\":{\"img\":\"QmVXsVEkT5fuASSexrcMQuuXWZFFSuGRSyRkLGghq1yhpW\",\"name\":\"Stealth Mercenary\",\"race\":\"Unknown\",\"shine\":\"Stone\",\"attack\":8,\"cardid\":14,\"rarity\":\"Abundant\",\"backimg\":\"QmaUNXHeeFvMGD4vPCC3vpGTr77tJvBHjh1ndUm4J7o4tP\",\"defense\":8,\"element\":\"Air\",\"movecost\":20,\"description\":\"Swift as an arrow and stealthy as a shadow\"},\"created_at_time\":\"1602238310000\",\"created_at_block\":\"81611181\"},\"mutable_data\":{},\"immutable_data\":{},\"template_mint\":\"125549\",\"backed_tokens\":[],\"burned_by_account\":null,\"burned_at_block\":null,\"burned_at_time\":null,\"updated_at_block\":\"273016232\",\"updated_at_time\":\"1697979446500\",\"transferred_at_block\":\"273016232\",\"transferred_at_time\":\"1697979446500\",\"minted_at_block\":\"112427299\",\"minted_at_time\":\"1617652781500\",\"sales\":[],\"auctions\":[],\"prices\":[{\"market_contract\":\"atomicmarket\",\"token\":{\"token_symbol\":\"WAX\",\"token_precision\":8,\"token_contract\":\"eosio.token\"},\"median\":\"37000000\",\"average\":\"88413935\",\"suggested_median\":\"28138671\",\"suggested_average\":\"26133090\",\"min\":\"1\",\"max\":\"532100000000\",\"sales\":\"102560\"}],\"data\":{\"img\":\"QmVXsVEkT5fuASSexrcMQuuXWZFFSuGRSyRkLGghq1yhpW\",\"name\":\"Stealth Mercenary\",\"race\":\"Unknown\",\"shine\":\"Stone\",\"attack\":8,\"cardid\":14,\"rarity\":\"Abundant\",\"backimg\":\"QmaUNXHeeFvMGD4vPCC3vpGTr77tJvBHjh1ndUm4J7o4tP\",\"defense\":8,\"element\":\"Air\",\"movecost\":20,\"description\":\"Swift as an arrow and stealthy as a shadow\"},\"name\":\"Stealth Mercenary\"}],\"bids\":[],\"maker_marketplace\":\"\",\"taker_marketplace\":null,\"claimed_by_buyer\":false,\"claimed_by_seller\":false,\"collection\":{\"collection_name\":\"alien.worlds\",\"name\":\"Alien Worlds\",\"img\":\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXkNxYHBYx8wJ9SmsEVLoFw4wUXKMD2PuG4xVxTeZrLZA\\\",\\\"logo_512x512\\\":\\\"QmZBpRKm5qigpfDdYgxtcefZ7Cn3GeWHCMBEsk6wYXP4gg\\\"}\",\"author\":\"federation\",\"allow_notify\":true,\"authorized_accounts\":[\"federation\",\"open.worlds\",\"terra.worlds\",\"m.federation\",\"s.federation\",\"uspts.worlds\",\"awlndratings\",\"nftmt.worlds\"],\"notify_accounts\":[\"federation\",\"m.federation\"],\"market_fee\":0.01,\"created_at_block\":\"70292143\",\"created_at_time\":\"1596576277500\"},\"end_time\":\"1698026246000\",\"is_seller_contract\":false,\"updated_at_block\":\"273016232\",\"updated_at_time\":\"1697979446500\",\"created_at_block\":\"273016232\",\"created_at_time\":\"1697979446500\",\"state\":1}],\"query_time\":1697980962551}"
+}

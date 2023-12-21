@@ -1,0 +1,25 @@
+{
+    "request": {
+        "path": "https://wax.api.atomicassets.io/atomicmarket/v1/stats/sales?symbol=WAX&collection_whitelist=taco",
+        "params": {
+            "method": "GET"
+        }
+    },
+    "status": 200,
+    "json": {
+        "success": true,
+        "data": {
+            "symbol": {
+                "token_symbol": "WAX",
+                "token_contract": "eosio.token",
+                "token_precision": 8
+            },
+            "result": {
+                "volume": "1595505326920202",
+                "sales": "150076"
+            }
+        },
+        "query_time": 1697980998111
+    },
+    "text": "{\"success\":true,\"data\":{\"symbol\":{\"token_symbol\":\"WAX\",\"token_contract\":\"eosio.token\",\"token_precision\":8},\"result\":{\"volume\":\"1595505326920202\",\"sales\":\"150076\"}},\"query_time\":1697980998111}"
+}

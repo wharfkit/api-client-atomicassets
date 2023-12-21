@@ -1,0 +1,933 @@
+{
+    "request": {
+        "path": "https://wax.api.atomicassets.io/atomicmarket/v1/stats/templates?symbol=WAX&search=taco&collection_name=taco&limit=10",
+        "params": {
+            "method": "GET"
+        }
+    },
+    "status": 200,
+    "json": {
+        "success": true,
+        "data": {
+            "symbol": {
+                "token_symbol": "WAX",
+                "token_contract": "eosio.token",
+                "token_precision": 8
+            },
+            "results": [
+                {
+                    "sales": "112",
+                    "volume": "67872904323890",
+                    "template": {
+                        "contract": "atomicassets",
+                        "template_id": "204199",
+                        "is_transferable": true,
+                        "is_burnable": false,
+                        "issued_supply": "100",
+                        "max_supply": "100",
+                        "collection": {
+                            "collection_name": "taco",
+                            "name": "Taco",
+                            "img": "QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3",
+                            "images": "{\"banner_1920x500\":\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\",\"logo_512x512\":\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\"}",
+                            "author": "taco",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "taco",
+                                "atomicdropsx",
+                                "atomicpacksx",
+                                "neftyblocksd",
+                                "s.taco",
+                                "blend.nefty",
+                                "blenderizerx",
+                                "g.taco",
+                                "brigade.taco",
+                                "b.taco",
+                                "mkt.taco",
+                                "acr.taco",
+                                "takitakiboom",
+                                "l.taco",
+                                "worker.taco",
+                                "tacotacopool",
+                                "primarysale1",
+                                "combz.taco"
+                            ],
+                            "notify_accounts": [
+                                "g.taco",
+                                "brigade.taco",
+                                "stake.taco",
+                                "swap.taco",
+                                "blend.nefty",
+                                "neftyblocksd",
+                                "neftyblocksp"
+                            ],
+                            "market_fee": 0.06,
+                            "created_at_block": "123329591",
+                            "created_at_time": "1623106508500"
+                        },
+                        "schema": {
+                            "schema_name": "membership",
+                            "format": [
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "twitter",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "telegram",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "website",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "rarity",
+                                    "type": "string"
+                                }
+                            ],
+                            "created_at_block": "127780728",
+                            "created_at_time": "1625332985500"
+                        },
+                        "immutable_data": {
+                            "img": "QmYfibD4c6G3mCMXLvUDd5pAj5E1fj6Rbt5bN2PqERsDVq",
+                            "name": "Taco VIP",
+                            "rarity": "vip",
+                            "twitter": "\thttps://twitter.com/tacowax",
+                            "website": "https://tacocrypto.io/",
+                            "telegram": "https://t.me/tacowax",
+                            "description": "Taco VIP membership made for true Taco supporters only. Unlocks whitelist drops and future features."
+                        },
+                        "created_at_time": "1625338535500",
+                        "created_at_block": "127791828",
+                        "name": "Taco VIP"
+                    }
+                },
+                {
+                    "sales": "83",
+                    "volume": "13444944668370",
+                    "template": {
+                        "contract": "atomicassets",
+                        "template_id": "399592",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "issued_supply": "100",
+                        "max_supply": "100",
+                        "collection": {
+                            "collection_name": "taco",
+                            "name": "Taco",
+                            "img": "QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3",
+                            "images": "{\"banner_1920x500\":\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\",\"logo_512x512\":\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\"}",
+                            "author": "taco",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "taco",
+                                "atomicdropsx",
+                                "atomicpacksx",
+                                "neftyblocksd",
+                                "s.taco",
+                                "blend.nefty",
+                                "blenderizerx",
+                                "g.taco",
+                                "brigade.taco",
+                                "b.taco",
+                                "mkt.taco",
+                                "acr.taco",
+                                "takitakiboom",
+                                "l.taco",
+                                "worker.taco",
+                                "tacotacopool",
+                                "primarysale1",
+                                "combz.taco"
+                            ],
+                            "notify_accounts": [
+                                "g.taco",
+                                "brigade.taco",
+                                "stake.taco",
+                                "swap.taco",
+                                "blend.nefty",
+                                "neftyblocksd",
+                                "neftyblocksp"
+                            ],
+                            "market_fee": 0.06,
+                            "created_at_block": "123329591",
+                            "created_at_time": "1623106508500"
+                        },
+                        "schema": {
+                            "schema_name": "bonus",
+                            "format": [
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "rarity",
+                                    "type": "string"
+                                }
+                            ],
+                            "created_at_block": "153626351",
+                            "created_at_time": "1638267432000"
+                        },
+                        "immutable_data": {
+                            "img": "QmZQnXPKmYwHE85Rtg1QvcvtmGXR4hKs16p1sbymyJ3meu",
+                            "name": "Taco Universe Sauce - Limited Edition",
+                            "rarity": "limited",
+                            "description": "This commemorative sauce NFT gives 0.75% extra amount when claiming SHING token from extractors"
+                        },
+                        "created_at_time": "1639907309500",
+                        "created_at_block": "156904585",
+                        "name": "Taco Universe Sauce - Limited Edition"
+                    }
+                },
+                {
+                    "sales": "969",
+                    "volume": "7672283403536",
+                    "template": {
+                        "contract": "atomicassets",
+                        "template_id": "164528",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "issued_supply": "600",
+                        "max_supply": "0",
+                        "collection": {
+                            "collection_name": "taco",
+                            "name": "Taco",
+                            "img": "QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3",
+                            "images": "{\"banner_1920x500\":\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\",\"logo_512x512\":\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\"}",
+                            "author": "taco",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "taco",
+                                "atomicdropsx",
+                                "atomicpacksx",
+                                "neftyblocksd",
+                                "s.taco",
+                                "blend.nefty",
+                                "blenderizerx",
+                                "g.taco",
+                                "brigade.taco",
+                                "b.taco",
+                                "mkt.taco",
+                                "acr.taco",
+                                "takitakiboom",
+                                "l.taco",
+                                "worker.taco",
+                                "tacotacopool",
+                                "primarysale1",
+                                "combz.taco"
+                            ],
+                            "notify_accounts": [
+                                "g.taco",
+                                "brigade.taco",
+                                "stake.taco",
+                                "swap.taco",
+                                "blend.nefty",
+                                "neftyblocksd",
+                                "neftyblocksp"
+                            ],
+                            "market_fee": 0.06,
+                            "created_at_block": "123329591",
+                            "created_at_time": "1623106508500"
+                        },
+                        "schema": {
+                            "schema_name": "promo",
+                            "format": [
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "twitter",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "telegram",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "website",
+                                    "type": "string"
+                                }
+                            ],
+                            "created_at_block": "123397952",
+                            "created_at_time": "1623140693500"
+                        },
+                        "immutable_data": {
+                            "img": "QmNpaLfEXAyXZCNogtdUaAPUtiu9DPhhkNJixq7cEdmRhA",
+                            "name": "Taco Rocket - Join the beta",
+                            "twitter": "https://twitter.com/tacowax",
+                            "website": "https://tacocrypto.io/",
+                            "telegram": "https://t.me/tacowax",
+                            "description": "Discover new ways to interact with the WAX blockchain: track, transfer and swap tokens in an easier way! Join the beta and be one of the first to try out the Taco App! 🌮"
+                        },
+                        "created_at_time": "1623353282000",
+                        "created_at_block": "123823076",
+                        "name": "Taco Rocket - Join the beta"
+                    }
+                },
+                {
+                    "sales": "1142",
+                    "volume": "7374735569328",
+                    "template": {
+                        "contract": "atomicassets",
+                        "template_id": "196590",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "issued_supply": "603",
+                        "max_supply": "0",
+                        "collection": {
+                            "collection_name": "taco",
+                            "name": "Taco",
+                            "img": "QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3",
+                            "images": "{\"banner_1920x500\":\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\",\"logo_512x512\":\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\"}",
+                            "author": "taco",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "taco",
+                                "atomicdropsx",
+                                "atomicpacksx",
+                                "neftyblocksd",
+                                "s.taco",
+                                "blend.nefty",
+                                "blenderizerx",
+                                "g.taco",
+                                "brigade.taco",
+                                "b.taco",
+                                "mkt.taco",
+                                "acr.taco",
+                                "takitakiboom",
+                                "l.taco",
+                                "worker.taco",
+                                "tacotacopool",
+                                "primarysale1",
+                                "combz.taco"
+                            ],
+                            "notify_accounts": [
+                                "g.taco",
+                                "brigade.taco",
+                                "stake.taco",
+                                "swap.taco",
+                                "blend.nefty",
+                                "neftyblocksd",
+                                "neftyblocksp"
+                            ],
+                            "market_fee": 0.06,
+                            "created_at_block": "123329591",
+                            "created_at_time": "1623106508500"
+                        },
+                        "schema": {
+                            "schema_name": "promo",
+                            "format": [
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "twitter",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "telegram",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "website",
+                                    "type": "string"
+                                }
+                            ],
+                            "created_at_block": "123397952",
+                            "created_at_time": "1623140693500"
+                        },
+                        "immutable_data": {
+                            "img": "QmUEBiQdaz7DVyDEnJKw4669oknWDLxCoLkwgbh56Uc5mn",
+                            "name": "Taco Neon - Join the beta",
+                            "twitter": "https://twitter.com/tacowax",
+                            "website": "https://tacocrypto.io/",
+                            "telegram": "https://t.me/tacowax",
+                            "description": "Discover new ways to interact with the WAX blockchain: track, transfer and swap tokens in an easier way! Join the beta and be one of the first to try out the Taco App! 🌮"
+                        },
+                        "created_at_time": "1624783578000",
+                        "created_at_block": "126682860",
+                        "name": "Taco Neon - Join the beta"
+                    }
+                },
+                {
+                    "sales": "1023",
+                    "volume": "6599544837897",
+                    "template": {
+                        "contract": "atomicassets",
+                        "template_id": "164518",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "issued_supply": "600",
+                        "max_supply": "0",
+                        "collection": {
+                            "collection_name": "taco",
+                            "name": "Taco",
+                            "img": "QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3",
+                            "images": "{\"banner_1920x500\":\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\",\"logo_512x512\":\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\"}",
+                            "author": "taco",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "taco",
+                                "atomicdropsx",
+                                "atomicpacksx",
+                                "neftyblocksd",
+                                "s.taco",
+                                "blend.nefty",
+                                "blenderizerx",
+                                "g.taco",
+                                "brigade.taco",
+                                "b.taco",
+                                "mkt.taco",
+                                "acr.taco",
+                                "takitakiboom",
+                                "l.taco",
+                                "worker.taco",
+                                "tacotacopool",
+                                "primarysale1",
+                                "combz.taco"
+                            ],
+                            "notify_accounts": [
+                                "g.taco",
+                                "brigade.taco",
+                                "stake.taco",
+                                "swap.taco",
+                                "blend.nefty",
+                                "neftyblocksd",
+                                "neftyblocksp"
+                            ],
+                            "market_fee": 0.06,
+                            "created_at_block": "123329591",
+                            "created_at_time": "1623106508500"
+                        },
+                        "schema": {
+                            "schema_name": "promo",
+                            "format": [
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "twitter",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "telegram",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "website",
+                                    "type": "string"
+                                }
+                            ],
+                            "created_at_block": "123397952",
+                            "created_at_time": "1623140693500"
+                        },
+                        "immutable_data": {
+                            "img": "QmZymGggha3z9uSGMAWtdJYGHry1LtC1dNuGv3zkE8dBpd",
+                            "name": "Let's taco 'bout it - Join the beta",
+                            "twitter": "https://twitter.com/tacowax",
+                            "website": "https://tacocrypto.io/",
+                            "telegram": "https://t.me/tacowax",
+                            "description": "Discover new ways to interact with the WAX blockchain: track, transfer and swap tokens in an easier way! Join the beta and be one of the first to try out the Taco App! 🌮"
+                        },
+                        "created_at_time": "1623352921000",
+                        "created_at_block": "123822354",
+                        "name": "Let's taco 'bout it - Join the beta"
+                    }
+                },
+                {
+                    "sales": "132",
+                    "volume": "6471008959942",
+                    "template": {
+                        "contract": "atomicassets",
+                        "template_id": "173244",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "issued_supply": "100",
+                        "max_supply": "100",
+                        "collection": {
+                            "collection_name": "taco",
+                            "name": "Taco",
+                            "img": "QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3",
+                            "images": "{\"banner_1920x500\":\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\",\"logo_512x512\":\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\"}",
+                            "author": "taco",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "taco",
+                                "atomicdropsx",
+                                "atomicpacksx",
+                                "neftyblocksd",
+                                "s.taco",
+                                "blend.nefty",
+                                "blenderizerx",
+                                "g.taco",
+                                "brigade.taco",
+                                "b.taco",
+                                "mkt.taco",
+                                "acr.taco",
+                                "takitakiboom",
+                                "l.taco",
+                                "worker.taco",
+                                "tacotacopool",
+                                "primarysale1",
+                                "combz.taco"
+                            ],
+                            "notify_accounts": [
+                                "g.taco",
+                                "brigade.taco",
+                                "stake.taco",
+                                "swap.taco",
+                                "blend.nefty",
+                                "neftyblocksd",
+                                "neftyblocksp"
+                            ],
+                            "market_fee": 0.06,
+                            "created_at_block": "123329591",
+                            "created_at_time": "1623106508500"
+                        },
+                        "schema": {
+                            "schema_name": "promo",
+                            "format": [
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "twitter",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "telegram",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "website",
+                                    "type": "string"
+                                }
+                            ],
+                            "created_at_block": "123397952",
+                            "created_at_time": "1623140693500"
+                        },
+                        "immutable_data": {
+                            "img": "QmUmwhrRcmgAvsJ81VoJiSfdQAzCJSgvZpNM7oJYrE1FYd",
+                            "name": "Taco + Catfresh",
+                            "twitter": "https://twitter.com/tacowax",
+                            "website": "https://tacocrypto.io/",
+                            "telegram": "https://t.me/tacowax",
+                            "description": "Discover new ways to interact with the WAX blockchain: track, transfer and swap tokens in an easier way! Join the beta and be one of the first to try out the Taco App! 🌮 Collaboration with catfresharts: https://twitter.com/CatFreshEnt"
+                        },
+                        "created_at_time": "1623930587000",
+                        "created_at_block": "124977383",
+                        "name": "Taco + Catfresh"
+                    }
+                },
+                {
+                    "sales": "1413",
+                    "volume": "6419382277705",
+                    "template": {
+                        "contract": "atomicassets",
+                        "template_id": "208155",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "issued_supply": "10526",
+                        "max_supply": "0",
+                        "collection": {
+                            "collection_name": "taco",
+                            "name": "Taco",
+                            "img": "QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3",
+                            "images": "{\"banner_1920x500\":\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\",\"logo_512x512\":\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\"}",
+                            "author": "taco",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "taco",
+                                "atomicdropsx",
+                                "atomicpacksx",
+                                "neftyblocksd",
+                                "s.taco",
+                                "blend.nefty",
+                                "blenderizerx",
+                                "g.taco",
+                                "brigade.taco",
+                                "b.taco",
+                                "mkt.taco",
+                                "acr.taco",
+                                "takitakiboom",
+                                "l.taco",
+                                "worker.taco",
+                                "tacotacopool",
+                                "primarysale1",
+                                "combz.taco"
+                            ],
+                            "notify_accounts": [
+                                "g.taco",
+                                "brigade.taco",
+                                "stake.taco",
+                                "swap.taco",
+                                "blend.nefty",
+                                "neftyblocksd",
+                                "neftyblocksp"
+                            ],
+                            "market_fee": 0.06,
+                            "created_at_block": "123329591",
+                            "created_at_time": "1623106508500"
+                        },
+                        "schema": {
+                            "schema_name": "ingredient",
+                            "format": [
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "series",
+                                    "type": "uint64"
+                                },
+                                {
+                                    "name": "rarity",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "type",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "website",
+                                    "type": "string"
+                                }
+                            ],
+                            "created_at_block": "128496517",
+                            "created_at_time": "1625691212500"
+                        },
+                        "immutable_data": {
+                            "img": "QmRmkR6vziSSruhA7YUvsMaiuFUUYTjSsQf3zWrR3XoV1Q",
+                            "name": "Taco",
+                            "type": "taco",
+                            "rarity": "common",
+                            "series": "1",
+                            "website": "https://tacocrypto.io",
+                            "description": "Taco ingredient. Can be traded for TACO tokens with Taco mobile app."
+                        },
+                        "created_at_time": "1625692068500",
+                        "created_at_block": "128498229",
+                        "name": "Taco"
+                    }
+                },
+                {
+                    "sales": "1060",
+                    "volume": "4648597550702",
+                    "template": {
+                        "contract": "atomicassets",
+                        "template_id": "382625",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "issued_supply": "1636",
+                        "max_supply": "0",
+                        "collection": {
+                            "collection_name": "taco",
+                            "name": "Taco",
+                            "img": "QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3",
+                            "images": "{\"banner_1920x500\":\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\",\"logo_512x512\":\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\"}",
+                            "author": "taco",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "taco",
+                                "atomicdropsx",
+                                "atomicpacksx",
+                                "neftyblocksd",
+                                "s.taco",
+                                "blend.nefty",
+                                "blenderizerx",
+                                "g.taco",
+                                "brigade.taco",
+                                "b.taco",
+                                "mkt.taco",
+                                "acr.taco",
+                                "takitakiboom",
+                                "l.taco",
+                                "worker.taco",
+                                "tacotacopool",
+                                "primarysale1",
+                                "combz.taco"
+                            ],
+                            "notify_accounts": [
+                                "g.taco",
+                                "brigade.taco",
+                                "stake.taco",
+                                "swap.taco",
+                                "blend.nefty",
+                                "neftyblocksd",
+                                "neftyblocksp"
+                            ],
+                            "market_fee": 0.06,
+                            "created_at_block": "123329591",
+                            "created_at_time": "1623106508500"
+                        },
+                        "schema": {
+                            "schema_name": "bonus",
+                            "format": [
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "rarity",
+                                    "type": "string"
+                                }
+                            ],
+                            "created_at_block": "153626351",
+                            "created_at_time": "1638267432000"
+                        },
+                        "immutable_data": {
+                            "img": "QmVwCdRfVMppZ6vQ9bQvw6RFRrMkMCh5KkkqRScMPYvFA7",
+                            "name": "Taco Universe Badge 3",
+                            "rarity": "abundant",
+                            "description": "This badge NFT gives an extra amount when claiming SHING token from extractors"
+                        },
+                        "created_at_time": "1638269263500",
+                        "created_at_block": "153630014",
+                        "name": "Taco Universe Badge 3"
+                    }
+                },
+                {
+                    "sales": "1045",
+                    "volume": "4617045158248",
+                    "template": {
+                        "contract": "atomicassets",
+                        "template_id": "382622",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "issued_supply": "1626",
+                        "max_supply": "0",
+                        "collection": {
+                            "collection_name": "taco",
+                            "name": "Taco",
+                            "img": "QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3",
+                            "images": "{\"banner_1920x500\":\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\",\"logo_512x512\":\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\"}",
+                            "author": "taco",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "taco",
+                                "atomicdropsx",
+                                "atomicpacksx",
+                                "neftyblocksd",
+                                "s.taco",
+                                "blend.nefty",
+                                "blenderizerx",
+                                "g.taco",
+                                "brigade.taco",
+                                "b.taco",
+                                "mkt.taco",
+                                "acr.taco",
+                                "takitakiboom",
+                                "l.taco",
+                                "worker.taco",
+                                "tacotacopool",
+                                "primarysale1",
+                                "combz.taco"
+                            ],
+                            "notify_accounts": [
+                                "g.taco",
+                                "brigade.taco",
+                                "stake.taco",
+                                "swap.taco",
+                                "blend.nefty",
+                                "neftyblocksd",
+                                "neftyblocksp"
+                            ],
+                            "market_fee": 0.06,
+                            "created_at_block": "123329591",
+                            "created_at_time": "1623106508500"
+                        },
+                        "schema": {
+                            "schema_name": "bonus",
+                            "format": [
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "rarity",
+                                    "type": "string"
+                                }
+                            ],
+                            "created_at_block": "153626351",
+                            "created_at_time": "1638267432000"
+                        },
+                        "immutable_data": {
+                            "img": "QmVgpJsj4i5J2Pu2UNV8ELeyYod9waDz3kJLuc28TXgmTR",
+                            "name": "Taco Universe Badge 1",
+                            "rarity": "abundant",
+                            "description": "This badge NFT gives an extra amount when claiming SHING token from extractors"
+                        },
+                        "created_at_time": "1638268705000",
+                        "created_at_block": "153628897",
+                        "name": "Taco Universe Badge 1"
+                    }
+                },
+                {
+                    "sales": "1001",
+                    "volume": "4396987136960",
+                    "template": {
+                        "contract": "atomicassets",
+                        "template_id": "382624",
+                        "is_transferable": true,
+                        "is_burnable": true,
+                        "issued_supply": "1557",
+                        "max_supply": "0",
+                        "collection": {
+                            "collection_name": "taco",
+                            "name": "Taco",
+                            "img": "QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3",
+                            "images": "{\"banner_1920x500\":\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\",\"logo_512x512\":\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\"}",
+                            "author": "taco",
+                            "allow_notify": true,
+                            "authorized_accounts": [
+                                "taco",
+                                "atomicdropsx",
+                                "atomicpacksx",
+                                "neftyblocksd",
+                                "s.taco",
+                                "blend.nefty",
+                                "blenderizerx",
+                                "g.taco",
+                                "brigade.taco",
+                                "b.taco",
+                                "mkt.taco",
+                                "acr.taco",
+                                "takitakiboom",
+                                "l.taco",
+                                "worker.taco",
+                                "tacotacopool",
+                                "primarysale1",
+                                "combz.taco"
+                            ],
+                            "notify_accounts": [
+                                "g.taco",
+                                "brigade.taco",
+                                "stake.taco",
+                                "swap.taco",
+                                "blend.nefty",
+                                "neftyblocksd",
+                                "neftyblocksp"
+                            ],
+                            "market_fee": 0.06,
+                            "created_at_block": "123329591",
+                            "created_at_time": "1623106508500"
+                        },
+                        "schema": {
+                            "schema_name": "bonus",
+                            "format": [
+                                {
+                                    "name": "name",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "img",
+                                    "type": "image"
+                                },
+                                {
+                                    "name": "description",
+                                    "type": "string"
+                                },
+                                {
+                                    "name": "rarity",
+                                    "type": "string"
+                                }
+                            ],
+                            "created_at_block": "153626351",
+                            "created_at_time": "1638267432000"
+                        },
+                        "immutable_data": {
+                            "img": "QmfShbeN1SMSSxdkfDCyEuSqcbYec2rRxs7VjZX9cZiSzW",
+                            "name": "Taco Universe Badge 2",
+                            "rarity": "abundant",
+                            "description": "This badge NFT gives an extra amount when claiming SHING token from extractors"
+                        },
+                        "created_at_time": "1638269233000",
+                        "created_at_block": "153629953",
+                        "name": "Taco Universe Badge 2"
+                    }
+                }
+            ]
+        },
+        "query_time": 1697980995372
+    },
+    "text": "{\"success\":true,\"data\":{\"symbol\":{\"token_symbol\":\"WAX\",\"token_contract\":\"eosio.token\",\"token_precision\":8},\"results\":[{\"sales\":\"112\",\"volume\":\"67872904323890\",\"template\":{\"contract\":\"atomicassets\",\"template_id\":\"204199\",\"is_transferable\":true,\"is_burnable\":false,\"issued_supply\":\"100\",\"max_supply\":\"100\",\"collection\":{\"collection_name\":\"taco\",\"name\":\"Taco\",\"img\":\"QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\\\",\\\"logo_512x512\\\":\\\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\\\"}\",\"author\":\"taco\",\"allow_notify\":true,\"authorized_accounts\":[\"taco\",\"atomicdropsx\",\"atomicpacksx\",\"neftyblocksd\",\"s.taco\",\"blend.nefty\",\"blenderizerx\",\"g.taco\",\"brigade.taco\",\"b.taco\",\"mkt.taco\",\"acr.taco\",\"takitakiboom\",\"l.taco\",\"worker.taco\",\"tacotacopool\",\"primarysale1\",\"combz.taco\"],\"notify_accounts\":[\"g.taco\",\"brigade.taco\",\"stake.taco\",\"swap.taco\",\"blend.nefty\",\"neftyblocksd\",\"neftyblocksp\"],\"market_fee\":0.06,\"created_at_block\":\"123329591\",\"created_at_time\":\"1623106508500\"},\"schema\":{\"schema_name\":\"membership\",\"format\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"twitter\",\"type\":\"string\"},{\"name\":\"telegram\",\"type\":\"string\"},{\"name\":\"website\",\"type\":\"string\"},{\"name\":\"rarity\",\"type\":\"string\"}],\"created_at_block\":\"127780728\",\"created_at_time\":\"1625332985500\"},\"immutable_data\":{\"img\":\"QmYfibD4c6G3mCMXLvUDd5pAj5E1fj6Rbt5bN2PqERsDVq\",\"name\":\"Taco VIP\",\"rarity\":\"vip\",\"twitter\":\"\\thttps://twitter.com/tacowax\",\"website\":\"https://tacocrypto.io/\",\"telegram\":\"https://t.me/tacowax\",\"description\":\"Taco VIP membership made for true Taco supporters only. Unlocks whitelist drops and future features.\"},\"created_at_time\":\"1625338535500\",\"created_at_block\":\"127791828\",\"name\":\"Taco VIP\"}},{\"sales\":\"83\",\"volume\":\"13444944668370\",\"template\":{\"contract\":\"atomicassets\",\"template_id\":\"399592\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"100\",\"max_supply\":\"100\",\"collection\":{\"collection_name\":\"taco\",\"name\":\"Taco\",\"img\":\"QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\\\",\\\"logo_512x512\\\":\\\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\\\"}\",\"author\":\"taco\",\"allow_notify\":true,\"authorized_accounts\":[\"taco\",\"atomicdropsx\",\"atomicpacksx\",\"neftyblocksd\",\"s.taco\",\"blend.nefty\",\"blenderizerx\",\"g.taco\",\"brigade.taco\",\"b.taco\",\"mkt.taco\",\"acr.taco\",\"takitakiboom\",\"l.taco\",\"worker.taco\",\"tacotacopool\",\"primarysale1\",\"combz.taco\"],\"notify_accounts\":[\"g.taco\",\"brigade.taco\",\"stake.taco\",\"swap.taco\",\"blend.nefty\",\"neftyblocksd\",\"neftyblocksp\"],\"market_fee\":0.06,\"created_at_block\":\"123329591\",\"created_at_time\":\"1623106508500\"},\"schema\":{\"schema_name\":\"bonus\",\"format\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"rarity\",\"type\":\"string\"}],\"created_at_block\":\"153626351\",\"created_at_time\":\"1638267432000\"},\"immutable_data\":{\"img\":\"QmZQnXPKmYwHE85Rtg1QvcvtmGXR4hKs16p1sbymyJ3meu\",\"name\":\"Taco Universe Sauce - Limited Edition\",\"rarity\":\"limited\",\"description\":\"This commemorative sauce NFT gives 0.75% extra amount when claiming SHING token from extractors\"},\"created_at_time\":\"1639907309500\",\"created_at_block\":\"156904585\",\"name\":\"Taco Universe Sauce - Limited Edition\"}},{\"sales\":\"969\",\"volume\":\"7672283403536\",\"template\":{\"contract\":\"atomicassets\",\"template_id\":\"164528\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"600\",\"max_supply\":\"0\",\"collection\":{\"collection_name\":\"taco\",\"name\":\"Taco\",\"img\":\"QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\\\",\\\"logo_512x512\\\":\\\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\\\"}\",\"author\":\"taco\",\"allow_notify\":true,\"authorized_accounts\":[\"taco\",\"atomicdropsx\",\"atomicpacksx\",\"neftyblocksd\",\"s.taco\",\"blend.nefty\",\"blenderizerx\",\"g.taco\",\"brigade.taco\",\"b.taco\",\"mkt.taco\",\"acr.taco\",\"takitakiboom\",\"l.taco\",\"worker.taco\",\"tacotacopool\",\"primarysale1\",\"combz.taco\"],\"notify_accounts\":[\"g.taco\",\"brigade.taco\",\"stake.taco\",\"swap.taco\",\"blend.nefty\",\"neftyblocksd\",\"neftyblocksp\"],\"market_fee\":0.06,\"created_at_block\":\"123329591\",\"created_at_time\":\"1623106508500\"},\"schema\":{\"schema_name\":\"promo\",\"format\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"twitter\",\"type\":\"string\"},{\"name\":\"telegram\",\"type\":\"string\"},{\"name\":\"website\",\"type\":\"string\"}],\"created_at_block\":\"123397952\",\"created_at_time\":\"1623140693500\"},\"immutable_data\":{\"img\":\"QmNpaLfEXAyXZCNogtdUaAPUtiu9DPhhkNJixq7cEdmRhA\",\"name\":\"Taco Rocket - Join the beta\",\"twitter\":\"https://twitter.com/tacowax\",\"website\":\"https://tacocrypto.io/\",\"telegram\":\"https://t.me/tacowax\",\"description\":\"Discover new ways to interact with the WAX blockchain: track, transfer and swap tokens in an easier way! Join the beta and be one of the first to try out the Taco App! 🌮\"},\"created_at_time\":\"1623353282000\",\"created_at_block\":\"123823076\",\"name\":\"Taco Rocket - Join the beta\"}},{\"sales\":\"1142\",\"volume\":\"7374735569328\",\"template\":{\"contract\":\"atomicassets\",\"template_id\":\"196590\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"603\",\"max_supply\":\"0\",\"collection\":{\"collection_name\":\"taco\",\"name\":\"Taco\",\"img\":\"QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\\\",\\\"logo_512x512\\\":\\\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\\\"}\",\"author\":\"taco\",\"allow_notify\":true,\"authorized_accounts\":[\"taco\",\"atomicdropsx\",\"atomicpacksx\",\"neftyblocksd\",\"s.taco\",\"blend.nefty\",\"blenderizerx\",\"g.taco\",\"brigade.taco\",\"b.taco\",\"mkt.taco\",\"acr.taco\",\"takitakiboom\",\"l.taco\",\"worker.taco\",\"tacotacopool\",\"primarysale1\",\"combz.taco\"],\"notify_accounts\":[\"g.taco\",\"brigade.taco\",\"stake.taco\",\"swap.taco\",\"blend.nefty\",\"neftyblocksd\",\"neftyblocksp\"],\"market_fee\":0.06,\"created_at_block\":\"123329591\",\"created_at_time\":\"1623106508500\"},\"schema\":{\"schema_name\":\"promo\",\"format\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"twitter\",\"type\":\"string\"},{\"name\":\"telegram\",\"type\":\"string\"},{\"name\":\"website\",\"type\":\"string\"}],\"created_at_block\":\"123397952\",\"created_at_time\":\"1623140693500\"},\"immutable_data\":{\"img\":\"QmUEBiQdaz7DVyDEnJKw4669oknWDLxCoLkwgbh56Uc5mn\",\"name\":\"Taco Neon - Join the beta\",\"twitter\":\"https://twitter.com/tacowax\",\"website\":\"https://tacocrypto.io/\",\"telegram\":\"https://t.me/tacowax\",\"description\":\"Discover new ways to interact with the WAX blockchain: track, transfer and swap tokens in an easier way! Join the beta and be one of the first to try out the Taco App! 🌮\"},\"created_at_time\":\"1624783578000\",\"created_at_block\":\"126682860\",\"name\":\"Taco Neon - Join the beta\"}},{\"sales\":\"1023\",\"volume\":\"6599544837897\",\"template\":{\"contract\":\"atomicassets\",\"template_id\":\"164518\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"600\",\"max_supply\":\"0\",\"collection\":{\"collection_name\":\"taco\",\"name\":\"Taco\",\"img\":\"QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\\\",\\\"logo_512x512\\\":\\\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\\\"}\",\"author\":\"taco\",\"allow_notify\":true,\"authorized_accounts\":[\"taco\",\"atomicdropsx\",\"atomicpacksx\",\"neftyblocksd\",\"s.taco\",\"blend.nefty\",\"blenderizerx\",\"g.taco\",\"brigade.taco\",\"b.taco\",\"mkt.taco\",\"acr.taco\",\"takitakiboom\",\"l.taco\",\"worker.taco\",\"tacotacopool\",\"primarysale1\",\"combz.taco\"],\"notify_accounts\":[\"g.taco\",\"brigade.taco\",\"stake.taco\",\"swap.taco\",\"blend.nefty\",\"neftyblocksd\",\"neftyblocksp\"],\"market_fee\":0.06,\"created_at_block\":\"123329591\",\"created_at_time\":\"1623106508500\"},\"schema\":{\"schema_name\":\"promo\",\"format\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"twitter\",\"type\":\"string\"},{\"name\":\"telegram\",\"type\":\"string\"},{\"name\":\"website\",\"type\":\"string\"}],\"created_at_block\":\"123397952\",\"created_at_time\":\"1623140693500\"},\"immutable_data\":{\"img\":\"QmZymGggha3z9uSGMAWtdJYGHry1LtC1dNuGv3zkE8dBpd\",\"name\":\"Let's taco 'bout it - Join the beta\",\"twitter\":\"https://twitter.com/tacowax\",\"website\":\"https://tacocrypto.io/\",\"telegram\":\"https://t.me/tacowax\",\"description\":\"Discover new ways to interact with the WAX blockchain: track, transfer and swap tokens in an easier way! Join the beta and be one of the first to try out the Taco App! 🌮\"},\"created_at_time\":\"1623352921000\",\"created_at_block\":\"123822354\",\"name\":\"Let's taco 'bout it - Join the beta\"}},{\"sales\":\"132\",\"volume\":\"6471008959942\",\"template\":{\"contract\":\"atomicassets\",\"template_id\":\"173244\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"100\",\"max_supply\":\"100\",\"collection\":{\"collection_name\":\"taco\",\"name\":\"Taco\",\"img\":\"QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\\\",\\\"logo_512x512\\\":\\\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\\\"}\",\"author\":\"taco\",\"allow_notify\":true,\"authorized_accounts\":[\"taco\",\"atomicdropsx\",\"atomicpacksx\",\"neftyblocksd\",\"s.taco\",\"blend.nefty\",\"blenderizerx\",\"g.taco\",\"brigade.taco\",\"b.taco\",\"mkt.taco\",\"acr.taco\",\"takitakiboom\",\"l.taco\",\"worker.taco\",\"tacotacopool\",\"primarysale1\",\"combz.taco\"],\"notify_accounts\":[\"g.taco\",\"brigade.taco\",\"stake.taco\",\"swap.taco\",\"blend.nefty\",\"neftyblocksd\",\"neftyblocksp\"],\"market_fee\":0.06,\"created_at_block\":\"123329591\",\"created_at_time\":\"1623106508500\"},\"schema\":{\"schema_name\":\"promo\",\"format\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"twitter\",\"type\":\"string\"},{\"name\":\"telegram\",\"type\":\"string\"},{\"name\":\"website\",\"type\":\"string\"}],\"created_at_block\":\"123397952\",\"created_at_time\":\"1623140693500\"},\"immutable_data\":{\"img\":\"QmUmwhrRcmgAvsJ81VoJiSfdQAzCJSgvZpNM7oJYrE1FYd\",\"name\":\"Taco + Catfresh\",\"twitter\":\"https://twitter.com/tacowax\",\"website\":\"https://tacocrypto.io/\",\"telegram\":\"https://t.me/tacowax\",\"description\":\"Discover new ways to interact with the WAX blockchain: track, transfer and swap tokens in an easier way! Join the beta and be one of the first to try out the Taco App! 🌮 Collaboration with catfresharts: https://twitter.com/CatFreshEnt\"},\"created_at_time\":\"1623930587000\",\"created_at_block\":\"124977383\",\"name\":\"Taco + Catfresh\"}},{\"sales\":\"1413\",\"volume\":\"6419382277705\",\"template\":{\"contract\":\"atomicassets\",\"template_id\":\"208155\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"10526\",\"max_supply\":\"0\",\"collection\":{\"collection_name\":\"taco\",\"name\":\"Taco\",\"img\":\"QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\\\",\\\"logo_512x512\\\":\\\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\\\"}\",\"author\":\"taco\",\"allow_notify\":true,\"authorized_accounts\":[\"taco\",\"atomicdropsx\",\"atomicpacksx\",\"neftyblocksd\",\"s.taco\",\"blend.nefty\",\"blenderizerx\",\"g.taco\",\"brigade.taco\",\"b.taco\",\"mkt.taco\",\"acr.taco\",\"takitakiboom\",\"l.taco\",\"worker.taco\",\"tacotacopool\",\"primarysale1\",\"combz.taco\"],\"notify_accounts\":[\"g.taco\",\"brigade.taco\",\"stake.taco\",\"swap.taco\",\"blend.nefty\",\"neftyblocksd\",\"neftyblocksp\"],\"market_fee\":0.06,\"created_at_block\":\"123329591\",\"created_at_time\":\"1623106508500\"},\"schema\":{\"schema_name\":\"ingredient\",\"format\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"series\",\"type\":\"uint64\"},{\"name\":\"rarity\",\"type\":\"string\"},{\"name\":\"type\",\"type\":\"string\"},{\"name\":\"website\",\"type\":\"string\"}],\"created_at_block\":\"128496517\",\"created_at_time\":\"1625691212500\"},\"immutable_data\":{\"img\":\"QmRmkR6vziSSruhA7YUvsMaiuFUUYTjSsQf3zWrR3XoV1Q\",\"name\":\"Taco\",\"type\":\"taco\",\"rarity\":\"common\",\"series\":\"1\",\"website\":\"https://tacocrypto.io\",\"description\":\"Taco ingredient. Can be traded for TACO tokens with Taco mobile app.\"},\"created_at_time\":\"1625692068500\",\"created_at_block\":\"128498229\",\"name\":\"Taco\"}},{\"sales\":\"1060\",\"volume\":\"4648597550702\",\"template\":{\"contract\":\"atomicassets\",\"template_id\":\"382625\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"1636\",\"max_supply\":\"0\",\"collection\":{\"collection_name\":\"taco\",\"name\":\"Taco\",\"img\":\"QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\\\",\\\"logo_512x512\\\":\\\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\\\"}\",\"author\":\"taco\",\"allow_notify\":true,\"authorized_accounts\":[\"taco\",\"atomicdropsx\",\"atomicpacksx\",\"neftyblocksd\",\"s.taco\",\"blend.nefty\",\"blenderizerx\",\"g.taco\",\"brigade.taco\",\"b.taco\",\"mkt.taco\",\"acr.taco\",\"takitakiboom\",\"l.taco\",\"worker.taco\",\"tacotacopool\",\"primarysale1\",\"combz.taco\"],\"notify_accounts\":[\"g.taco\",\"brigade.taco\",\"stake.taco\",\"swap.taco\",\"blend.nefty\",\"neftyblocksd\",\"neftyblocksp\"],\"market_fee\":0.06,\"created_at_block\":\"123329591\",\"created_at_time\":\"1623106508500\"},\"schema\":{\"schema_name\":\"bonus\",\"format\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"rarity\",\"type\":\"string\"}],\"created_at_block\":\"153626351\",\"created_at_time\":\"1638267432000\"},\"immutable_data\":{\"img\":\"QmVwCdRfVMppZ6vQ9bQvw6RFRrMkMCh5KkkqRScMPYvFA7\",\"name\":\"Taco Universe Badge 3\",\"rarity\":\"abundant\",\"description\":\"This badge NFT gives an extra amount when claiming SHING token from extractors\"},\"created_at_time\":\"1638269263500\",\"created_at_block\":\"153630014\",\"name\":\"Taco Universe Badge 3\"}},{\"sales\":\"1045\",\"volume\":\"4617045158248\",\"template\":{\"contract\":\"atomicassets\",\"template_id\":\"382622\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"1626\",\"max_supply\":\"0\",\"collection\":{\"collection_name\":\"taco\",\"name\":\"Taco\",\"img\":\"QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\\\",\\\"logo_512x512\\\":\\\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\\\"}\",\"author\":\"taco\",\"allow_notify\":true,\"authorized_accounts\":[\"taco\",\"atomicdropsx\",\"atomicpacksx\",\"neftyblocksd\",\"s.taco\",\"blend.nefty\",\"blenderizerx\",\"g.taco\",\"brigade.taco\",\"b.taco\",\"mkt.taco\",\"acr.taco\",\"takitakiboom\",\"l.taco\",\"worker.taco\",\"tacotacopool\",\"primarysale1\",\"combz.taco\"],\"notify_accounts\":[\"g.taco\",\"brigade.taco\",\"stake.taco\",\"swap.taco\",\"blend.nefty\",\"neftyblocksd\",\"neftyblocksp\"],\"market_fee\":0.06,\"created_at_block\":\"123329591\",\"created_at_time\":\"1623106508500\"},\"schema\":{\"schema_name\":\"bonus\",\"format\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"rarity\",\"type\":\"string\"}],\"created_at_block\":\"153626351\",\"created_at_time\":\"1638267432000\"},\"immutable_data\":{\"img\":\"QmVgpJsj4i5J2Pu2UNV8ELeyYod9waDz3kJLuc28TXgmTR\",\"name\":\"Taco Universe Badge 1\",\"rarity\":\"abundant\",\"description\":\"This badge NFT gives an extra amount when claiming SHING token from extractors\"},\"created_at_time\":\"1638268705000\",\"created_at_block\":\"153628897\",\"name\":\"Taco Universe Badge 1\"}},{\"sales\":\"1001\",\"volume\":\"4396987136960\",\"template\":{\"contract\":\"atomicassets\",\"template_id\":\"382624\",\"is_transferable\":true,\"is_burnable\":true,\"issued_supply\":\"1557\",\"max_supply\":\"0\",\"collection\":{\"collection_name\":\"taco\",\"name\":\"Taco\",\"img\":\"QmSNEtW5r6K4md8n12d8P7SMmJXFLfxZGABK2XPKUgwJy3\",\"images\":\"{\\\"banner_1920x500\\\":\\\"QmXsppfVwKw1SyY3C1oMEM9Fro1e1HGSUfFhL4J3ZkkmZ4\\\",\\\"logo_512x512\\\":\\\"QmV1PsD9anLHPMeR5mvz2AduXHKr8B6gJmjxSBZKti6ioc\\\"}\",\"author\":\"taco\",\"allow_notify\":true,\"authorized_accounts\":[\"taco\",\"atomicdropsx\",\"atomicpacksx\",\"neftyblocksd\",\"s.taco\",\"blend.nefty\",\"blenderizerx\",\"g.taco\",\"brigade.taco\",\"b.taco\",\"mkt.taco\",\"acr.taco\",\"takitakiboom\",\"l.taco\",\"worker.taco\",\"tacotacopool\",\"primarysale1\",\"combz.taco\"],\"notify_accounts\":[\"g.taco\",\"brigade.taco\",\"stake.taco\",\"swap.taco\",\"blend.nefty\",\"neftyblocksd\",\"neftyblocksp\"],\"market_fee\":0.06,\"created_at_block\":\"123329591\",\"created_at_time\":\"1623106508500\"},\"schema\":{\"schema_name\":\"bonus\",\"format\":[{\"name\":\"name\",\"type\":\"string\"},{\"name\":\"img\",\"type\":\"image\"},{\"name\":\"description\",\"type\":\"string\"},{\"name\":\"rarity\",\"type\":\"string\"}],\"created_at_block\":\"153626351\",\"created_at_time\":\"1638267432000\"},\"immutable_data\":{\"img\":\"QmfShbeN1SMSSxdkfDCyEuSqcbYec2rRxs7VjZX9cZiSzW\",\"name\":\"Taco Universe Badge 2\",\"rarity\":\"abundant\",\"description\":\"This badge NFT gives an extra amount when claiming SHING token from extractors\"},\"created_at_time\":\"1638269233000\",\"created_at_block\":\"153629953\",\"name\":\"Taco Universe Badge 2\"}}]},\"query_time\":1697980995372}"
+}

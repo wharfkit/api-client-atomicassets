@@ -1,0 +1,19 @@
+{
+    "request": {
+        "path": "https://wax.api.atomicassets.io/atomicassets/v1/schemas/taco/cmbz.res/stats",
+        "params": {
+            "method": "GET"
+        }
+    },
+    "status": 200,
+    "json": {
+        "success": true,
+        "data": {
+            "assets": "1141",
+            "burned": "798",
+            "templates": "9"
+        },
+        "query_time": 1697980916847
+    },
+    "text": "{\"success\":true,\"data\":{\"assets\":\"1141\",\"burned\":\"798\",\"templates\":\"9\"},\"query_time\":1697980916847}"
+}

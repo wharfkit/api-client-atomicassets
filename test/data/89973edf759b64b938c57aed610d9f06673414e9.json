@@ -1,0 +1,56 @@
+{
+    "request": {
+        "path": "https://wax.api.atomicassets.io/atomicassets/v1/burns?collection_name=taco%2Calien.worlds&match_owner=taco&limit=10",
+        "params": {
+            "method": "GET"
+        }
+    },
+    "status": 200,
+    "json": {
+        "success": true,
+        "data": [
+            {
+                "account": "f.taco",
+                "assets": "86182"
+            },
+            {
+                "account": "g.taco",
+                "assets": "85830"
+            },
+            {
+                "account": "b.taco",
+                "assets": "30956"
+            },
+            {
+                "account": "combz.taco",
+                "assets": "7808"
+            },
+            {
+                "account": "l.taco",
+                "assets": "6045"
+            },
+            {
+                "account": "brigade.taco",
+                "assets": "5306"
+            },
+            {
+                "account": "acrpool.taco",
+                "assets": "4024"
+            },
+            {
+                "account": "tacocrafting",
+                "assets": "1000"
+            },
+            {
+                "account": "taco",
+                "assets": "592"
+            },
+            {
+                "account": "mkt.taco",
+                "assets": "90"
+            }
+        ],
+        "query_time": 1697980943292
+    },
+    "text": "{\"success\":true,\"data\":[{\"account\":\"f.taco\",\"assets\":\"86182\"},{\"account\":\"g.taco\",\"assets\":\"85830\"},{\"account\":\"b.taco\",\"assets\":\"30956\"},{\"account\":\"combz.taco\",\"assets\":\"7808\"},{\"account\":\"l.taco\",\"assets\":\"6045\"},{\"account\":\"brigade.taco\",\"assets\":\"5306\"},{\"account\":\"acrpool.taco\",\"assets\":\"4024\"},{\"account\":\"tacocrafting\",\"assets\":\"1000\"},{\"account\":\"taco\",\"assets\":\"592\"},{\"account\":\"mkt.taco\",\"assets\":\"90\"}],\"query_time\":1697980943292}"
+}

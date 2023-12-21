@@ -1,0 +1,20 @@
+{
+    "request": {
+        "path": "https://wax.api.atomicassets.io/atomicassets/v1/accounts?collection_name=taco%2Calien.worlds&owner=taco&limit=10",
+        "params": {
+            "method": "GET"
+        }
+    },
+    "status": 200,
+    "json": {
+        "success": true,
+        "data": [
+            {
+                "account": "taco",
+                "assets": "98"
+            }
+        ],
+        "query_time": 1697980908109
+    },
+    "text": "{\"success\":true,\"data\":[{\"account\":\"taco\",\"assets\":\"98\"}],\"query_time\":1697980908109}"
+}

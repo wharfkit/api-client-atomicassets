@@ -1,0 +1,27 @@
+{
+    "request": {
+        "path": "https://wax.api.atomicassets.io/atomicmarket/v1/prices/assets?collection_name=taco&limit=10",
+        "params": {
+            "method": "GET"
+        }
+    },
+    "status": 200,
+    "json": {
+        "success": true,
+        "data": [
+            {
+                "token_symbol": "WAX",
+                "token_precision": 8,
+                "token_contract": "eosio.token",
+                "median": "3932893865972429",
+                "average": "4600185348911505",
+                "min": "1540382885353019",
+                "max": "17898924165447951",
+                "suggested_median": "8146031528758293",
+                "suggested_average": "8454636486842872"
+            }
+        ],
+        "query_time": 1697980979967
+    },
+    "text": "{\"success\":true,\"data\":[{\"token_symbol\":\"WAX\",\"token_precision\":8,\"token_contract\":\"eosio.token\",\"median\":\"3932893865972429\",\"average\":\"4600185348911505\",\"min\":\"1540382885353019\",\"max\":\"17898924165447951\",\"suggested_median\":\"8146031528758293\",\"suggested_average\":\"8454636486842872\"}],\"query_time\":1697980979967}"
+}
